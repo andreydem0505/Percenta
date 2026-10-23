@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-24",
+  "catalog": "src/features/banks/data/bank-apps-ios.json",
+  "verification": "Configuration and browser rendering tested. Actual app launch, accepted home routes, and every reissued iOS version require physical-device testing. Do not describe the catalog as device-verified.",
+  "banks": [
+    {
+      "registrationNumber": "1481",
+      "sources": [
+        "https://developers.sber.ru/docs/ru/sberid/service/reqdescription/authcodereq/web/typesofauth/apptowebview",
+        "https://ecomtest.sberbank.ru/promo/deeplink_select_mWeb2app.pdf"
+      ],
+      "notes": "Official documents confirm sberbankonline, sbolonline and onlineios-app schemes in SSO/payment examples. Only their bare roots are used here, with no SSO/payment parameters. Bare-root handling and opening the home screen are NOT confirmed."
+    },
+    {
+      "registrationNumber": "2673",
+      "sources": [],
+      "notes": "tinkoffbank://Main is a candidate native home route. An official launch specification was not obtained; no physical-device verification. Do not treat configuration tests as proof of bank support."
+    },
+    {
+      "registrationNumber": "1326",
+      "sources": [],
+      "notes": "User confirmed the installed app is А-Ключ. kluch:// is a candidate launch URI for that release; alfabank:// is offered separately for legacy installs. No official launch specification or physical-device verification was obtained."
+    },
+    {
+      "registrationNumber": "2766",
+      "sources": [
+        "https://online.otpbank.ru/mobile-bank",
+        "https://online.otpbank.ru/static/js/main.c26ac852.js",
+        "https://app-site-association.cdn-apple.com/a/v1/online.otpbank.ru",
+        "https://www.rustore.ru/catalog/app/ru.otpbank.mobile",
+        "https://static.rustore.ru/2026/10/7/23/d2ec8d5f-5d55-4bce-98b8-2ea5862c12cb.zip"
+      ],
+      "notes": "User confirmed the otp custom scheme opens the installed iPhone app but the bare base displays an error. User also confirmed the /mobile-bank Universal Link opens the website. Replace both with otp://ru.otpbank.mobile/toMain. The /toMain alias is paired with MainDeeplinkProcessor in the official RuStore Android APK 2.19.1-gms (202610071), classes5.dex, Lhi7;.<clinit>, code item 0x1cf158. The native base otp://ru.otpbank.mobile/ is also an APK constant. This is bank-published Android route evidence, not proof of iOS route compatibility. The exact iOS route and successful launch still require device testing. No app installed or executed; no website fallback, tracking redirects, payment/auth parameters, timers or automatic probing.",
+      "evidence": ["tests/fixtures/bank-links/otp-home-route.json"]
+    },
+    {
+      "registrationNumber": "1000",
+      "sources": [
+        "https://www.vtb.ru/crt/",
+        "https://appbank.pw/data/vtb.json",
+        "https://cdn.appbank.pw/ipa/28082026/1805.ipa"
+      ],
+      "evidence": "tests/fixtures/bank-links/sirius-2.0.1.json",
+      "notes": "User reports sirius:// opens Sirius but hangs. Info.plist confirms the scheme only. Further static inspection of the same Sirius 2.0.1 (110), com.sm.FlowTime, found the complete embedded URL sirius://siriusapp.com/i/welcomes in Payload/Sirius.app/Sirius, file offset 0xda2530, adjacent to DeeplinkDecoder constants. Use that full URL; do not invent a /Main or online.vtb.ru path. Evidence records binary SHA-256, URL offset and constants. Archive is hosted by a third party; bank/Apple signature and actual iPhone launch are not verified. No app was installed or executed."
+    },
+    {
+      "registrationNumber": "3542",
+      "sources": [
+        "https://finance.ozon.ru/promo/app",
+        "https://app-site-association.cdn-apple.com/a/v1/bank-ozon.onelink.me",
+        "https://bank-ozon.onelink.me/JbZg/",
+        "https://developer.apple.com/documentation/xcode/allowing-apps-and-websites-to-link-to-your-content/"
+      ],
+      "evidence": "tests/fixtures/bank-links/ozon-onelink-aasa.json",
+      "notes": "The Apple-cached bank-ozon.onelink.me AASA maps /JbZg/* exclusively to 29PJ6W9657.ru.ozon.fintech.finance. Marketplace clients own /kh30/* instead. Use https://bank-ozon.onelink.me/JbZg/ directly from the user-tapped anchor. Trailing slash is required by the published wildcard pattern. This is an iOS Universal Link, not a generic bank homepage. HTTP-only iPhone-UA check returns the bank App Store ID 1629869891, not marketplace ID 407804998. Actual installed-app launch was not tested. Without the matching installed app, or when iOS Universal Links are disabled, the handler may open the App Store; no custom scheme is invented from the bank name. Android APK from the official CDN also declares ozonbank but that alone is not considered proof of iOS scheme support."
+    },
+    {
+      "registrationNumber": "963",
+      "sources": [
+        "https://halvacard.ru/faq/kak-skachat-prilozhenie-halva-sovcombank",
+        "https://sovcombank.ru/document/12034",
+        "https://halvacard.ru/lk"
+      ],
+      "publishedWebLink": "https://halvacard.ru/lk",
+      "observedRedirect": "https://halvacard.ru/lk2/",
+      "notes": "The official Halva installation guide recommends the personal web bank for iPhone users and links to /lk, which redirects to /lk2. Use the published /lk entry point as an explicit webApp target, not as an automatic fallback after a native launch. Open it in a separate tab without referrer or offer data. No native URI, timers, authentication/payment parameters or arbitrary user-provided URL. Android keeps its existing native Intent. A real click from the local application in the desktop in-app browser opened /lk2/ in a separate tab and displayed the bank phone-login form. No credentials were entered. This was a browser check at mobile viewport size, not Safari on a physical iPhone. The exact installed iOS Home Screen web-app launch and authenticated bank flows were not verified."
+    }
+  ]
+}

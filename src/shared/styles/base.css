@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Onest';
+  src: url('/fonts/onest-variable.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  font-family:
+    'Onest',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color: #272b30;
+  background: #f2f3f4;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  --ink: #272b30;
+  --paper: #f2f3f4;
+  --surface: #ffffff;
+  --surface-muted: #e4e8ed;
+  --accent: #3c4857;
+  --accent-dark: #303b49;
+  --accent-soft: #e4e8ed;
+  --highlight: #e4e8ed;
+  --highlight-border: #b9c2cd;
+  --muted: #5e6670;
+  --border: #dce0e4;
+  --border-strong: #b9c2cd;
+  --danger: #a13942;
+  --mono: 'Onest', Arial, sans-serif;
+  --heading-font: 'Onest', Arial, sans-serif;
+  --radius: 10px;
+  --shadow: 0 12px 50px #20253019;
+  --scrim: #1d242d66;
+  --danger-soft: #f7e9eb;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button,
+input,
+select {
+  font: inherit;
+}
+button,
+a,
+input,
+select {
+  -webkit-tap-highlight-color: transparent;
+}
+button {
+  cursor: pointer;
+  border: 0;
+  color: inherit;
+  touch-action: manipulation;
+}
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+button svg {
+  flex-shrink: 0;
+}
+/* Keep one pointer target across a button's label and SVG paths. */
+button > * {
+  pointer-events: none;
+}
+h1 {
+  font-family: var(--heading-font);
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  line-height: 46px;
+}
+::selection {
+  background: var(--highlight);
+  color: var(--ink);
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

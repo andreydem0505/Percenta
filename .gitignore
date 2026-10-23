@@ -1,0 +1,70 @@
+# Зависимости, сборки и кэши инструментов
+node_modules/
+/dist/
+/.cache/
+/.vite/
+/.vite-temp/
+/.pnp
+/.pnp.*
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Локальные настройки IDE и файлы операционной системы
+.vscode/
+.idea/
+*.iml
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Секреты, параметры окружения и личная привязка Firebase
+.env
+.env.*
+!/.env.example
+.envrc
+.direnv/
+.netrc
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+/.firebase/
+/.firebaserc
+
+# Логи и результаты проверок
+*.log
+*.log.*
+*.har
+/coverage/
+/test-results/
+/playwright-report/
+/blob-report/
+
+# Личные резервные копии из интерфейса приложения на любой глубине
+aubenia-????-??-??.json
+cardstation-????-??-??.json
+kartoteka-????-??-??.json
+cashback-????-??-??.json
+
+# Локальный архив юридических исследований; сводка рисков — в AGENTS.md
+/docs/legal-review.txt
+/docs/*-name-review-*.txt
+/docs/legal-evidence/
+
+# Ресурсы, воспроизводимые локальными prepare-скриптами без сети
+# Оригиналы vendor/sources, vendor/licenses и provenance остаются в репозитории.
+/public/ocr/
+/public/vendor/
+/public/legal/third-party.txt
+/public/legal/heic-build-instructions.txt
+/public/legal/sources/
+/public/legal/integration/
+/public/legal/vendor-manifest.json
+/public/legal/bank-image-rights.json
+/public/legal/licenses/

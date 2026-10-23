@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Onest';
+  src: url('/fonts/onest-variable.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+:root {
+  font-family: 'Onest', Arial, sans-serif;
+  color: #272b30;
+  background: #f2f3f4;
+  line-height: 1.65;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 780px;
+  margin: 40px auto;
+  padding: 0 20px 40px;
+}
+h1 {
+  font-family: 'Onest', Arial, sans-serif;
+  font-weight: 500;
+  font-size: clamp(25px, 5vw, 36px);
+  line-height: 1.2;
+}
+h2 {
+  font-size: 20px;
+  margin-top: 28px;
+}
+a {
+  color: #3c4857;
+  text-underline-offset: 3px;
+  overflow-wrap: anywhere;
+}
+li {
+  margin-block: 10px;
+}
+a:focus-visible {
+  outline: 3px solid #3c4857;
+  outline-offset: 3px;
+}

@@ -1,0 +1,88 @@
+[
+  {
+    "registrationNumber": "1481",
+    "links": [
+      {
+        "id": "sberbankonline",
+        "label": "Сбербанк Онлайн",
+        "href": "sberbankonline://"
+      },
+      {
+        "id": "sbolonline",
+        "label": "СБОЛ",
+        "href": "sbolonline://"
+      },
+      {
+        "id": "onlineios-app",
+        "label": "Онлайн (другой выпуск)",
+        "href": "onlineios-app://"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "2673",
+    "links": [
+      {
+        "id": "tinkoffbank",
+        "label": "Т-Банк / Тинькофф",
+        "href": "tinkoffbank://Main"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "1326",
+    "links": [
+      {
+        "id": "kluch",
+        "label": "А-Ключ",
+        "href": "kluch://"
+      },
+      {
+        "id": "alfabank",
+        "label": "Альфа-Банк (старое приложение)",
+        "href": "alfabank://"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "2766",
+    "links": [
+      {
+        "id": "otp-main",
+        "label": "ОТП Банк",
+        "href": "otp://ru.otpbank.mobile/toMain"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "1000",
+    "links": [
+      {
+        "id": "sirius",
+        "label": "Сириус (ВТБ)",
+        "href": "sirius://siriusapp.com/i/welcomes"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "3542",
+    "links": [
+      {
+        "id": "ozon-bank-universal",
+        "label": "Ozon Банк",
+        "href": "https://bank-ozon.onelink.me/JbZg/"
+      }
+    ]
+  },
+  {
+    "registrationNumber": "963",
+    "links": [
+      {
+        "id": "sovcombank-web",
+        "label": "Халва — Совкомбанк (веб-банк)",
+        "href": "https://halvacard.ru/lk",
+        "webApp": true
+      }
+    ]
+  }
+]

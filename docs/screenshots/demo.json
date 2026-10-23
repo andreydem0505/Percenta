@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "offers": [
+    {
+      "id": "screenshot-demo-01",
+      "category": "Все покупки",
+      "bank": "Ozon Банк",
+      "percent": 2
+    },
+    {
+      "id": "screenshot-demo-02",
+      "category": "Все покупки",
+      "bank": "Сбер",
+      "percent": 1.5
+    },
+    {
+      "id": "screenshot-demo-03",
+      "category": "АЗС",
+      "bank": "Газпромбанк",
+      "percent": 10
+    },
+    {
+      "id": "screenshot-demo-04",
+      "category": "Кафе и рестораны",
+      "bank": "Альфа-Банк",
+      "percent": 7
+    },
+    {
+      "id": "screenshot-demo-05",
+      "category": "Красота и здоровье",
+      "bank": "ПСБ",
+      "percent": 7
+    },
+    {
+      "id": "screenshot-demo-06",
+      "category": "Спорт",
+      "bank": "Т-Банк",
+      "percent": 6
+    },
+    {
+      "id": "screenshot-demo-07",
+      "category": "Аптеки",
+      "bank": "ВТБ",
+      "percent": 5
+    },
+    {
+      "id": "screenshot-demo-08",
+      "category": "Развлечения",
+      "bank": "МТС Банк",
+      "percent": 5
+    },
+    {
+      "id": "screenshot-demo-09",
+      "category": "Супермаркеты",
+      "bank": "Т-Банк",
+      "percent": 5
+    },
+    {
+      "id": "screenshot-demo-10",
+      "category": "Такси",
+      "bank": "Яндекс Банк",
+      "percent": 5
+    },
+    {
+      "id": "screenshot-demo-11",
+      "category": "Транспорт",
+      "bank": "Альфа-Банк",
+      "percent": 5
+    },
+    {
+      "id": "screenshot-demo-12",
+      "category": "Кафе и рестораны",
+      "bank": "Сбер",
+      "percent": 4
+    }
+  ]
+}

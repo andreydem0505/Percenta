@@ -1,0 +1,209 @@
+[
+  {
+    "registrationNumber": "1481",
+    "name": "Сбербанк",
+    "scheme": "bank100000000111",
+    "androidPackage": "ru.sberbankmobile",
+    "website": "https://www.sberbank.ru/"
+  },
+  {
+    "registrationNumber": "1000",
+    "name": "ВТБ",
+    "scheme": "bank110000000005",
+    "androidPackage": "ru.vtb24.mobilebanking.android",
+    "website": "https://www.vtb.ru/"
+  },
+  {
+    "registrationNumber": "2673",
+    "name": "Т-Банк",
+    "scheme": "bank100000000004",
+    "androidPackage": "com.idamob.tinkoff.android",
+    "website": "https://www.tbank.ru/"
+  },
+  {
+    "registrationNumber": "1326",
+    "name": "Альфа-Банк",
+    "scheme": "bank100000000008",
+    "androidPackage": "ru.alfabank.mobile.android",
+    "website": "https://www.alfabank.ru/"
+  },
+  {
+    "registrationNumber": "354",
+    "name": "Газпромбанк",
+    "scheme": "bank100000000001",
+    "androidPackage": "ru.gazprombank.android.mobilebank.app",
+    "website": "https://www.gazprombank.ru/"
+  },
+  {
+    "registrationNumber": "3251",
+    "name": "ПСБ",
+    "scheme": "bank100000000010",
+    "androidPackage": "logo.com.mbanking",
+    "website": "https://www.psbank.ru/"
+  },
+  {
+    "registrationNumber": "3349",
+    "name": "Россельхозбанк",
+    "scheme": "bank100000000020",
+    "androidPackage": "ru.rshb.dbo",
+    "website": "https://www.rshb.ru/"
+  },
+  {
+    "registrationNumber": "963",
+    "name": "Совкомбанк",
+    "scheme": "bank100000000013",
+    "androidPackage": "ru.sovcomcard.halva.v1",
+    "website": "https://sovcombank.ru/"
+  },
+  {
+    "registrationNumber": "1978",
+    "name": "МКБ",
+    "scheme": "bank100000000025",
+    "androidPackage": "ru.mkb.mobile",
+    "website": "https://mkb.ru/"
+  },
+  {
+    "registrationNumber": "3292",
+    "name": "Райффайзенбанк",
+    "scheme": "bank100000000007",
+    "androidPackage": "ru.raiffeisennews",
+    "website": "https://www.raiffeisen.ru/"
+  },
+  {
+    "registrationNumber": "2312",
+    "name": "Банк ДОМ.РФ",
+    "scheme": "bank100000000082",
+    "androidPackage": "com.bssys.roscapretail",
+    "website": "https://domrfbank.ru/"
+  },
+  {
+    "registrationNumber": "3542",
+    "name": "Ozon Банк",
+    "scheme": "bank100000000273",
+    "website": "https://finance.ozon.ru/"
+  },
+  {
+    "registrationNumber": "3027",
+    "name": "Яндекс Банк",
+    "scheme": "bank100000000150",
+    "androidPackage": "com.yandex.bank",
+    "website": "https://yabank.yandex.ru/"
+  },
+  {
+    "registrationNumber": "841",
+    "name": "WB Банк",
+    "scheme": "bank100000000259",
+    "website": "https://wb-bank.ru/"
+  },
+  {
+    "registrationNumber": "2268",
+    "name": "МТС Банк",
+    "scheme": "bank100000000017",
+    "androidPackage": "ru.mts.money",
+    "website": "https://www.mtsbank.ru/"
+  },
+  {
+    "registrationNumber": "2275",
+    "name": "Уралсиб",
+    "scheme": "bank100000000026",
+    "androidPackage": "ru.bankuralsib.mb.android",
+    "website": "https://www.uralsib.ru/"
+  },
+  {
+    "registrationNumber": "2590",
+    "name": "Ак Барс",
+    "scheme": "bank100000000006",
+    "androidPackage": "ru.akbars.mobile",
+    "website": "https://akbars.ru/"
+  },
+  {
+    "registrationNumber": "436",
+    "name": "Банк Санкт-Петербург",
+    "scheme": "bank100000000029",
+    "androidPackage": "ru.bspb",
+    "website": "https://www.bspb.ru/"
+  },
+  {
+    "registrationNumber": "2766",
+    "name": "ОТП Банк",
+    "scheme": "bank100000000018",
+    "androidPackage": "ru.otpbank.mobile",
+    "website": "https://www.otpbank.ru/"
+  },
+  {
+    "registrationNumber": "429",
+    "name": "УБРиР",
+    "scheme": "bank100000000031",
+    "androidPackage": "cb.ibank",
+    "website": "https://www.ubrr.ru/"
+  },
+  {
+    "registrationNumber": "3354",
+    "name": "Ренессанс Банк",
+    "scheme": "bank100000000032",
+    "androidPackage": "cz.bsc.rc",
+    "website": "https://www.rencredit.ru/"
+  },
+  {
+    "registrationNumber": "2289",
+    "name": "Русский Стандарт",
+    "scheme": "bank100000000014",
+    "androidPackage": "ru.simpls.brs2.mobbank",
+    "website": "https://www.rsb.ru/"
+  },
+  {
+    "registrationNumber": "1",
+    "name": "ЮниКредит Банк",
+    "scheme": "bank100000000030",
+    "androidPackage": "ru.unicredit.android",
+    "website": "https://www.unicreditbank.ru/"
+  },
+  {
+    "registrationNumber": "3255",
+    "name": "Зенит",
+    "scheme": "bank100000000045",
+    "androidPackage": "ru.zenit.android",
+    "website": "https://www.zenit.ru/"
+  },
+  {
+    "registrationNumber": "2546",
+    "name": "Новиком",
+    "scheme": "bank100000000177",
+    "androidPackage": "com.bssys.novikomretail",
+    "website": "https://www.novikom.ru/"
+  },
+  {
+    "registrationNumber": "705",
+    "name": "Банк Синара",
+    "scheme": "bank100000000003",
+    "androidPackage": "ru.skbbank.ib",
+    "website": "https://sinara.ru/"
+  },
+  {
+    "registrationNumber": "2306",
+    "name": "Абсолют Банк",
+    "scheme": "bank100000000047",
+    "androidPackage": "ru.ftc.faktura.absolutbank",
+    "website": "https://absolutbank.ru/"
+  },
+  {
+    "registrationNumber": "101",
+    "name": "БКС Банк",
+    "scheme": "bank100000000041",
+    "androidPackage": "ru.bcs.bcsbank",
+    "website": "https://bcs-bank.ru/"
+  },
+  {
+    "registrationNumber": "1810",
+    "name": "АТБ",
+    "scheme": "bank100000000108",
+    "website": "https://www.atb.su/"
+  },
+  {
+    "registrationNumber": "2307",
+    "name": "Банк Инго",
+    "scheme": "bank100000000078",
+    "androidPackage": "com.banksoyuz.artsofte",
+    "website": "https://www.ingobank.ru/"
+  }
+]

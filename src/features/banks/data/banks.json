@@ -1,0 +1,3167 @@
+[
+  {
+    "id": "c0b6877f02cf45c3",
+    "name": "Абсолют Банк",
+    "aliases": ["Абсолют", "Абсолют Банк", "АКБ \"Абсолют Банк\" (ПАО)", "АКБ Абсолют Банк"],
+    "current": true,
+    "registrationNumber": "2306",
+    "logo": "banks/c0b6877f02cf45c3.webp"
+  },
+  {
+    "id": "11f3a49ee9802ad0",
+    "name": "Авангард",
+    "aliases": ["Авангард", "АКБ АВАНГАРД", "ПАО АКБ \"АВАНГАРД\""],
+    "current": true,
+    "registrationNumber": "2879",
+    "logo": "banks/11f3a49ee9802ad0.webp"
+  },
+  {
+    "id": "04bcaa43f357a5e5",
+    "name": "Аверс",
+    "aliases": ["Аверс", "АО Банк \"Аверс\"", "Банк Аверс"],
+    "current": true,
+    "registrationNumber": "415",
+    "logo": "banks/04bcaa43f357a5e5.webp"
+  },
+  {
+    "id": "8c2d5ce2e6dc0dbf",
+    "name": "Авито Кошелек (Банк Пэйджин)",
+    "aliases": ["Авито Кошелек (Банк Пэйджин)"],
+    "current": false,
+    "logo": "banks/8c2d5ce2e6dc0dbf.webp"
+  },
+  {
+    "id": "fc0b1d80018c4a0c",
+    "name": "Авто Финанс",
+    "aliases": ["Авто Финанс", "Авто Финанс Банк", "АО \"Авто Финанс Банк\""],
+    "current": true,
+    "registrationNumber": "170",
+    "logo": "banks/fc0b1d80018c4a0c.webp"
+  },
+  {
+    "id": "f4bfa8443fe8cf38",
+    "name": "Автоградбанк",
+    "aliases": ["Автоградбанк"],
+    "current": false,
+    "logo": "banks/f4bfa8443fe8cf38.webp"
+  },
+  {
+    "id": "d6df6ec962ed5703",
+    "name": "АвтоКредитБанк",
+    "aliases": ["ООО \"АвтоКредитБанк\""],
+    "current": true,
+    "registrationNumber": "1973",
+    "logo": "banks/d6df6ec962ed5703.webp"
+  },
+  {
+    "id": "bf19e75ded974f30",
+    "name": "Автоторгбанк",
+    "aliases": ["Автоторгбанк", "ООО \"АТБ\" Банк"],
+    "current": true,
+    "registrationNumber": "2776",
+    "logo": "banks/bf19e75ded974f30.webp"
+  },
+  {
+    "id": "f681515d96f8958e",
+    "name": "Агросоюз",
+    "aliases": ["Агросоюз"],
+    "current": false,
+    "logo": "banks/f681515d96f8958e.webp"
+  },
+  {
+    "id": "396a66659f5abcf9",
+    "name": "Азия-Инвест",
+    "aliases": ["Азия-Инвест", "Азия-Инвест Банк (АО)"],
+    "current": true,
+    "registrationNumber": "3303",
+    "logo": "banks/396a66659f5abcf9.webp"
+  },
+  {
+    "id": "1d89c5fb261cbba1",
+    "name": "АЗИЯПЭЙ",
+    "aliases": ["АЗИЯПЭЙ"],
+    "current": false,
+    "logo": "banks/1d89c5fb261cbba1.webp"
+  },
+  {
+    "id": "5f7e4224945b0ead",
+    "name": "АИКБ Енисейский объединенный банк",
+    "aliases": [
+      "АИКБ Енисейский объединенный банк",
+      "АО АИКБ \"Енисейский объединенный банк\"",
+      "Енисейский Объединенный Банк"
+    ],
+    "current": true,
+    "registrationNumber": "2645",
+    "logo": "banks/5f7e4224945b0ead.webp"
+  },
+  {
+    "id": "a0245f5e10fb53be",
+    "name": "АйСиБиСи",
+    "aliases": ["АйСиБиСи", "АйСиБиСи Банк (АО)"],
+    "current": true,
+    "registrationNumber": "3475",
+    "logo": "banks/a0245f5e10fb53be.webp"
+  },
+  {
+    "id": "aaf5f942ad2a5ec9",
+    "name": "Ак Барс",
+    "aliases": ["Ак Барс", "АК БАРС БАНК", "Акбарс", "ПАО \"АК БАРС\" БАНК", "Ak Bars"],
+    "current": true,
+    "registrationNumber": "2590",
+    "logo": "banks/aaf5f942ad2a5ec9.webp"
+  },
+  {
+    "id": "39420888b04b839d",
+    "name": "АКБ Алеф-Банк",
+    "aliases": ["АКБ Алеф-Банк", "Алеф", "АО АКБ \"Алеф-Банк\""],
+    "current": true,
+    "registrationNumber": "2119",
+    "logo": "banks/39420888b04b839d.webp"
+  },
+  {
+    "id": "cf42b7dfe448377f",
+    "name": "АКБ Алмазэргиэнбанк",
+    "aliases": ["АКБ \"Алмазэргиэнбанк\" АО", "АКБ Алмазэргиэнбанк", "Алмазэргиэнбанк"],
+    "current": true,
+    "registrationNumber": "2602",
+    "logo": "banks/cf42b7dfe448377f.webp"
+  },
+  {
+    "id": "25f6a2b58b553a9e",
+    "name": "АКБ Держава",
+    "aliases": ["АКБ \"Держава\" ПАО", "АКБ Держава", "Держава"],
+    "current": true,
+    "registrationNumber": "2738",
+    "logo": "banks/25f6a2b58b553a9e.webp"
+  },
+  {
+    "id": "92f088e7297f1e32",
+    "name": "АКБ Ланта-Банк",
+    "aliases": ["АКБ \"Ланта-Банк\" (АО)", "АКБ Ланта-Банк", "Ланта"],
+    "current": true,
+    "registrationNumber": "1920",
+    "logo": "banks/92f088e7297f1e32.webp"
+  },
+  {
+    "id": "eac4e60cbede25b5",
+    "name": "АКБ МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ",
+    "aliases": ["АКБ МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ", "АО АКБ \"МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ\""],
+    "current": true,
+    "registrationNumber": "2618",
+    "logo": "banks/eac4e60cbede25b5.webp"
+  },
+  {
+    "id": "c6f62b85f932c2dc",
+    "name": "АКБ НРБанк",
+    "aliases": ["АКБ \"НРБанк\" (АО)", "АКБ НРБанк"],
+    "current": true,
+    "registrationNumber": "2170",
+    "logo": "banks/c6f62b85f932c2dc.webp"
+  },
+  {
+    "id": "12c3dd545e5765b5",
+    "name": "АКБ Приморье",
+    "aliases": ["АКБ Приморье", "ПАО АКБ \"Приморье\"", "Приморье"],
+    "current": true,
+    "registrationNumber": "3001",
+    "logo": "banks/12c3dd545e5765b5.webp"
+  },
+  {
+    "id": "5ecd9946c7a0a24c",
+    "name": "АКБ СЛАВИЯ",
+    "aliases": ["АКБ \"СЛАВИЯ\" (АО)", "АКБ СЛАВИЯ", "Славия"],
+    "current": true,
+    "registrationNumber": "2664",
+    "logo": "banks/5ecd9946c7a0a24c.webp"
+  },
+  {
+    "id": "117ea653d409c8a1",
+    "name": "АКБ Солид",
+    "aliases": ["АКБ Солид", "АО \"Солид Банк\"", "Солид"],
+    "current": true,
+    "registrationNumber": "1329",
+    "logo": "banks/117ea653d409c8a1.webp"
+  },
+  {
+    "id": "3cf9d316b1184e78",
+    "name": "АКБ ТЕНДЕР-БАНК",
+    "aliases": ["АКБ \"ТЕНДЕР-БАНК\" (АО)", "АКБ ТЕНДЕР-БАНК", "Тендер"],
+    "current": true,
+    "registrationNumber": "2252",
+    "logo": "banks/3cf9d316b1184e78.webp"
+  },
+  {
+    "id": "8008d7c80e33c8b4",
+    "name": "АКБ Трансстройбанк",
+    "aliases": ["АКБ \"Трансстройбанк\" (АО)", "АКБ Трансстройбанк", "Трансстройбанк"],
+    "current": true,
+    "registrationNumber": "2807",
+    "logo": "banks/8008d7c80e33c8b4.webp"
+  },
+  {
+    "id": "8e647bc2fe28067b",
+    "name": "АКБ ФОРА-БАНК",
+    "aliases": ["АКБ \"ФОРА-БАНК\" (АО)", "АКБ ФОРА-БАНК", "Фора-Банк"],
+    "current": true,
+    "registrationNumber": "1885",
+    "logo": "banks/8e647bc2fe28067b.webp"
+  },
+  {
+    "id": "c46496573c523ef3",
+    "name": "АКБ Форштадт",
+    "aliases": ["АКБ \"Форштадт\" (АО)", "АКБ Форштадт", "Форштадт"],
+    "current": true,
+    "registrationNumber": "2208",
+    "logo": "banks/c46496573c523ef3.webp"
+  },
+  {
+    "id": "bdb764f7667cb985",
+    "name": "АКБ Энергобанк",
+    "aliases": ["АКБ \"Энергобанк\" (АО)", "АКБ Энергобанк", "Энергобанк"],
+    "current": true,
+    "registrationNumber": "67",
+    "logo": "banks/bdb764f7667cb985.webp"
+  },
+  {
+    "id": "be2fb1a58f3c437b",
+    "name": "АКИБАНК",
+    "aliases": ["АкиБанк", "АКИБАНК", "ПАО \"АКИБАНК\""],
+    "current": true,
+    "registrationNumber": "2587",
+    "logo": "banks/be2fb1a58f3c437b.webp"
+  },
+  {
+    "id": "5124eb014d207c31",
+    "name": "Алтайкапиталбанк",
+    "aliases": ["ООО КБ \"Алтайкапиталбанк\""],
+    "current": true,
+    "registrationNumber": "2659",
+    "logo": "banks/5124eb014d207c31.webp"
+  },
+  {
+    "id": "f31a1ce644c1f2ec",
+    "name": "Алтынбанк",
+    "aliases": ["Алтынбанк", "ООО \"АЛТЫНБАНК\""],
+    "current": true,
+    "registrationNumber": "2070",
+    "logo": "banks/f31a1ce644c1f2ec.webp"
+  },
+  {
+    "id": "fe7d03c91452904a",
+    "name": "Альфа-Банк",
+    "aliases": [
+      "Альфа",
+      "Альфа-Банк",
+      "АЛЬФА-БАНК",
+      "АО \"АЛЬФА-БАНК\"",
+      "Alfa",
+      "Alfa Bank",
+      "Alfabank"
+    ],
+    "current": true,
+    "registrationNumber": "1326",
+    "logo": "banks/fe7d03c91452904a.webp"
+  },
+  {
+    "id": "9c66db89be5e25f7",
+    "name": "Арзамас",
+    "aliases": ["АО комбанк \"Арзамас\""],
+    "current": true,
+    "registrationNumber": "1281"
+  },
+  {
+    "id": "9279346c78095700",
+    "name": "АТБ",
+    "aliases": ["\"Азиатско-Тихоокеанский Банк\" (АО)", "Азиатско-Тихоокеанский Банк", "АТБ"],
+    "current": true,
+    "registrationNumber": "1810",
+    "logo": "banks/9279346c78095700.webp"
+  },
+  {
+    "id": "d2c62030c9c64bc6",
+    "name": "Байкалкредобанк",
+    "aliases": ["КБ \"Байкалкредобанк\" (АО)"],
+    "current": true,
+    "registrationNumber": "2990"
+  },
+  {
+    "id": "f9d3ac051e5865ca",
+    "name": "БАЛАКОВО-БАНК",
+    "aliases": ["АО \"БАЛАКОВО-БАНК\"", "БАЛАКОВО-БАНК"],
+    "current": true,
+    "registrationNumber": "444",
+    "logo": "banks/f9d3ac051e5865ca.webp"
+  },
+  {
+    "id": "18a79d71c56395e1",
+    "name": "БалтИнвестБанк",
+    "aliases": ["БалтИнвестБанк", "ПАО \"БАЛТИНВЕСТБАНК\""],
+    "current": true,
+    "registrationNumber": "3176",
+    "logo": "banks/18a79d71c56395e1.webp"
+  },
+  {
+    "id": "eeca91fd439b6d5e",
+    "name": "Банк 131",
+    "aliases": ["АО \"Банк 131\"", "Банк 131"],
+    "current": true,
+    "registrationNumber": "3538",
+    "logo": "banks/eeca91fd439b6d5e.webp"
+  },
+  {
+    "id": "64bad690e64edec5",
+    "name": "БАНК АГОРА",
+    "aliases": ["БАНК \"АГОРА\" ООО"],
+    "current": true,
+    "registrationNumber": "3231"
+  },
+  {
+    "id": "ebdaccd130f73dbd",
+    "name": "Банк Агророс",
+    "aliases": ["(АО \"Банк \"Агророс\")", "Агророс", "Банк Агророс"],
+    "current": true,
+    "registrationNumber": "2860",
+    "logo": "banks/ebdaccd130f73dbd.webp"
+  },
+  {
+    "id": "2f5e7c543a9b6564",
+    "name": "Банк Акцепт",
+    "aliases": ["Акцепт", "АО \"Банк Акцепт\"", "Банк Акцепт"],
+    "current": true,
+    "registrationNumber": "567",
+    "logo": "banks/2f5e7c543a9b6564.webp"
+  },
+  {
+    "id": "bfcf00d59f8382a9",
+    "name": "Банк АЛЕКСАНДРОВСКИЙ",
+    "aliases": ["Александровский", "Банк АЛЕКСАНДРОВСКИЙ", "ПАО Банк \"АЛЕКСАНДРОВСКИЙ\""],
+    "current": true,
+    "registrationNumber": "53",
+    "logo": "banks/bfcf00d59f8382a9.webp"
+  },
+  {
+    "id": "1d91514fc22b0365",
+    "name": "БАНК БЕРЕЙТ",
+    "aliases": ["АО \"БАНК БЕРЕЙТ\""],
+    "current": true,
+    "registrationNumber": "3505",
+    "logo": "banks/1d91514fc22b0365.webp"
+  },
+  {
+    "id": "ebf172b142c8d98d",
+    "name": "Банк ВБРР",
+    "aliases": ["Банк \"ВБРР\" (АО)", "Банк ВБРР", "ВБРР"],
+    "current": true,
+    "registrationNumber": "3287",
+    "logo": "banks/ebf172b142c8d98d.webp"
+  },
+  {
+    "id": "1bac546b024b2059",
+    "name": "Банк Венец",
+    "aliases": ["АО Банк \"Венец\"", "Банк Венец", "Венец"],
+    "current": true,
+    "registrationNumber": "524",
+    "logo": "banks/1bac546b024b2059.webp"
+  },
+  {
+    "id": "0f230208ca0050a7",
+    "name": "Банк Вятич",
+    "aliases": ["Банк \"Вятич\" (АО)"],
+    "current": true,
+    "registrationNumber": "2796"
+  },
+  {
+    "id": "718f388cbf25871f",
+    "name": "Банк Глобус",
+    "aliases": ["Банк Глобус", "Банк Глобус (АО)"],
+    "current": true,
+    "registrationNumber": "2438",
+    "logo": "banks/718f388cbf25871f.webp"
+  },
+  {
+    "id": "348c75208107cee9",
+    "name": "Банк ДАЛЕНА",
+    "aliases": ["АО \"Банк ДАЛЕНА\"", "Банк ДАЛЕНА"],
+    "current": true,
+    "registrationNumber": "1948",
+    "logo": "banks/348c75208107cee9.webp"
+  },
+  {
+    "id": "bf9b27f0156eea52",
+    "name": "Банк ДОМ.РФ",
+    "aliases": ["АО \"Банк ДОМ.РФ\"", "Банк ДОМ.РФ", "Дом РФ", "ДОМ.РФ", "ДОМРФ"],
+    "current": true,
+    "registrationNumber": "2312",
+    "logo": "banks/bf9b27f0156eea52.webp"
+  },
+  {
+    "id": "e6db8e5e7277a77d",
+    "name": "БАНК Ермак",
+    "aliases": ["АО БАНК \"Ермак\""],
+    "current": true,
+    "registrationNumber": "1809",
+    "logo": "banks/e6db8e5e7277a77d.webp"
+  },
+  {
+    "id": "64a9a9e62f3b2914",
+    "name": "Банк Заречье",
+    "aliases": ["\"Банк Заречье\" (АО)", "Банк Заречье", "Заречье"],
+    "current": true,
+    "registrationNumber": "817",
+    "logo": "banks/64a9a9e62f3b2914.webp"
+  },
+  {
+    "id": "246d9737b836bdd8",
+    "name": "Банк Инго",
+    "aliases": [
+      "АО Банк Инго",
+      "Банк Инго",
+      "Инго",
+      "Инго Банк",
+      "Ингобанк",
+      "Ингосстрах",
+      "Ингосстрах Банк",
+      "Союз"
+    ],
+    "current": true,
+    "registrationNumber": "2307",
+    "logo": "banks/246d9737b836bdd8.webp"
+  },
+  {
+    "id": "2e2c82236eb60b43",
+    "name": "Банк Интеза",
+    "aliases": ["АО \"Банк Интеза\"", "Банк Интеза", "Интеза"],
+    "current": true,
+    "registrationNumber": "2216",
+    "logo": "banks/2e2c82236eb60b43.webp"
+  },
+  {
+    "id": "bfc0ac373183612a",
+    "name": "Банк ИПБ",
+    "aliases": ["Банк ИПБ", "Банк ИПБ (АО)", "ИПБ"],
+    "current": true,
+    "registrationNumber": "600",
+    "logo": "banks/bfc0ac373183612a.webp"
+  },
+  {
+    "id": "e008e068e62748b5",
+    "name": "Банк ИТУРУП",
+    "aliases": ["Банк \"ИТУРУП\" (ООО)", "Банк ИТУРУП", "ИТУРУП"],
+    "current": true,
+    "registrationNumber": "2390",
+    "logo": "banks/e008e068e62748b5.webp"
+  },
+  {
+    "id": "80731f2136f1fb08",
+    "name": "Банк Йошкар-Ола",
+    "aliases": ["Банк \"Йошкар-Ола\" (ПАО)"],
+    "current": true,
+    "registrationNumber": "2802",
+    "logo": "banks/80731f2136f1fb08.webp"
+  },
+  {
+    "id": "6a7418070d6f8e1e",
+    "name": "Банк Казани",
+    "aliases": ["Банк Казани", "КБЭР Банк Казани", "ООО КБЭР \"Банк Казани\""],
+    "current": true,
+    "registrationNumber": "708",
+    "logo": "banks/6a7418070d6f8e1e.webp"
+  },
+  {
+    "id": "1787ae0071a36696",
+    "name": "Банк Кремлевский",
+    "aliases": ["\"Банк Кремлевский\" ООО", "Банк Кремлевский", "Кремлевский"],
+    "current": true,
+    "registrationNumber": "2905",
+    "logo": "banks/1787ae0071a36696.webp"
+  },
+  {
+    "id": "6a2d16bfb80704c9",
+    "name": "Банк Кузнецкий",
+    "aliases": ["Банк Кузнецкий", "Кузнецкий", "ПАО Банк \"Кузнецкий\""],
+    "current": true,
+    "registrationNumber": "609",
+    "logo": "banks/6a2d16bfb80704c9.webp"
+  },
+  {
+    "id": "1a7775888ab520a3",
+    "name": "БАНК КУРГАН",
+    "aliases": ["ООО БАНК \"КУРГАН\""],
+    "current": true,
+    "registrationNumber": "2568"
+  },
+  {
+    "id": "299962670cdcb557",
+    "name": "Банк Левобережный",
+    "aliases": ["Банк \"Левобережный\" (ПАО)", "Банк Левобережный", "Левобережный"],
+    "current": true,
+    "registrationNumber": "1343",
+    "logo": "banks/299962670cdcb557.webp"
+  },
+  {
+    "id": "81bb47ca9839b5bc",
+    "name": "Банк МБА-МОСКВА",
+    "aliases": ["\"Банк \"МБА-МОСКВА\" ООО", "Банк МБА-МОСКВА"],
+    "current": true,
+    "registrationNumber": "3395",
+    "logo": "banks/81bb47ca9839b5bc.webp"
+  },
+  {
+    "id": "16e33d232c78ebb5",
+    "name": "БАНК МОСКВА-СИТИ",
+    "aliases": ["АО БАНК \"МОСКВА-СИТИ\"", "БАНК МОСКВА-СИТИ", "Москва-сити"],
+    "current": true,
+    "registrationNumber": "3247",
+    "logo": "banks/16e33d232c78ebb5.webp"
+  },
+  {
+    "id": "6f6898145dbcedf6",
+    "name": "БАНК МСКБ",
+    "aliases": ["БАНК \"МСКБ\" (АО)", "БАНК МСКБ"],
+    "current": true,
+    "registrationNumber": "2722",
+    "logo": "banks/6f6898145dbcedf6.webp"
+  },
+  {
+    "id": "c1115a560f5a35ca",
+    "name": "Банк Нальчик",
+    "aliases": ["Банк \"Нальчик\" ООО"],
+    "current": true,
+    "registrationNumber": "695"
+  },
+  {
+    "id": "085f3e9acbfb35ec",
+    "name": "Банк Национальный стандарт",
+    "aliases": [
+      "АО Банк \"Национальный стандарт\"",
+      "Банк Национальный стандарт",
+      "Национальный Стандарт"
+    ],
+    "current": true,
+    "registrationNumber": "3421",
+    "logo": "banks/085f3e9acbfb35ec.webp"
+  },
+  {
+    "id": "1b1fe025a4b128c9",
+    "name": "Банк Объединенный капитал",
+    "aliases": [
+      "АО Банк \"Объединенный капитал\"",
+      "Банк Объединенный капитал",
+      "Объединенный Капитал"
+    ],
+    "current": true,
+    "registrationNumber": "2611",
+    "logo": "banks/1b1fe025a4b128c9.webp"
+  },
+  {
+    "id": "926a4c564e8e6d51",
+    "name": "БАНК ОРЕНБУРГ",
+    "aliases": ["АО \"БАНК ОРЕНБУРГ\"", "БАНК ОРЕНБУРГ"],
+    "current": true,
+    "registrationNumber": "3269",
+    "logo": "banks/926a4c564e8e6d51.webp"
+  },
+  {
+    "id": "fd95c7bc40ef5740",
+    "name": "Банк ПСКБ",
+    "aliases": ["АО Банк \"ПСКБ\"", "Банк ПСКБ", "ПСКБ"],
+    "current": true,
+    "registrationNumber": "2551",
+    "logo": "banks/fd95c7bc40ef5740.webp"
+  },
+  {
+    "id": "c2af9be0cf4084cd",
+    "name": "Банк Развитие-Столица",
+    "aliases": ["АО Банк \"Развитие-Столица\"", "Банк Развитие-Столица", "Развитие-Столица"],
+    "current": true,
+    "registrationNumber": "3013",
+    "logo": "banks/c2af9be0cf4084cd.webp"
+  },
+  {
+    "id": "48bc434066bfb145",
+    "name": "банк Раунд",
+    "aliases": ["банк Раунд", "ООО \"банк Раунд\"", "Раунд"],
+    "current": true,
+    "registrationNumber": "2506",
+    "logo": "banks/48bc434066bfb145.webp"
+  },
+  {
+    "id": "6748091277b58a49",
+    "name": "Банк РЕСО Кредит",
+    "aliases": ["Банк \"РЕСО Кредит\" (АО)", "Банк РЕСО Кредит", "РЕСО Кредит"],
+    "current": true,
+    "registrationNumber": "3450",
+    "logo": "banks/6748091277b58a49.webp"
+  },
+  {
+    "id": "b406859d18f52d16",
+    "name": "Банк РСИ",
+    "aliases": ["Банк РСИ", "ООО \"Банк РСИ\""],
+    "current": true,
+    "registrationNumber": "3415",
+    "logo": "banks/b406859d18f52d16.webp"
+  },
+  {
+    "id": "827d29684d6dc03b",
+    "name": "Банк Санкт-Петербург",
+    "aliases": [
+      "Банк \"Санкт-Петербург\"",
+      "Банк Санкт-Петербург",
+      "Банк Санкт-Петербург (БСПБ)",
+      "БСП",
+      "БСПБ",
+      "ПАО \"Банк \"Санкт-Петербург\"",
+      "Санкт-Петербург",
+      "BSPB"
+    ],
+    "current": true,
+    "registrationNumber": "436",
+    "logo": "banks/827d29684d6dc03b.webp"
+  },
+  {
+    "id": "54808533ac018385",
+    "name": "Банк Саратов",
+    "aliases": ["Банк Саратов", "ООО Банк \"Саратов\"", "Саратов"],
+    "current": true,
+    "registrationNumber": "330",
+    "logo": "banks/54808533ac018385.webp"
+  },
+  {
+    "id": "bd860622f6de893f",
+    "name": "Банк СЕРВИС РЕЗЕРВ",
+    "aliases": ["Банк \"СЕРВИС РЕЗЕРВ\" (АО)"],
+    "current": true,
+    "registrationNumber": "2034",
+    "logo": "banks/bd860622f6de893f.webp"
+  },
+  {
+    "id": "1eace039651a9e80",
+    "name": "Банк Синара",
+    "aliases": ["АО Банк Синара", "Банк Синара", "Синара", "СКБ", "СКБ-Банк"],
+    "current": true,
+    "registrationNumber": "705",
+    "logo": "banks/1eace039651a9e80.webp"
+  },
+  {
+    "id": "110da9d83059b702",
+    "name": "Банк Ставр",
+    "aliases": ["Банк Ставр", "ПАО \"Банк Ставр\""],
+    "current": true,
+    "registrationNumber": "1288",
+    "logo": "banks/110da9d83059b702.webp"
+  },
+  {
+    "id": "3ce9f92aed7c32bf",
+    "name": "Банк ТКПБ",
+    "aliases": ["АО Банк \"ТКПБ\""],
+    "current": true,
+    "registrationNumber": "1312"
+  },
+  {
+    "id": "6bf761e81bbcccf1",
+    "name": "Банк Торжок",
+    "aliases": ["АО \"Банк \"Торжок\""],
+    "current": true,
+    "registrationNumber": "933"
+  },
+  {
+    "id": "ee35a1055cdfd52f",
+    "name": "Банк ФИНАМ",
+    "aliases": ["АО \"Банк ФИНАМ\"", "Банк ФИНАМ", "Финам"],
+    "current": true,
+    "registrationNumber": "2799",
+    "logo": "banks/ee35a1055cdfd52f.webp"
+  },
+  {
+    "id": "ed125ce216dfe7ad",
+    "name": "Банк Финсервис",
+    "aliases": ["АО \"Банк Финсервис\"", "Банк Финсервис", "Финсервис"],
+    "current": true,
+    "registrationNumber": "3388",
+    "logo": "banks/ed125ce216dfe7ad.webp"
+  },
+  {
+    "id": "1d7069bddad04781",
+    "name": "Банк ЧБРР",
+    "aliases": ["АО \"Банк ЧБРР\"", "Банк ЧБРР", "ЧБРР"],
+    "current": true,
+    "registrationNumber": "3527",
+    "logo": "banks/1d7069bddad04781.webp"
+  },
+  {
+    "id": "3ddfca6f24cfd76e",
+    "name": "Банк Элемент",
+    "aliases": ["Банк Элемент (ООО)"],
+    "current": true,
+    "registrationNumber": "3574"
+  },
+  {
+    "id": "e992fdad69a20e84",
+    "name": "банк Элита",
+    "aliases": ["банк Элита", "ООО банк \"Элита\""],
+    "current": true,
+    "registrationNumber": "1399",
+    "logo": "banks/e992fdad69a20e84.webp"
+  },
+  {
+    "id": "acd63ae67f1e9332",
+    "name": "ББР Банк",
+    "aliases": ["ББР", "ББР Банк", "ББР Банк (АО)"],
+    "current": true,
+    "registrationNumber": "2929",
+    "logo": "banks/acd63ae67f1e9332.webp"
+  },
+  {
+    "id": "41579e371a3220e7",
+    "name": "Бест Эффортс",
+    "aliases": ["Бест Эффортс"],
+    "current": false,
+    "logo": "banks/41579e371a3220e7.webp"
+  },
+  {
+    "id": "3112ba76089031dc",
+    "name": "БЖФ",
+    "aliases": ["АО \"Банк БЖФ\"", "Банк БЖФ", "Банк Жилищного Финансирования", "БЖФ"],
+    "current": true,
+    "registrationNumber": "3138",
+    "logo": "banks/3112ba76089031dc.webp"
+  },
+  {
+    "id": "b2bf83d7e191be30",
+    "name": "БКС Банк",
+    "aliases": ["АО \"БКС Банк\"", "БКС", "БКС Банк", "BCS"],
+    "current": true,
+    "registrationNumber": "101",
+    "logo": "banks/b2bf83d7e191be30.webp"
+  },
+  {
+    "id": "7d9ca18c6be87786",
+    "name": "БКФ",
+    "aliases": ["БКФ"],
+    "current": false,
+    "logo": "banks/7d9ca18c6be87786.webp"
+  },
+  {
+    "id": "e9d9f2e8d1b3b533",
+    "name": "Бланк",
+    "aliases": ["Бланк", "Бланк банк", "Бланк Банк", "ООО \"Бланк банк\"", "Blank"],
+    "current": true,
+    "registrationNumber": "2368",
+    "logo": "banks/e9d9f2e8d1b3b533.webp"
+  },
+  {
+    "id": "ce4db6c405bfedab",
+    "name": "БМ-Банк",
+    "aliases": ["АО \"БМ-Банк\"", "БМ-Банк"],
+    "current": true,
+    "registrationNumber": "2748",
+    "logo": "banks/ce4db6c405bfedab.webp"
+  },
+  {
+    "id": "0a472ddf0aed47a3",
+    "name": "БМВ Банк",
+    "aliases": ["ООО \"БМВ Банк\""],
+    "current": true,
+    "registrationNumber": "3482"
+  },
+  {
+    "id": "db7bdfe394749c4f",
+    "name": "БНП Париба",
+    "aliases": ["\"БНП ПАРИБА БАНК\" АО", "БНП Париба"],
+    "current": true,
+    "registrationNumber": "3407",
+    "logo": "banks/db7bdfe394749c4f.webp"
+  },
+  {
+    "id": "9216b3117613ed8d",
+    "name": "Братский АНКБ",
+    "aliases": ["\"Братский АНКБ\" АО"],
+    "current": true,
+    "registrationNumber": "1144",
+    "logo": "banks/9216b3117613ed8d.webp"
+  },
+  {
+    "id": "6c1690eec3c4c0d6",
+    "name": "БСТ-БАНК",
+    "aliases": ["\"БСТ-БАНК\" АО"],
+    "current": true,
+    "registrationNumber": "2883"
+  },
+  {
+    "id": "dcd85bada23a9985",
+    "name": "БыстроБанк",
+    "aliases": ["Быстробанк", "БыстроБанк", "ПАО \"БыстроБанк\""],
+    "current": true,
+    "registrationNumber": "1745",
+    "logo": "banks/dcd85bada23a9985.webp"
+  },
+  {
+    "id": "670443fb01041507",
+    "name": "Бэнк Оф Чайна",
+    "aliases": ["АКБ \"БЭНК ОФ ЧАЙНА\" (АО)", "Бэнк оф Чайна", "Бэнк Оф Чайна"],
+    "current": true,
+    "registrationNumber": "2309",
+    "logo": "banks/670443fb01041507.webp"
+  },
+  {
+    "id": "717a1bbb9a99876c",
+    "name": "ВАКОБАНК",
+    "aliases": ["АО КБ \"ВАКОБАНК\""],
+    "current": true,
+    "registrationNumber": "1291",
+    "logo": "banks/717a1bbb9a99876c.webp"
+  },
+  {
+    "id": "1fc8c396dc4fc8c8",
+    "name": "Великие Луки банк",
+    "aliases": ["АО \"Великие Луки банк\""],
+    "current": true,
+    "registrationNumber": "598",
+    "logo": "banks/1fc8c396dc4fc8c8.webp"
+  },
+  {
+    "id": "b3076eb3ddaa3123",
+    "name": "Веста",
+    "aliases": ["Веста"],
+    "current": false,
+    "logo": "banks/b3076eb3ddaa3123.webp"
+  },
+  {
+    "id": "7111af2a26420f52",
+    "name": "Вестерн Юнион",
+    "aliases": ["Вестерн Юнион"],
+    "current": false,
+    "logo": "banks/7111af2a26420f52.webp"
+  },
+  {
+    "id": "a4dbab06c7e3f754",
+    "name": "Викинг",
+    "aliases": ["АО \"КАБ \"Викинг\"", "Викинг", "КАБ Викинг"],
+    "current": true,
+    "registrationNumber": "2",
+    "logo": "banks/a4dbab06c7e3f754.webp"
+  },
+  {
+    "id": "ee8ad33c73c47219",
+    "name": "ВЛАДБИЗНЕСБАНК",
+    "aliases": ["АО \"ВЛАДБИЗНЕСБАНК\"", "Владбизнесбанк", "ВЛАДБИЗНЕСБАНК"],
+    "current": true,
+    "registrationNumber": "903",
+    "logo": "banks/ee8ad33c73c47219.webp"
+  },
+  {
+    "id": "e2569fbd3ab4c6f1",
+    "name": "Возрождение",
+    "aliases": ["Возрождение"],
+    "current": false,
+    "logo": "banks/e2569fbd3ab4c6f1.webp"
+  },
+  {
+    "id": "7d94ac6f19f3a017",
+    "name": "Вологжанин",
+    "aliases": ["АО \"Банк \"Вологжанин\"", "Банк Вологжанин", "Вологжанин"],
+    "current": true,
+    "registrationNumber": "1896"
+  },
+  {
+    "id": "8c77bce0ecdfd118",
+    "name": "ВТБ",
+    "aliases": ["Банк ВТБ", "Банк ВТБ (ПАО)", "ВТБ", "ВТБ 24", "VTB", "VTB24"],
+    "current": true,
+    "registrationNumber": "1000",
+    "logo": "banks/8c77bce0ecdfd118.webp"
+  },
+  {
+    "id": "c3c71e382de209ab",
+    "name": "ВУЗ-банк",
+    "aliases": ["ВУЗ-банк"],
+    "current": false,
+    "logo": "banks/c3c71e382de209ab.webp"
+  },
+  {
+    "id": "0a897858d113a9bb",
+    "name": "Вэйбанк",
+    "aliases": ["\"Вэйбанк\" АО", "Вэйбанк"],
+    "current": true,
+    "registrationNumber": "3095",
+    "logo": "banks/0a897858d113a9bb.webp"
+  },
+  {
+    "id": "be77035d0a609bbe",
+    "name": "Газпромбанк",
+    "aliases": ["Банк ГПБ", "Банк ГПБ (АО)", "Газпромбанк", "ГПБ", "Gazprombank"],
+    "current": true,
+    "registrationNumber": "354",
+    "logo": "banks/be77035d0a609bbe.webp"
+  },
+  {
+    "id": "cb3397a9aee3bde0",
+    "name": "Газэнергобанк",
+    "aliases": ["АО \"Газэнергобанк\"", "Газэнергобанк"],
+    "current": true,
+    "registrationNumber": "3252",
+    "logo": "banks/cb3397a9aee3bde0.webp"
+  },
+  {
+    "id": "feaf9098ee4d8c3c",
+    "name": "Гарант-Инвест",
+    "aliases": ["Гарант-Инвест"],
+    "current": false,
+    "logo": "banks/feaf9098ee4d8c3c.webp"
+  },
+  {
+    "id": "aa11c46e26990539",
+    "name": "ГЕНБАНК",
+    "aliases": ["АО \"ГЕНБАНК\"", "ГенБанк", "ГЕНБАНК"],
+    "current": true,
+    "registrationNumber": "2490",
+    "logo": "banks/aa11c46e26990539.webp"
+  },
+  {
+    "id": "d7af6f31bb8b2ccb",
+    "name": "Голдман Сакс",
+    "aliases": ["Голдман Сакс"],
+    "current": false,
+    "logo": "banks/d7af6f31bb8b2ccb.webp"
+  },
+  {
+    "id": "66ebdd84e156b70a",
+    "name": "Горбанк",
+    "aliases": ["АО \"ГОРБАНК\"", "Горбанк"],
+    "current": true,
+    "registrationNumber": "2982",
+    "logo": "banks/66ebdd84e156b70a.webp"
+  },
+  {
+    "id": "4bc739ceb8d6fca9",
+    "name": "ГТ банк",
+    "aliases": ["Газтрансбанк", "ГТ банк", "ООО КБ \"ГТ банк\""],
+    "current": true,
+    "registrationNumber": "665",
+    "logo": "banks/4bc739ceb8d6fca9.webp"
+  },
+  {
+    "id": "3139e45e878ffc73",
+    "name": "ГУТА-БАНК",
+    "aliases": ["АО \"ГУТА-БАНК\"", "ГУТА-БАНК"],
+    "current": true,
+    "registrationNumber": "256",
+    "logo": "banks/3139e45e878ffc73.webp"
+  },
+  {
+    "id": "a6fbfa6ff76fec9a",
+    "name": "Дальневосточный банк",
+    "aliases": ["Дальневосточный банк"],
+    "current": false,
+    "logo": "banks/a6fbfa6ff76fec9a.webp"
+  },
+  {
+    "id": "3defd333ce60c8ea",
+    "name": "Датабанк",
+    "aliases": ["АО \"Датабанк\"", "Датабанк"],
+    "current": true,
+    "registrationNumber": "646",
+    "logo": "banks/3defd333ce60c8ea.webp"
+  },
+  {
+    "id": "c9ba3451a65c1614",
+    "name": "ДелоБанк",
+    "aliases": ["ДелоБанк"],
+    "current": false,
+    "logo": "banks/c9ba3451a65c1614.webp"
+  },
+  {
+    "id": "ea5a3726bdc0f90a",
+    "name": "Денизбанк",
+    "aliases": ["АО \"Денизбанк Москва\"", "Денизбанк", "Денизбанк Москва"],
+    "current": true,
+    "registrationNumber": "3330",
+    "logo": "banks/ea5a3726bdc0f90a.webp"
+  },
+  {
+    "id": "bcb04ab3e94aec98",
+    "name": "Деньги.Мэйл.Ру",
+    "aliases": ["Деньги.Мэйл.Ру"],
+    "current": false,
+    "logo": "banks/bcb04ab3e94aec98.webp"
+  },
+  {
+    "id": "928171b540e86e9e",
+    "name": "Дж.П. Морган",
+    "aliases": [
+      "Дж.П. Морган",
+      "Дж.П. Морган Банк Интернешнл",
+      "КБ \"Дж.П. Морган Банк Интернешнл\" (ООО)"
+    ],
+    "current": true,
+    "registrationNumber": "2629",
+    "logo": "banks/928171b540e86e9e.webp"
+  },
+  {
+    "id": "888cdd7816d1b660",
+    "name": "Джей Энд Ти",
+    "aliases": ["Джей Энд Ти"],
+    "current": false,
+    "logo": "banks/888cdd7816d1b660.webp"
+  },
+  {
+    "id": "eedfc8328ab334ce",
+    "name": "Дойче Банк",
+    "aliases": ["Дойче Банк", "ООО \"Дойче Банк\""],
+    "current": true,
+    "registrationNumber": "3328",
+    "logo": "banks/eedfc8328ab334ce.webp"
+  },
+  {
+    "id": "cb52021dff7eeed2",
+    "name": "Донкомбанк",
+    "aliases": ["ПАО \"Донкомбанк\""],
+    "current": true,
+    "registrationNumber": "492"
+  },
+  {
+    "id": "5999be92386825ac",
+    "name": "Драйв Клик",
+    "aliases": ["Драйв Клик"],
+    "current": false,
+    "logo": "banks/5999be92386825ac.webp"
+  },
+  {
+    "id": "43cb7b94b18baa17",
+    "name": "Дружба",
+    "aliases": ["ООО КБ \"Дружба\""],
+    "current": true,
+    "registrationNumber": "990",
+    "logo": "banks/43cb7b94b18baa17.webp"
+  },
+  {
+    "id": "859b0a3901e054cf",
+    "name": "ЕАБР",
+    "aliases": ["ЕАБР"],
+    "current": false,
+    "logo": "banks/859b0a3901e054cf.webp"
+  },
+  {
+    "id": "0187d27fba02b1a4",
+    "name": "ЕАТПБанк",
+    "aliases": ["АО ЕАТПБанк"],
+    "current": true,
+    "registrationNumber": "1765"
+  },
+  {
+    "id": "a5aba3f0445e611d",
+    "name": "Евроальянс",
+    "aliases": ["АО КИБ \"ЕВРОАЛЬЯНС\"", "Евроальянс"],
+    "current": true,
+    "registrationNumber": "1781",
+    "logo": "banks/a5aba3f0445e611d.webp"
+  },
+  {
+    "id": "9bfd909e53ed21f4",
+    "name": "Еврофинанс МосНарБанк",
+    "aliases": ["АКБ ЕВРОФИНАНС МОСНАРБАНК", "Еврофинанс МосНарБанк"],
+    "current": false,
+    "logo": "banks/9bfd909e53ed21f4.webp"
+  },
+  {
+    "id": "1b2bb41950b8de4b",
+    "name": "Единая касса",
+    "aliases": ["Единая касса"],
+    "current": false,
+    "logo": "banks/1b2bb41950b8de4b.webp"
+  },
+  {
+    "id": "22e2ffd41939f6c7",
+    "name": "Еком",
+    "aliases": ["Еком"],
+    "current": false,
+    "logo": "banks/22e2ffd41939f6c7.webp"
+  },
+  {
+    "id": "c92f24cc77caa6f5",
+    "name": "ЖИВАГО БАНК",
+    "aliases": ["ЖИВАГО БАНК", "ООО \"ЖИВАГО БАНК\""],
+    "current": true,
+    "registrationNumber": "2065",
+    "logo": "banks/c92f24cc77caa6f5.webp"
+  },
+  {
+    "id": "dbdfc8bfe363db9b",
+    "name": "Запсибкомбанк",
+    "aliases": ["Запсибкомбанк"],
+    "current": false,
+    "logo": "banks/dbdfc8bfe363db9b.webp"
+  },
+  {
+    "id": "38871e922c0c97c6",
+    "name": "Заубер",
+    "aliases": ["Заубер"],
+    "current": false,
+    "logo": "banks/38871e922c0c97c6.webp"
+  },
+  {
+    "id": "3915405821282476",
+    "name": "ЗЕМКОМБАНК",
+    "aliases": ["ООО \"ЗЕМКОМБАНК\""],
+    "current": true,
+    "registrationNumber": "574"
+  },
+  {
+    "id": "89f8bc2ed9c5269e",
+    "name": "Земский Банк",
+    "aliases": ["Земский Банк"],
+    "current": false,
+    "logo": "banks/89f8bc2ed9c5269e.webp"
+  },
+  {
+    "id": "a8cf741fb2980e01",
+    "name": "Зенит",
+    "aliases": ["Банк Зенит", "Банк ЗЕНИТ", "Зенит", "ПАО Банк ЗЕНИТ", "Zenit"],
+    "current": true,
+    "registrationNumber": "3255",
+    "logo": "banks/a8cf741fb2980e01.webp"
+  },
+  {
+    "id": "bcee61d85fcf3107",
+    "name": "Зираат",
+    "aliases": ["\"ЗИРААТ БАНК (МОСКВА)\" (АО)", "Зираат", "ЗИРААТ БАНК (МОСКВА)"],
+    "current": true,
+    "registrationNumber": "2559",
+    "logo": "banks/bcee61d85fcf3107.webp"
+  },
+  {
+    "id": "634f61f2daa3356e",
+    "name": "Золотая корона",
+    "aliases": ["Золотая корона"],
+    "current": false,
+    "logo": "banks/634f61f2daa3356e.webp"
+  },
+  {
+    "id": "4217f94e9f2ea2ac",
+    "name": "ИК Банк",
+    "aliases": ["АО \"ИК Банк\"", "ИК Банк"],
+    "current": true,
+    "registrationNumber": "1732",
+    "logo": "banks/4217f94e9f2ea2ac.webp"
+  },
+  {
+    "id": "29ccf97bc600cd5b",
+    "name": "ИКБР ЯРИНТЕРБАНК",
+    "aliases": ["ИКБР \"ЯРИНТЕРБАНК\" (ООО)", "ИКБР ЯРИНТЕРБАНК", "Яринтербанк"],
+    "current": true,
+    "registrationNumber": "2564",
+    "logo": "banks/29ccf97bc600cd5b.webp"
+  },
+  {
+    "id": "137192d4e2bd6283",
+    "name": "Инбанк",
+    "aliases": ["Инбанк", "ООО \"Инбанк\""],
+    "current": true,
+    "registrationNumber": "1829",
+    "logo": "banks/137192d4e2bd6283.webp"
+  },
+  {
+    "id": "d6671462f3ff6b3f",
+    "name": "ИнвестТоргБанк",
+    "aliases": ["ИнвестТоргБанк", "ИНВЕСТТОРГБАНК АО"],
+    "current": true,
+    "registrationNumber": "2763",
+    "logo": "banks/d6671462f3ff6b3f.webp"
+  },
+  {
+    "id": "1a470fb1625ce960",
+    "name": "ИНГ Банк",
+    "aliases": ["ИНГ Банк", "ИНГ БАНК (ЕВРАЗИЯ)", "ИНГ БАНК (ЕВРАЗИЯ) АО"],
+    "current": true,
+    "registrationNumber": "2495",
+    "logo": "banks/1a470fb1625ce960.webp"
+  },
+  {
+    "id": "f8cc2080390921c4",
+    "name": "ИНКАХРАН",
+    "aliases": ["ИНКАХРАН"],
+    "current": false,
+    "logo": "banks/f8cc2080390921c4.webp"
+  },
+  {
+    "id": "358c9dc06aa40c2b",
+    "name": "Интерпромбанк",
+    "aliases": ["Интерпромбанк"],
+    "current": false,
+    "logo": "banks/358c9dc06aa40c2b.webp"
+  },
+  {
+    "id": "f9d97a2a52607ea7",
+    "name": "ИС Банк",
+    "aliases": ["ИС Банк"],
+    "current": false,
+    "logo": "banks/f9d97a2a52607ea7.webp"
+  },
+  {
+    "id": "3c19f3325b2ca59d",
+    "name": "ИТ Банк",
+    "aliases": ["АО \"ИТ Банк\""],
+    "current": true,
+    "registrationNumber": "2609"
+  },
+  {
+    "id": "658e7522cd411866",
+    "name": "ИШБАНК",
+    "aliases": ["АО \"ИШБАНК\"", "ИШБАНК"],
+    "current": true,
+    "registrationNumber": "2867",
+    "logo": "banks/658e7522cd411866.webp"
+  },
+  {
+    "id": "c5803a3617abd4bd",
+    "name": "Калуга",
+    "aliases": ["ООО КБ \"Калуга\""],
+    "current": true,
+    "registrationNumber": "1151"
+  },
+  {
+    "id": "aae6f17476b42cc5",
+    "name": "Камкомбанк",
+    "aliases": ["Камком", "Камкомбанк", "Камский коммерческий банк", "ООО \"Камкомбанк\""],
+    "current": true,
+    "registrationNumber": "438"
+  },
+  {
+    "id": "978763c87f373511",
+    "name": "Капитал",
+    "aliases": ["АО АБ \"Капитал\""],
+    "current": true,
+    "registrationNumber": "575"
+  },
+  {
+    "id": "9c5c5013dce1f9ad",
+    "name": "КБ АГРОПРОМКРЕДИТ",
+    "aliases": ["АгроПромКредит", "АО КБ \"АГРОПРОМКРЕДИТ\"", "КБ АГРОПРОМКРЕДИТ"],
+    "current": true,
+    "registrationNumber": "2880",
+    "logo": "banks/9c5c5013dce1f9ad.webp"
+  },
+  {
+    "id": "a58f57336a57237e",
+    "name": "КБ АРЕСБАНК",
+    "aliases": ["КБ АРЕСБАНК", "ООО КБ \"АРЕСБАНК\""],
+    "current": true,
+    "registrationNumber": "2914",
+    "logo": "banks/a58f57336a57237e.webp"
+  },
+  {
+    "id": "b65e6030c89fd968",
+    "name": "КБ ВНЕШФИНБАНК",
+    "aliases": ["Внешфинбанк", "КБ ВНЕШФИНБАНК", "ООО КБ \"ВНЕШФИНБАНК\""],
+    "current": true,
+    "registrationNumber": "3173",
+    "logo": "banks/b65e6030c89fd968.webp"
+  },
+  {
+    "id": "d86a33be2e9f8f08",
+    "name": "КБ Долинск",
+    "aliases": ["Долинск", "КБ \"Долинск\" (АО)", "КБ Долинск"],
+    "current": true,
+    "registrationNumber": "857",
+    "logo": "banks/d86a33be2e9f8f08.webp"
+  },
+  {
+    "id": "b6d4725dfd7f5318",
+    "name": "КБ Крокус-Банк",
+    "aliases": ["КБ \"Крокус-Банк\" (ООО)", "КБ Крокус-Банк"],
+    "current": true,
+    "registrationNumber": "2682",
+    "logo": "banks/b6d4725dfd7f5318.webp"
+  },
+  {
+    "id": "63a3ffeb3b552ed8",
+    "name": "КБ Кубань Кредит",
+    "aliases": ["КБ \"Кубань Кредит\" ООО", "КБ Кубань Кредит", "Кубань Кредит"],
+    "current": true,
+    "registrationNumber": "2518",
+    "logo": "banks/63a3ffeb3b552ed8.webp"
+  },
+  {
+    "id": "2469c84c3d686dd5",
+    "name": "КБ ЛОКО-Банк",
+    "aliases": ["КБ \"ЛОКО-Банк\" (АО)", "КБ ЛОКО-Банк", "Локо"],
+    "current": true,
+    "registrationNumber": "2707",
+    "logo": "banks/2469c84c3d686dd5.webp"
+  },
+  {
+    "id": "eb1bb884dff036a2",
+    "name": "КБ Модульбанк",
+    "aliases": ["АО КБ \"Модульбанк\"", "КБ Модульбанк", "Модульбанк"],
+    "current": true,
+    "registrationNumber": "1927",
+    "logo": "banks/eb1bb884dff036a2.webp"
+  },
+  {
+    "id": "5e4fc11919c94f78",
+    "name": "КБ Москоммерцбанк",
+    "aliases": ["КБ \"Москоммерцбанк\" (АО)", "КБ Москоммерцбанк", "Москоммерцбанк"],
+    "current": true,
+    "registrationNumber": "3365",
+    "logo": "banks/5e4fc11919c94f78.webp"
+  },
+  {
+    "id": "9251206bbc2cfe72",
+    "name": "КБ Новый век",
+    "aliases": ["КБ \"Новый век\" (ООО)", "КБ Новый век", "Новый Век"],
+    "current": true,
+    "registrationNumber": "3417",
+    "logo": "banks/9251206bbc2cfe72.webp"
+  },
+  {
+    "id": "0457067b73ea1a43",
+    "name": "КБ Пойдём!",
+    "aliases": ["АО КБ \"Пойдём!\"", "КБ Пойдём!", "Пойдём!"],
+    "current": true,
+    "registrationNumber": "2534",
+    "logo": "banks/0457067b73ea1a43.webp"
+  },
+  {
+    "id": "b4d74f3f566ffd84",
+    "name": "КБ РостФинанс",
+    "aliases": ["КБ РостФинанс", "ООО КБ \"РостФинанс\"", "РостФинанс"],
+    "current": true,
+    "registrationNumber": "481",
+    "logo": "banks/b4d74f3f566ffd84.webp"
+  },
+  {
+    "id": "cee5be632819b187",
+    "name": "КБ РУСНАРБАНК",
+    "aliases": ["АО КБ \"РУСНАРБАНК\"", "КБ РУСНАРБАНК", "РусНарБанк"],
+    "current": true,
+    "registrationNumber": "3403",
+    "logo": "banks/cee5be632819b187.webp"
+  },
+  {
+    "id": "357e49b0fc34db64",
+    "name": "КБ СИНКО-БАНК",
+    "aliases": ["КБ СИНКО-БАНК", "ООО КБ \"СИНКО-БАНК\"", "Синко-Банк"],
+    "current": true,
+    "registrationNumber": "2838",
+    "logo": "banks/357e49b0fc34db64.webp"
+  },
+  {
+    "id": "07204ff917c8d569",
+    "name": "КБ Солидарность",
+    "aliases": ["АО КБ \"Солидарность\"", "КБ Солидарность", "Солидарность"],
+    "current": true,
+    "registrationNumber": "554",
+    "logo": "banks/07204ff917c8d569.webp"
+  },
+  {
+    "id": "f59baa613cab0b44",
+    "name": "КБ СТРОЙЛЕСБАНК",
+    "aliases": ["КБ \"СТРОЙЛЕСБАНК\" (ООО)", "КБ СТРОЙЛЕСБАНК", "Стройлесбанк"],
+    "current": true,
+    "registrationNumber": "2995",
+    "logo": "banks/f59baa613cab0b44.webp"
+  },
+  {
+    "id": "d34360c2f502e77c",
+    "name": "КБ Хлынов",
+    "aliases": ["АО КБ \"Хлынов\"", "КБ Хлынов", "Хлынов"],
+    "current": true,
+    "registrationNumber": "254",
+    "logo": "banks/d34360c2f502e77c.webp"
+  },
+  {
+    "id": "c17a3adc27bcdea8",
+    "name": "КБ Центр-инвест",
+    "aliases": ["КБ Центр-инвест", "ПАО КБ \"Центр-инвест\"", "Центр-инвест"],
+    "current": true,
+    "registrationNumber": "2225",
+    "logo": "banks/c17a3adc27bcdea8.webp"
+  },
+  {
+    "id": "92afd4cf514ab6a0",
+    "name": "КБ ЭНЕРГОТРАНСБАНК",
+    "aliases": ["КБ \"ЭНЕРГОТРАНСБАНК\" (АО)", "КБ ЭНЕРГОТРАНСБАНК", "Энерготрансбанк"],
+    "current": true,
+    "registrationNumber": "1307",
+    "logo": "banks/92afd4cf514ab6a0.webp"
+  },
+  {
+    "id": "2523596343f4ec01",
+    "name": "КБ ЮНИСТРИМ",
+    "aliases": ["АО КБ \"ЮНИСТРИМ\"", "КБ ЮНИСТРИМ", "Юнистрим"],
+    "current": true,
+    "registrationNumber": "3467",
+    "logo": "banks/2523596343f4ec01.webp"
+  },
+  {
+    "id": "460e8e1ab120491f",
+    "name": "Квант Мобайл",
+    "aliases": ["Квант Мобайл"],
+    "current": false,
+    "logo": "banks/460e8e1ab120491f.webp"
+  },
+  {
+    "id": "5a314328da5157c3",
+    "name": "Кетовский",
+    "aliases": ["ООО КБ \"Кетовский\""],
+    "current": true,
+    "registrationNumber": "842"
+  },
+  {
+    "id": "09099282aac695d5",
+    "name": "Киви",
+    "aliases": ["Киви"],
+    "current": false,
+    "logo": "banks/09099282aac695d5.webp"
+  },
+  {
+    "id": "52290c1575185ea8",
+    "name": "Классик Эконом Банк",
+    "aliases": ["АО \"Классик Эконом Банк\""],
+    "current": true,
+    "registrationNumber": "3298",
+    "logo": "banks/52290c1575185ea8.webp"
+  },
+  {
+    "id": "68cd236e4ce689b7",
+    "name": "Клюква",
+    "aliases": ["Клюква"],
+    "current": false,
+    "logo": "banks/68cd236e4ce689b7.webp"
+  },
+  {
+    "id": "5db9d2aee76a0b79",
+    "name": "Кольцо Урала",
+    "aliases": ["Кольцо Урала"],
+    "current": false,
+    "logo": "banks/5db9d2aee76a0b79.webp"
+  },
+  {
+    "id": "de63e9d2d64505be",
+    "name": "КоммерцБанк",
+    "aliases": ["АО \"КОММЕРЦБАНК (ЕВРАЗИЯ)\"", "КоммерцБанк", "КОММЕРЦБАНК (ЕВРАЗИЯ)"],
+    "current": true,
+    "registrationNumber": "3333",
+    "logo": "banks/de63e9d2d64505be.webp"
+  },
+  {
+    "id": "a5cabdae167f0978",
+    "name": "Коммерческий Индо Банк",
+    "aliases": ["\"Коммерческий Индо Банк\" ООО"],
+    "current": true,
+    "registrationNumber": "3446",
+    "logo": "banks/a5cabdae167f0978.webp"
+  },
+  {
+    "id": "c44e85323c19ba44",
+    "name": "Континенталь",
+    "aliases": ["КБ \"Континенталь\" ООО"],
+    "current": true,
+    "registrationNumber": "3184",
+    "logo": "banks/c44e85323c19ba44.webp"
+  },
+  {
+    "id": "093e41721b6c1201",
+    "name": "Контур.Банк",
+    "aliases": ["Контур.Банк", "ПАО \"Контур.Банк\""],
+    "current": true,
+    "registrationNumber": "3161",
+    "logo": "banks/093e41721b6c1201.webp"
+  },
+  {
+    "id": "485a6184aec08534",
+    "name": "Космос",
+    "aliases": ["АО КБ \"КОСМОС\"", "Космос"],
+    "current": true,
+    "registrationNumber": "2245",
+    "logo": "banks/485a6184aec08534.webp"
+  },
+  {
+    "id": "73b9e729fd69ad95",
+    "name": "Костромаселькомбанк",
+    "aliases": ["ООО \"Костромаселькомбанк\""],
+    "current": true,
+    "registrationNumber": "1115",
+    "logo": "banks/73b9e729fd69ad95.webp"
+  },
+  {
+    "id": "202884f17e9d42d8",
+    "name": "КОШЕЛЕВ-БАНК",
+    "aliases": ["АО \"КОШЕЛЕВ-БАНК\"", "Кошелев", "КОШЕЛЕВ-БАНК"],
+    "current": true,
+    "registrationNumber": "3300",
+    "logo": "banks/202884f17e9d42d8.webp"
+  },
+  {
+    "id": "0f4d91a4ed6812ab",
+    "name": "Креди Агриколь КИБ",
+    "aliases": ["Креди Агриколь КИБ", "Креди Агриколь КИБ АО"],
+    "current": true,
+    "registrationNumber": "1680",
+    "logo": "banks/0f4d91a4ed6812ab.webp"
+  },
+  {
+    "id": "56fefc2506375c27",
+    "name": "Кредит Европа Банк",
+    "aliases": [
+      "АО \"Кредит Европа Банк (Россия)\"",
+      "Кредит Европа",
+      "Кредит Европа Банк",
+      "Кредит Европа Банк (Россия)",
+      "Кредит Европа Банк Россия",
+      "Credit Europe Bank"
+    ],
+    "current": true,
+    "registrationNumber": "3311",
+    "logo": "banks/56fefc2506375c27.webp"
+  },
+  {
+    "id": "b7a88c4d56c6ac2f",
+    "name": "Кредит Свисс",
+    "aliases": ["АО \"Банк Кредит Свисс (Москва)\"", "Банк Кредит Свисс (Москва)", "Кредит Свисс"],
+    "current": true,
+    "registrationNumber": "2494",
+    "logo": "banks/b7a88c4d56c6ac2f.webp"
+  },
+  {
+    "id": "473146cc7078cb06",
+    "name": "Крона-Банк",
+    "aliases": ["ООО \"Крона-Банк\""],
+    "current": true,
+    "registrationNumber": "2499",
+    "logo": "banks/473146cc7078cb06.webp"
+  },
+  {
+    "id": "bdd3ec539af1e0ea",
+    "name": "КУБ",
+    "aliases": ["Банк \"КУБ\" (АО)", "Кредит Урал Банк", "КУБ"],
+    "current": true,
+    "registrationNumber": "2584",
+    "logo": "banks/bdd3ec539af1e0ea.webp"
+  },
+  {
+    "id": "ed8835aecb80b37e",
+    "name": "Кубаньторгбанк",
+    "aliases": ["АО \"Кубаньторгбанк\"", "Кубаньторгбанк"],
+    "current": true,
+    "registrationNumber": "478",
+    "logo": "banks/ed8835aecb80b37e.webp"
+  },
+  {
+    "id": "8d070284f882cc5a",
+    "name": "Кузбассхимбанк",
+    "aliases": ["АКБ \"Кузбассхимбанк\" (ПАО)", "Кузбассхимбанк"],
+    "current": true,
+    "registrationNumber": "2868",
+    "logo": "banks/8d070284f882cc5a.webp"
+  },
+  {
+    "id": "a44d5b78c2fd6f77",
+    "name": "Кузнецкбизнесбанк",
+    "aliases": ["АО \"Кузнецкбизнесбанк\"", "Кузнецкбизнесбанк"],
+    "current": true,
+    "registrationNumber": "1158",
+    "logo": "banks/a44d5b78c2fd6f77.webp"
+  },
+  {
+    "id": "64952598e52faa0b",
+    "name": "Кэб ЭйчЭнБи",
+    "aliases": ["Кэб ЭйчЭнБи", "ООО \"КЭБ ЭйчЭнБи Банк\""],
+    "current": true,
+    "registrationNumber": "3525",
+    "logo": "banks/64952598e52faa0b.webp"
+  },
+  {
+    "id": "c9cb2aea0f64f336",
+    "name": "Максима",
+    "aliases": ["КБ \"Максима\" (ООО)"],
+    "current": true,
+    "registrationNumber": "3379",
+    "logo": "banks/c9cb2aea0f64f336.webp"
+  },
+  {
+    "id": "13fabd49d6f1264b",
+    "name": "МБ Банк",
+    "aliases": ["АО \"МБ Банк\"", "МБ Банк"],
+    "current": true,
+    "registrationNumber": "3396",
+    "logo": "banks/13fabd49d6f1264b.webp"
+  },
+  {
+    "id": "8cf1efa1dc0fcc30",
+    "name": "МБ РУС Банк",
+    "aliases": [
+      "МБ РУС",
+      "Мб Рус Банк",
+      "МБ РУС Банк",
+      "Мерседес-Бенц Банк Рус",
+      "ООО \"МБ РУС Банк\""
+    ],
+    "current": true,
+    "registrationNumber": "3473",
+    "logo": "banks/8cf1efa1dc0fcc30.webp"
+  },
+  {
+    "id": "e9593d87c131c857",
+    "name": "МБА",
+    "aliases": ["МБА"],
+    "current": false,
+    "logo": "banks/e9593d87c131c857.webp"
+  },
+  {
+    "id": "fae30f7300e0a35f",
+    "name": "МВС Банк",
+    "aliases": ["ООО КБ \"МВС Банк\""],
+    "current": true,
+    "registrationNumber": "2407",
+    "logo": "banks/fae30f7300e0a35f.webp"
+  },
+  {
+    "id": "c202c22536fafa28",
+    "name": "Металлинвестбанк",
+    "aliases": ["Металлинвестбанк", "ПАО АКБ \"Металлинвестбанк\""],
+    "current": true,
+    "registrationNumber": "2440",
+    "logo": "banks/c202c22536fafa28.webp"
+  },
+  {
+    "id": "3370e0aa188794b9",
+    "name": "Меткомбанк",
+    "aliases": ["Меткомбанк", "МЕТКОМБАНК", "МЕТКОМБАНК Каменск-Уральский", "ПАО \"МЕТКОМБАНК\""],
+    "current": true,
+    "registrationNumber": "2443",
+    "logo": "banks/3370e0aa188794b9.webp"
+  },
+  {
+    "id": "8f2f07b8aeb0c479",
+    "name": "Мидзухо",
+    "aliases": ["АО \"Мидзухо Банк (Москва)\"", "Мидзухо", "Мидзухо Банк (Москва)"],
+    "current": true,
+    "registrationNumber": "3337",
+    "logo": "banks/8f2f07b8aeb0c479.webp"
+  },
+  {
+    "id": "62dcfe2d4dee3196",
+    "name": "МИнБанк",
+    "aliases": ["МИнБанк"],
+    "current": false,
+    "logo": "banks/62dcfe2d4dee3196.webp"
+  },
+  {
+    "id": "fd8648d1409dafe5",
+    "name": "Мир Привилегий",
+    "aliases": ["Мир Привилегий"],
+    "current": false,
+    "logo": "banks/fd8648d1409dafe5.webp"
+  },
+  {
+    "id": "d2af60966f16054f",
+    "name": "МКБ",
+    "aliases": [
+      "МКБ",
+      "Московский кредитный банк",
+      "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК",
+      "ПАО \"МОСКОВСКИЙ КРЕДИТНЫЙ БАНК\"",
+      "MKB"
+    ],
+    "current": true,
+    "registrationNumber": "1978",
+    "logo": "banks/d2af60966f16054f.webp"
+  },
+  {
+    "id": "662912aff86ae461",
+    "name": "МКБ Дон-Тексбанк",
+    "aliases": ["МКБ \"Дон-Тексбанк\" ООО"],
+    "current": true,
+    "registrationNumber": "1818",
+    "logo": "banks/662912aff86ae461.webp"
+  },
+  {
+    "id": "0037a89368798a1e",
+    "name": "Мобильная Карта",
+    "aliases": ["Мобильная Карта", "НКО Мобильная карта"],
+    "current": false,
+    "logo": "banks/0037a89368798a1e.webp"
+  },
+  {
+    "id": "ec2f763fe6e323c8",
+    "name": "Монета",
+    "aliases": ["Монета"],
+    "current": false,
+    "logo": "banks/ec2f763fe6e323c8.webp"
+  },
+  {
+    "id": "b05e80e7b67c7bb7",
+    "name": "МОРСКОЙ БАНК",
+    "aliases": ["Морской Банк", "МОРСКОЙ БАНК", "МОРСКОЙ БАНК (АО)"],
+    "current": true,
+    "registrationNumber": "77",
+    "logo": "banks/b05e80e7b67c7bb7.webp"
+  },
+  {
+    "id": "046924b81bc8c601",
+    "name": "МОСКОМБАНК",
+    "aliases": ["АО \"МОСКОМБАНК\"", "МОСКОМБАНК"],
+    "current": true,
+    "registrationNumber": "3172",
+    "logo": "banks/046924b81bc8c601.webp"
+  },
+  {
+    "id": "c231a07b037920c4",
+    "name": "МОСНАРБАНК",
+    "aliases": ["АО АКБ «МОСНАРБАНК»"],
+    "current": true,
+    "registrationNumber": "2402"
+  },
+  {
+    "id": "491427f5bc720fdc",
+    "name": "МосОблБанк",
+    "aliases": ["АО МОСОБЛБАНК", "МосОблБанк"],
+    "current": true,
+    "registrationNumber": "1751",
+    "logo": "banks/491427f5bc720fdc.webp"
+  },
+  {
+    "id": "c1f32099f727fe13",
+    "name": "МП Банк",
+    "aliases": ["МП Банк", "МП Банк (ООО)"],
+    "current": true,
+    "registrationNumber": "3224",
+    "logo": "banks/c1f32099f727fe13.webp"
+  },
+  {
+    "id": "0415443dc159ad48",
+    "name": "МС Банк Рус",
+    "aliases": ["АО МС Банк Рус", "МС Банк Рус"],
+    "current": true,
+    "registrationNumber": "2789",
+    "logo": "banks/0415443dc159ad48.webp"
+  },
+  {
+    "id": "11d17e0f7f525f65",
+    "name": "МСП",
+    "aliases": ["АО \"МСП Банк\"", "МСП"],
+    "current": true,
+    "registrationNumber": "3340",
+    "logo": "banks/11d17e0f7f525f65.webp"
+  },
+  {
+    "id": "23544714edf60904",
+    "name": "МТИ Банк",
+    "aliases": ["МТИ Банк"],
+    "current": false,
+    "logo": "banks/23544714edf60904.webp"
+  },
+  {
+    "id": "ada350235840fbe9",
+    "name": "МТС Банк",
+    "aliases": ["МТС", "МТС Банк", "МТС-Банк", "ПАО \"МТС-Банк\"", "MTS Bank"],
+    "current": true,
+    "registrationNumber": "2268",
+    "logo": "banks/ada350235840fbe9.webp"
+  },
+  {
+    "id": "4f99019a44ce28d0",
+    "name": "МТС Деньги (ЭКСИ Банк)",
+    "aliases": ["МТС Деньги (ЭКСИ Банк)"],
+    "current": false,
+    "logo": "banks/4f99019a44ce28d0.webp"
+  },
+  {
+    "id": "b9138f50010660c0",
+    "name": "Муниципальный Камчатпрофитбанк",
+    "aliases": ["Муниципальный Камчатпрофитбанк"],
+    "current": false,
+    "logo": "banks/b9138f50010660c0.webp"
+  },
+  {
+    "id": "8a086d50f0f0d8a1",
+    "name": "Мурманский расчетный Банк",
+    "aliases": ["ООО \"Мурманский расчетный Банк\""],
+    "current": true,
+    "registrationNumber": "3341"
+  },
+  {
+    "id": "e0b1a0fe969f6984",
+    "name": "Мурманский Расчетный Центр",
+    "aliases": ["Мурманский Расчетный Центр"],
+    "current": false,
+    "logo": "banks/e0b1a0fe969f6984.webp"
+  },
+  {
+    "id": "983569955c79475a",
+    "name": "МФК",
+    "aliases": ["МФК"],
+    "current": false,
+    "logo": "banks/983569955c79475a.webp"
+  },
+  {
+    "id": "15d6c3d1c66ed69a",
+    "name": "Натиксис",
+    "aliases": ["Натиксис"],
+    "current": false,
+    "logo": "banks/15d6c3d1c66ed69a.webp"
+  },
+  {
+    "id": "28ccd39d24d94d3a",
+    "name": "Нацинвестпромбанк",
+    "aliases": ["\"Нацинвестпромбанк\" (АО)", "Нацинвестпромбанк"],
+    "current": true,
+    "registrationNumber": "3077",
+    "logo": "banks/28ccd39d24d94d3a.webp"
+  },
+  {
+    "id": "4e2065161a7b065e",
+    "name": "НБД-Банк",
+    "aliases": ["НБД", "НБД-Банк", "ПАО \"НБД-Банк\""],
+    "current": true,
+    "registrationNumber": "1966",
+    "logo": "banks/4e2065161a7b065e.webp"
+  },
+  {
+    "id": "93e2c37395f6d833",
+    "name": "НБС",
+    "aliases": ["АО БАНК НБС", "НБС"],
+    "current": true,
+    "registrationNumber": "1949",
+    "logo": "banks/93e2c37395f6d833.webp"
+  },
+  {
+    "id": "c2fae5fa988a7d4a",
+    "name": "НДБанк",
+    "aliases": ["АО \"НДБанк\""],
+    "current": true,
+    "registrationNumber": "2374",
+    "logo": "banks/c2fae5fa988a7d4a.webp"
+  },
+  {
+    "id": "2f0705025ef1fd1b",
+    "name": "НИБ",
+    "aliases": ["АО КБ \"НИБ\""],
+    "current": true,
+    "registrationNumber": "2876"
+  },
+  {
+    "id": "4085874a32e4acf3",
+    "name": "НИКО-БАНК",
+    "aliases": ["Нико-Банк", "НИКО-БАНК", "ПАО \"НИКО-БАНК\""],
+    "current": true,
+    "registrationNumber": "702",
+    "logo": "banks/4085874a32e4acf3.webp"
+  },
+  {
+    "id": "fd77c71fdc2d703b",
+    "name": "НК Банк",
+    "aliases": ["АО \"НК Банк\"", "НК Банк"],
+    "current": true,
+    "registrationNumber": "2755",
+    "logo": "banks/fd77c71fdc2d703b.webp"
+  },
+  {
+    "id": "ea63bc363ecb1f5f",
+    "name": "Новиком",
+    "aliases": [
+      "АО АКБ \"НОВИКОМБАНК\"",
+      "Банк НОВИКОМ (НОВИКОМБАНК)",
+      "Новиком",
+      "Новиком Банк",
+      "Новикомбанк"
+    ],
+    "current": true,
+    "registrationNumber": "2546",
+    "logo": "banks/ea63bc363ecb1f5f.webp"
+  },
+  {
+    "id": "9b2a9d1447632662",
+    "name": "Новокиб",
+    "aliases": ["Новокиб", "ООО \"НОВОКИБ\""],
+    "current": true,
+    "registrationNumber": "1747",
+    "logo": "banks/9b2a9d1447632662.webp"
+  },
+  {
+    "id": "633e5e829337bf63",
+    "name": "НОДА",
+    "aliases": ["НОДА"],
+    "current": false,
+    "logo": "banks/633e5e829337bf63.webp"
+  },
+  {
+    "id": "46d043c5ec551026",
+    "name": "НОКССБАНК",
+    "aliases": ["АО НОКССБАНК", "НОКССБанк", "НОКССБАНК"],
+    "current": true,
+    "registrationNumber": "3202",
+    "logo": "banks/46d043c5ec551026.webp"
+  },
+  {
+    "id": "1201ad971fe1e76a",
+    "name": "НООСФЕРА",
+    "aliases": ["АКБ \"НООСФЕРА\" (АО)", "НООСФЕРА"],
+    "current": true,
+    "registrationNumber": "2650",
+    "logo": "banks/1201ad971fe1e76a.webp"
+  },
+  {
+    "id": "9055ba0c0232d761",
+    "name": "Норвик Банк",
+    "aliases": ["Норвик", "Норвик Банк", "ПАО \"Норвик Банк\""],
+    "current": true,
+    "registrationNumber": "902",
+    "logo": "banks/9055ba0c0232d761.webp"
+  },
+  {
+    "id": "5023c4f9ebff90b5",
+    "name": "Нордеа",
+    "aliases": ["Нордеа"],
+    "current": false,
+    "logo": "banks/5023c4f9ebff90b5.webp"
+  },
+  {
+    "id": "a07f989903a6ce4c",
+    "name": "НРД",
+    "aliases": ["НРД"],
+    "current": false,
+    "logo": "banks/a07f989903a6ce4c.webp"
+  },
+  {
+    "id": "ca3fcc29a3e07f62",
+    "name": "НС Банк",
+    "aliases": ["АО \"НС Банк\"", "НС", "НС Банк"],
+    "current": true,
+    "registrationNumber": "3124",
+    "logo": "banks/ca3fcc29a3e07f62.webp"
+  },
+  {
+    "id": "0d278d6064c6c27f",
+    "name": "Оней",
+    "aliases": ["Оней"],
+    "current": false,
+    "logo": "banks/0d278d6064c6c27f.webp"
+  },
+  {
+    "id": "d2af4465e2353034",
+    "name": "Оранжевый",
+    "aliases": ["Оранжевый"],
+    "current": false,
+    "logo": "banks/d2af4465e2353034.webp"
+  },
+  {
+    "id": "a453ba27264050a6",
+    "name": "Ориджин Банк",
+    "aliases": ["ООО \"Ориджин Банк\""],
+    "current": true,
+    "registrationNumber": "3490"
+  },
+  {
+    "id": "9063590395ed3066",
+    "name": "Открытие",
+    "aliases": ["Открытие"],
+    "current": false,
+    "logo": "banks/9063590395ed3066.webp"
+  },
+  {
+    "id": "1ae9fcfcd18a8d75",
+    "name": "ОТП Банк",
+    "aliases": ["АО \"ОТП Банк\"", "ОТП", "ОТП Банк", "ОТП Банк (OTP Bank)", "OTP", "OTP Bank"],
+    "current": true,
+    "registrationNumber": "2766",
+    "logo": "banks/1ae9fcfcd18a8d75.webp"
+  },
+  {
+    "id": "c1146bd81d8b0e68",
+    "name": "ПЕРВОУРАЛЬСКБАНК",
+    "aliases": ["АО \"ПЕРВОУРАЛЬСКБАНК\"", "ПервоУральскБанк", "ПЕРВОУРАЛЬСКБАНК"],
+    "current": true,
+    "registrationNumber": "965",
+    "logo": "banks/c1146bd81d8b0e68.webp"
+  },
+  {
+    "id": "8bf1932a71956d19",
+    "name": "Первый Дортрансбанк",
+    "aliases": ["АО \"Первый Дортрансбанк\"", "Первый Дортрансбанк"],
+    "current": true,
+    "registrationNumber": "3271",
+    "logo": "banks/8bf1932a71956d19.webp"
+  },
+  {
+    "id": "087194cbc3a8a9ae",
+    "name": "Первый Инвестиционный Банк",
+    "aliases": ["АО \"Первый Инвестиционный Банк\"", "Первый Инвестиционный Банк"],
+    "current": true,
+    "registrationNumber": "604",
+    "logo": "banks/087194cbc3a8a9ae.webp"
+  },
+  {
+    "id": "09384772ed0cce35",
+    "name": "Первый Клиентский Банк",
+    "aliases": ["ООО \"Первый Клиентский Банк\"", "Первый Клиентский Банк"],
+    "current": true,
+    "registrationNumber": "3436",
+    "logo": "banks/09384772ed0cce35.webp"
+  },
+  {
+    "id": "3101ae1aaf9c5b05",
+    "name": "Пересвет",
+    "aliases": ["АКБ \"ПЕРЕСВЕТ\" (ПАО)", "Пересвет"],
+    "current": true,
+    "registrationNumber": "2110",
+    "logo": "banks/3101ae1aaf9c5b05.webp"
+  },
+  {
+    "id": "0329d6eb7970bf2d",
+    "name": "Пермь",
+    "aliases": ["Банк Пермь (АО)", "Пермь"],
+    "current": true,
+    "registrationNumber": "875",
+    "logo": "banks/0329d6eb7970bf2d.webp"
+  },
+  {
+    "id": "88aa79e87716eb22",
+    "name": "Перспектива",
+    "aliases": ["Перспектива"],
+    "current": false,
+    "logo": "banks/88aa79e87716eb22.webp"
+  },
+  {
+    "id": "2c5e30334a7e3dd3",
+    "name": "Пихта Банк",
+    "aliases": ["ООО \"Пихта Банк\""],
+    "current": true,
+    "registrationNumber": "3500",
+    "logo": "banks/2c5e30334a7e3dd3.webp"
+  },
+  {
+    "id": "44f8d1e0571026a3",
+    "name": "Плайт",
+    "aliases": ["Плайт"],
+    "current": false,
+    "logo": "banks/44f8d1e0571026a3.webp"
+  },
+  {
+    "id": "968f60915a3d00d9",
+    "name": "Платежный конструктор",
+    "aliases": ["Платежный конструктор"],
+    "current": false,
+    "logo": "banks/968f60915a3d00d9.webp"
+  },
+  {
+    "id": "67f034d5ea5632a5",
+    "name": "Платежный Центр",
+    "aliases": ["Платежный Центр"],
+    "current": false,
+    "logo": "banks/67f034d5ea5632a5.webp"
+  },
+  {
+    "id": "beff42c3c10b0c00",
+    "name": "Почта Банк",
+    "aliases": ["Почта Банк"],
+    "current": false,
+    "logo": "banks/beff42c3c10b0c00.webp"
+  },
+  {
+    "id": "32b9683fad12c76a",
+    "name": "Почтобанк",
+    "aliases": ["АО АКИБ \"Почтобанк\""],
+    "current": true,
+    "registrationNumber": "1788"
+  },
+  {
+    "id": "c6fac70fbbd123d6",
+    "name": "Примсоцбанк",
+    "aliases": ["ПАО СКБ Приморья \"Примсоцбанк\"", "Примсоцбанк", "СКБ Приморья Примсоцбанк"],
+    "current": true,
+    "registrationNumber": "2733",
+    "logo": "banks/c6fac70fbbd123d6.webp"
+  },
+  {
+    "id": "f0358fdc746d31ed",
+    "name": "Примтеркомбанк",
+    "aliases": ["ООО \"Примтеркомбанк\""],
+    "current": true,
+    "registrationNumber": "21"
+  },
+  {
+    "id": "ff42ffb12d345e08",
+    "name": "Прио-Внешторгбанк",
+    "aliases": ["Прио-внешторгбанк", "Прио-Внешторгбанк", "Прио-Внешторгбанк (ПАО)"],
+    "current": true,
+    "registrationNumber": "212",
+    "logo": "banks/ff42ffb12d345e08.webp"
+  },
+  {
+    "id": "6d1e3bcaad9ecd40",
+    "name": "Приобье",
+    "aliases": ["АО КБ \"Приобье\""],
+    "current": true,
+    "registrationNumber": "537",
+    "logo": "banks/6d1e3bcaad9ecd40.webp"
+  },
+  {
+    "id": "b626b337acfa3990",
+    "name": "ПроБанк",
+    "aliases": ["АО \"ПроБанк\"", "ПроБанк"],
+    "current": true,
+    "registrationNumber": "3296",
+    "logo": "banks/b626b337acfa3990.webp"
+  },
+  {
+    "id": "1d07a996ea8c5636",
+    "name": "ПроКоммерцБанк",
+    "aliases": ["ООО \"ПроКоммерцБанк\""],
+    "current": true,
+    "registrationNumber": "2996",
+    "logo": "banks/1d07a996ea8c5636.webp"
+  },
+  {
+    "id": "1d2a48baf2283863",
+    "name": "Промсельхозбанк",
+    "aliases": [
+      "ООО \"Промсельхозбанк\"",
+      "Промсельхозбанк",
+      "Промсельхозбанк (PayinRussia/Плати в России)"
+    ],
+    "current": true,
+    "registrationNumber": "538",
+    "logo": "banks/1d2a48baf2283863.webp"
+  },
+  {
+    "id": "bb1b60a76ae82c42",
+    "name": "ПростоБанк",
+    "aliases": ["ПростоБанк"],
+    "current": false,
+    "logo": "banks/bb1b60a76ae82c42.webp"
+  },
+  {
+    "id": "23cc2ce9c885aa2d",
+    "name": "Профильный Банк",
+    "aliases": ["КМ \"Профильный Банк\" (АО)"],
+    "current": true,
+    "registrationNumber": "2103",
+    "logo": "banks/23cc2ce9c885aa2d.webp"
+  },
+  {
+    "id": "e81c79a46b62e806",
+    "name": "ПСБ",
+    "aliases": ["Банк ПСБ", "ПАО \"Банк ПСБ\"", "Промсвязьбанк", "ПСБ", "PSB"],
+    "current": true,
+    "registrationNumber": "3251",
+    "logo": "banks/e81c79a46b62e806.webp"
+  },
+  {
+    "id": "b29232d992e9cfb0",
+    "name": "ПТБ",
+    "aliases": ["ПТБ"],
+    "current": false,
+    "logo": "banks/b29232d992e9cfb0.webp"
+  },
+  {
+    "id": "508892c7c18c5f1d",
+    "name": "Пэйджин",
+    "aliases": ["Банк Пэйджин", "ООО Банк \"Пэйджин\"", "Пэйджин", "Пэйджин Банк"],
+    "current": true,
+    "registrationNumber": "3543",
+    "logo": "banks/508892c7c18c5f1d.webp"
+  },
+  {
+    "id": "167161a19ab3a29c",
+    "name": "ПэйПал РУ",
+    "aliases": ["ПэйПал РУ"],
+    "current": false,
+    "logo": "banks/167161a19ab3a29c.webp"
+  },
+  {
+    "id": "0ecd9bb36b93ee0e",
+    "name": "Р-ИНКАС",
+    "aliases": ["Р-ИНКАС"],
+    "current": false,
+    "logo": "banks/0ecd9bb36b93ee0e.webp"
+  },
+  {
+    "id": "3cf7b96e8fe7e4a3",
+    "name": "Райффайзенбанк",
+    "aliases": [
+      "АО \"Райффайзенбанк\"",
+      "Райффайзен",
+      "Райффайзен Банк",
+      "Райффайзенбанк",
+      "Raiffeisen",
+      "Raiffeisenbank"
+    ],
+    "current": true,
+    "registrationNumber": "3292",
+    "logo": "banks/3cf7b96e8fe7e4a3.webp"
+  },
+  {
+    "id": "429d06dbba8b55e8",
+    "name": "Расчетные Решения",
+    "aliases": ["Расчетные Решения"],
+    "current": false,
+    "logo": "banks/429d06dbba8b55e8.webp"
+  },
+  {
+    "id": "0f5a0660f5936c85",
+    "name": "РБА",
+    "aliases": ["КБ \"РБА\" (ООО)", "РБА"],
+    "current": true,
+    "registrationNumber": "3413",
+    "logo": "banks/0f5a0660f5936c85.webp"
+  },
+  {
+    "id": "2ba8a4af19a0800d",
+    "name": "РГС",
+    "aliases": ["РГС"],
+    "current": false,
+    "logo": "banks/2ba8a4af19a0800d.webp"
+  },
+  {
+    "id": "f500a36dae78147c",
+    "name": "РДК",
+    "aliases": ["РДК"],
+    "current": false,
+    "logo": "banks/f500a36dae78147c.webp"
+  },
+  {
+    "id": "484031b4ff2b0db8",
+    "name": "РЕАЛИСТ БАНК",
+    "aliases": ["АО \"РЕАЛИСТ БАНК\"", "Реалист", "РЕАЛИСТ БАНК"],
+    "current": true,
+    "registrationNumber": "1067",
+    "logo": "banks/484031b4ff2b0db8.webp"
+  },
+  {
+    "id": "44e6f819eda0e335",
+    "name": "РЕЗОРТ БАНК",
+    "aliases": ["ООО \"РЕЗОРТ БАНК\""],
+    "current": true,
+    "registrationNumber": "3575",
+    "logo": "banks/44e6f819eda0e335.webp"
+  },
+  {
+    "id": "e1d6476c723e1335",
+    "name": "Ренессанс Банк",
+    "aliases": [
+      "КБ \"Ренессанс Кредит\" (ООО)",
+      "Ренессанс",
+      "Ренессанс Банк",
+      "Ренессанс Банк (Ренессанс Кредит)",
+      "Ренессанс Кредит",
+      "Ренкредит"
+    ],
+    "current": true,
+    "registrationNumber": "3354",
+    "logo": "banks/e1d6476c723e1335.webp"
+  },
+  {
+    "id": "c291fbf46c14c6d0",
+    "name": "РенКап Банк",
+    "aliases": ["АО \"РенКап Банк\""],
+    "current": true,
+    "registrationNumber": "2557",
+    "logo": "banks/c291fbf46c14c6d0.webp"
+  },
+  {
+    "id": "e495c0dec22343b4",
+    "name": "Республиканский Кредитный Альянс",
+    "aliases": ["\"Республиканский Кредитный Альянс\" ООО"],
+    "current": true,
+    "registrationNumber": "3017"
+  },
+  {
+    "id": "d27def535e283ff3",
+    "name": "РН Банк",
+    "aliases": ["РН Банк"],
+    "current": false,
+    "logo": "banks/d27def535e283ff3.webp"
+  },
+  {
+    "id": "58766adb6acf22e1",
+    "name": "РНКБ",
+    "aliases": ["РНКБ"],
+    "current": false,
+    "logo": "banks/58766adb6acf22e1.webp"
+  },
+  {
+    "id": "be9464f7026f0ffa",
+    "name": "РОКЕТБАНК",
+    "aliases": ["РОКЕТБАНК"],
+    "current": false,
+    "logo": "banks/be9464f7026f0ffa.webp"
+  },
+  {
+    "id": "7c3237ea231b7bf1",
+    "name": "РосБанк",
+    "aliases": ["РосБанк"],
+    "current": false,
+    "logo": "banks/7c3237ea231b7bf1.webp"
+  },
+  {
+    "id": "095222c1972d6080",
+    "name": "РосДорБанк",
+    "aliases": ["ПАО \"РосДорБанк\"", "РосДорБанк"],
+    "current": true,
+    "registrationNumber": "1573",
+    "logo": "banks/095222c1972d6080.webp"
+  },
+  {
+    "id": "2c18237555dcd038",
+    "name": "Россельхозбанк",
+    "aliases": ["АО \"Россельхозбанк\"", "Россельхозбанк", "РСХБ", "RSHB"],
+    "current": true,
+    "registrationNumber": "3349",
+    "logo": "banks/2c18237555dcd038.webp"
+  },
+  {
+    "id": "95949950ff4a87a1",
+    "name": "РОССИТА-БАНК",
+    "aliases": ["МКИБ \"РОССИТА-БАНК\" ООО"],
+    "current": true,
+    "registrationNumber": "3257"
+  },
+  {
+    "id": "d393d418daab5951",
+    "name": "Россия",
+    "aliases": ["АБ РОССИЯ", "АО \"АБ \"РОССИЯ\"", "Россия"],
+    "current": true,
+    "registrationNumber": "328",
+    "logo": "banks/d393d418daab5951.webp"
+  },
+  {
+    "id": "98516b3a027a045f",
+    "name": "РосЭксимБанк",
+    "aliases": ["АО РОСЭКСИМБАНК", "РосЭксимБанк"],
+    "current": true,
+    "registrationNumber": "2790",
+    "logo": "banks/98516b3a027a045f.webp"
+  },
+  {
+    "id": "a060fa809963c64a",
+    "name": "Роял Кредит Банк",
+    "aliases": ["АО \"Роял Кредит Банк\"", "Роял Кредит Банк"],
+    "current": true,
+    "registrationNumber": "783",
+    "logo": "banks/a060fa809963c64a.webp"
+  },
+  {
+    "id": "882dff3d40c36efe",
+    "name": "РУСБС",
+    "aliases": ["ООО \"РУСБС\""],
+    "current": true,
+    "registrationNumber": "779"
+  },
+  {
+    "id": "25ed339059017af4",
+    "name": "Русский Стандарт",
+    "aliases": [
+      "АО \"Банк Русский Стандарт\"",
+      "Банк Русский Стандарт",
+      "РСБ",
+      "Русский Стандарт",
+      "RSB"
+    ],
+    "current": true,
+    "registrationNumber": "2289",
+    "logo": "banks/25ed339059017af4.webp"
+  },
+  {
+    "id": "f5d6944e80c81eac",
+    "name": "Русфинанс",
+    "aliases": ["Русфинанс"],
+    "current": false,
+    "logo": "banks/f5d6944e80c81eac.webp"
+  },
+  {
+    "id": "30b0098165ee1635",
+    "name": "РусьРегионБанк",
+    "aliases": ["ПАО КБ \"РусьРегионБанк\""],
+    "current": true,
+    "registrationNumber": "685"
+  },
+  {
+    "id": "098a46cbea8ab28e",
+    "name": "Русьуниверсалбанк",
+    "aliases": ["\"Русьуниверсалбанк\" (ООО)", "Русьуниверсалбанк"],
+    "current": true,
+    "registrationNumber": "3293",
+    "logo": "banks/098a46cbea8ab28e.webp"
+  },
+  {
+    "id": "fb80272bf5327038",
+    "name": "РФК-банк",
+    "aliases": ["АО \"РФК-банк\""],
+    "current": true,
+    "registrationNumber": "3099",
+    "logo": "banks/fb80272bf5327038.webp"
+  },
+  {
+    "id": "3b72a403d83b7b02",
+    "name": "САММИТ БАНК",
+    "aliases": ["АО КБ \"САММИТ БАНК\""],
+    "current": true,
+    "registrationNumber": "85",
+    "logo": "banks/3b72a403d83b7b02.webp"
+  },
+  {
+    "id": "a39cc8efab651c48",
+    "name": "Санкт-Петербургский банк инвестиций",
+    "aliases": ["Санкт-Петербургский банк инвестиций (АО)"],
+    "current": true,
+    "registrationNumber": "3468"
+  },
+  {
+    "id": "321ffaec63dfd25d",
+    "name": "СаровБизнесБанк",
+    "aliases": ["СаровБизнесБанк"],
+    "current": false,
+    "logo": "banks/321ffaec63dfd25d.webp"
+  },
+  {
+    "id": "ae4f1401aac759f6",
+    "name": "Сбербанк",
+    "aliases": ["ПАО Сбербанк", "Сбер", "Сбербанк", "Sber", "Sberbank"],
+    "current": true,
+    "registrationNumber": "1481",
+    "logo": "banks/ae4f1401aac759f6.webp"
+  },
+  {
+    "id": "4f1f930b7b78c4f1",
+    "name": "СБП",
+    "aliases": ["СБП"],
+    "current": false,
+    "logo": "banks/4f1f930b7b78c4f1.webp"
+  },
+  {
+    "id": "c94e89e511af2d32",
+    "name": "Свой Банк",
+    "aliases": ["АО \"Свой Банк\"", "Свой", "Свой Банк"],
+    "current": true,
+    "registrationNumber": "3223",
+    "logo": "banks/c94e89e511af2d32.webp"
+  },
+  {
+    "id": "cd7abb4d52ccebff",
+    "name": "СГБ",
+    "aliases": ["АО \"БАНК СГБ\"", "БАНК СГБ", "СГБ", "Севергазбанк"],
+    "current": true,
+    "registrationNumber": "2816",
+    "logo": "banks/cd7abb4d52ccebff.webp"
+  },
+  {
+    "id": "bd83a6ad3da56d08",
+    "name": "СДМ-Банк",
+    "aliases": ["\"СДМ-Банк\" (ПАО)", "СДМ", "СДМ-Банк"],
+    "current": true,
+    "registrationNumber": "1637",
+    "logo": "banks/bd83a6ad3da56d08.webp"
+  },
+  {
+    "id": "fab2181e7c27d533",
+    "name": "Северный Народный Банк",
+    "aliases": ["\"Северный Народный Банк\" (АО)", "Северный Народный Банк"],
+    "current": true,
+    "registrationNumber": "2721",
+    "logo": "banks/fab2181e7c27d533.webp"
+  },
+  {
+    "id": "4a2e7f8550424fdd",
+    "name": "СеверСтройБанк",
+    "aliases": ["\"СеверСтройБанк\" АО"],
+    "current": true,
+    "registrationNumber": "3507",
+    "logo": "banks/4a2e7f8550424fdd.webp"
+  },
+  {
+    "id": "e79f0a5e0dc1fb03",
+    "name": "Сельмашбанк",
+    "aliases": ["ПАО КБ \"Сельмашбанк\""],
+    "current": true,
+    "registrationNumber": "106",
+    "logo": "banks/e79f0a5e0dc1fb03.webp"
+  },
+  {
+    "id": "5b9e33638c05a651",
+    "name": "Сетелем",
+    "aliases": ["Сетелем"],
+    "current": false,
+    "logo": "banks/5b9e33638c05a651.webp"
+  },
+  {
+    "id": "e83edf7e84e1d7e1",
+    "name": "СИБСОЦБАНК",
+    "aliases": ["\"СИБСОЦБАНК\" ООО", "СибСоцБанк", "СИБСОЦБАНК"],
+    "current": true,
+    "registrationNumber": "2015",
+    "logo": "banks/e83edf7e84e1d7e1.webp"
+  },
+  {
+    "id": "799a54e958b5552e",
+    "name": "Сити Инвест Банк",
+    "aliases": ["АО \"Сити Инвест Банк\""],
+    "current": true,
+    "registrationNumber": "3194",
+    "logo": "banks/799a54e958b5552e.webp"
+  },
+  {
+    "id": "0144d9b700a471ff",
+    "name": "Ситибанк",
+    "aliases": ["Ситибанк"],
+    "current": false,
+    "logo": "banks/0144d9b700a471ff.webp"
+  },
+  {
+    "id": "e6fc18bf802c1438",
+    "name": "СКС",
+    "aliases": ["СКС"],
+    "current": false,
+    "logo": "banks/e6fc18bf802c1438.webp"
+  },
+  {
+    "id": "ed3455894d20dcea",
+    "name": "СЛАВЯНБАНК",
+    "aliases": ["АО НКБ \"СЛАВЯНБАНК\""],
+    "current": true,
+    "registrationNumber": "804",
+    "logo": "banks/ed3455894d20dcea.webp"
+  },
+  {
+    "id": "6fe3b276d320a226",
+    "name": "СМБСР Банк",
+    "aliases": ["АО \"СМБСР Банк\""],
+    "current": true,
+    "registrationNumber": "3494",
+    "logo": "banks/6fe3b276d320a226.webp"
+  },
+  {
+    "id": "d18e37d2a4127fc1",
+    "name": "СМЛТ Банк",
+    "aliases": ["ООО \"СМЛТ Банк\""],
+    "current": true,
+    "registrationNumber": "2846",
+    "logo": "banks/d18e37d2a4127fc1.webp"
+  },
+  {
+    "id": "141b60bbb776310d",
+    "name": "СМП",
+    "aliases": ["СМП"],
+    "current": false,
+    "logo": "banks/141b60bbb776310d.webp"
+  },
+  {
+    "id": "b4198d9636106d1c",
+    "name": "СНГБ",
+    "aliases": ["АО БАНК \"СНГБ\"", "БАНК СНГБ", "СНГБ", "Сургутнефтегазбанк"],
+    "current": true,
+    "registrationNumber": "588",
+    "logo": "banks/b4198d9636106d1c.webp"
+  },
+  {
+    "id": "56edb7347ed0f335",
+    "name": "Снежинский",
+    "aliases": ["Банк \"Снежинский\" АО", "Снежинский"],
+    "current": true,
+    "registrationNumber": "1376",
+    "logo": "banks/56edb7347ed0f335.webp"
+  },
+  {
+    "id": "5193f97a96d24153",
+    "name": "Совкомбанк",
+    "aliases": ["ПАО \"Совкомбанк\"", "Совком", "Совкомбанк", "Халва", "Sovcombank"],
+    "current": true,
+    "registrationNumber": "963",
+    "logo": "banks/5193f97a96d24153.webp"
+  },
+  {
+    "id": "77e34bfc2031dee9",
+    "name": "Соколовский",
+    "aliases": ["АО КБ \"Соколовский\""],
+    "current": true,
+    "registrationNumber": "2830",
+    "logo": "banks/77e34bfc2031dee9.webp"
+  },
+  {
+    "id": "e862843a7db8bff7",
+    "name": "СОЦИУМ-БАНК",
+    "aliases": ["\"СОЦИУМ-БАНК\" (ООО)", "Социум-банк", "СОЦИУМ-БАНК"],
+    "current": true,
+    "registrationNumber": "2881",
+    "logo": "banks/e862843a7db8bff7.webp"
+  },
+  {
+    "id": "d88b6540cd627376",
+    "name": "СПБ Банк",
+    "aliases": ["АО \"СПБ Банк\"", "СПБ Банк"],
+    "current": true,
+    "registrationNumber": "435",
+    "logo": "banks/d88b6540cd627376.webp"
+  },
+  {
+    "id": "e66db38d33026fb0",
+    "name": "СПЕЦСТРОЙБАНК",
+    "aliases": ["ООО \"СПЕЦСТРОЙБАНК\""],
+    "current": true,
+    "registrationNumber": "236",
+    "logo": "banks/e66db38d33026fb0.webp"
+  },
+  {
+    "id": "5f95335a2124b3c6",
+    "name": "Столичный Кредит",
+    "aliases": ["ООО КБ \"Столичный Кредит\""],
+    "current": true,
+    "registrationNumber": "2853"
+  },
+  {
+    "id": "ccd88a9e8d0cbb92",
+    "name": "Сфера",
+    "aliases": ["Сфера"],
+    "current": false,
+    "logo": "banks/ccd88a9e8d0cbb92.webp"
+  },
+  {
+    "id": "4af4e2122324b08c",
+    "name": "СЭБ",
+    "aliases": ["АО \"СЭБ Банк\"", "СЭБ"],
+    "current": true,
+    "registrationNumber": "3235",
+    "logo": "banks/4af4e2122324b08c.webp"
+  },
+  {
+    "id": "0940401102b8a3fe",
+    "name": "Т-Банк",
+    "aliases": [
+      "АО \"ТБанк\"",
+      "Т-Банк",
+      "Т‑Банк",
+      "ТБанк",
+      "Тиньков",
+      "Тинькофф",
+      "Тинькофф Банк",
+      "T-Bank",
+      "Tinkoff"
+    ],
+    "current": true,
+    "registrationNumber": "2673",
+    "logo": "banks/0940401102b8a3fe.webp"
+  },
+  {
+    "id": "3a90666d89aa1ca0",
+    "name": "Т2 card (Банк Пэйджин)",
+    "aliases": ["Т2 card (Банк Пэйджин)"],
+    "current": false,
+    "logo": "banks/3a90666d89aa1ca0.webp"
+  },
+  {
+    "id": "6323352ea6e02aa5",
+    "name": "Таврический",
+    "aliases": ["Таврический"],
+    "current": false,
+    "logo": "banks/6323352ea6e02aa5.webp"
+  },
+  {
+    "id": "74d995f112b7ef50",
+    "name": "Таганрогбанк",
+    "aliases": ["АО \"Таганрогбанк\""],
+    "current": true,
+    "registrationNumber": "3136",
+    "logo": "banks/74d995f112b7ef50.webp"
+  },
+  {
+    "id": "7f891bc3703172fb",
+    "name": "ТАТСОЦБАНК",
+    "aliases": ["АО \"ТАТСОЦБАНК\"", "Татсоцбанк", "ТАТСОЦБАНК"],
+    "current": true,
+    "registrationNumber": "480",
+    "logo": "banks/7f891bc3703172fb.webp"
+  },
+  {
+    "id": "06fb5b50fc967b9d",
+    "name": "Твои Платежи",
+    "aliases": ["Твои Платежи"],
+    "current": false,
+    "logo": "banks/06fb5b50fc967b9d.webp"
+  },
+  {
+    "id": "3642848a418c029f",
+    "name": "ТелеПорт Банк",
+    "aliases": ["АО «ТелеПорт Банк»"],
+    "current": true,
+    "registrationNumber": "1052",
+    "logo": "banks/3642848a418c029f.webp"
+  },
+  {
+    "id": "a9979c698f7b81fe",
+    "name": "Тимер Банк",
+    "aliases": ["АО \"Тимер Банк\"", "Тимер Банк"],
+    "current": true,
+    "registrationNumber": "1581",
+    "logo": "banks/a9979c698f7b81fe.webp"
+  },
+  {
+    "id": "f9ff13ca7fc1641b",
+    "name": "ТКБ",
+    "aliases": ["ТКБ", "ТКБ БАНК", "ТКБ БАНК ПАО", "Транскапиталбанк"],
+    "current": true,
+    "registrationNumber": "2210",
+    "logo": "banks/f9ff13ca7fc1641b.webp"
+  },
+  {
+    "id": "8260b692bcf1a7ca",
+    "name": "Тойота Банк",
+    "aliases": ["АО \"Тойота Банк\"", "Тойота", "Тойота Банк"],
+    "current": true,
+    "registrationNumber": "3470",
+    "logo": "banks/8260b692bcf1a7ca.webp"
+  },
+  {
+    "id": "9e9afb2363917768",
+    "name": "Тольяттихимбанк",
+    "aliases": ["АО \"Тольяттихимбанк\"", "Тольяттихимбанк"],
+    "current": true,
+    "registrationNumber": "2507",
+    "logo": "banks/9e9afb2363917768.webp"
+  },
+  {
+    "id": "85a92d7e7adc4b9f",
+    "name": "Томскпромстройбанк",
+    "aliases": ["ПАО \"Томскпромстройбанк\"", "Томскпромстройбанк"],
+    "current": true,
+    "registrationNumber": "1720",
+    "logo": "banks/85a92d7e7adc4b9f.webp"
+  },
+  {
+    "id": "e967fdb1eb115395",
+    "name": "Точка",
+    "aliases": ["Банк Точка", "ООО \"Банк Точка\"", "Точка", "Tochka"],
+    "current": true,
+    "registrationNumber": "3545",
+    "logo": "banks/e967fdb1eb115395.webp"
+  },
+  {
+    "id": "53da8cecdf6b3f8b",
+    "name": "Траст",
+    "aliases": ["Банк \"ТРАСТ\" (ПАО)", "Траст"],
+    "current": true,
+    "registrationNumber": "3279",
+    "logo": "banks/53da8cecdf6b3f8b.webp"
+  },
+  {
+    "id": "b5a2cb1885e2eee1",
+    "name": "УБРиР",
+    "aliases": [
+      "КБ УБРиР",
+      "ПАО КБ \"УБРиР\"",
+      "УБРиР",
+      "Уральский банк реконструкции и развития",
+      "UBRR"
+    ],
+    "current": true,
+    "registrationNumber": "429",
+    "logo": "banks/b5a2cb1885e2eee1.webp"
+  },
+  {
+    "id": "850a04abaf0b587d",
+    "name": "Углеметбанк",
+    "aliases": ["АО \"Углеметбанк\"", "Углеметбанк"],
+    "current": true,
+    "registrationNumber": "2997",
+    "logo": "banks/850a04abaf0b587d.webp"
+  },
+  {
+    "id": "3dff36fb0ce36e17",
+    "name": "УКБ Белгородсоцбанк",
+    "aliases": ["АО УКБ \"Белгородсоцбанк\"", "УКБ Белгородсоцбанк"],
+    "current": true,
+    "registrationNumber": "760",
+    "logo": "banks/3dff36fb0ce36e17.webp"
+  },
+  {
+    "id": "603940b11cb2bfea",
+    "name": "УКБ Новобанк",
+    "aliases": ["Новобанк", "ПАО УКБ \"Новобанк\"", "УКБ Новобанк"],
+    "current": true,
+    "registrationNumber": "1352",
+    "logo": "banks/603940b11cb2bfea.webp"
+  },
+  {
+    "id": "38cd0fff24d1f824",
+    "name": "Унифондбанк",
+    "aliases": ["ООО \"Унифондбанк\""],
+    "current": true,
+    "registrationNumber": "3416",
+    "logo": "banks/38cd0fff24d1f824.webp"
+  },
+  {
+    "id": "df7ee15504533f91",
+    "name": "Урал ФД",
+    "aliases": ["АО КБ \"Урал ФД\"", "Урал ФД"],
+    "current": true,
+    "registrationNumber": "249",
+    "logo": "banks/df7ee15504533f91.webp"
+  },
+  {
+    "id": "c041da5d55ccfc8b",
+    "name": "УРАЛПРОМБАНК",
+    "aliases": ["АО \"УРАЛПРОМБАНК\"", "УралПромБанк", "УРАЛПРОМБАНК"],
+    "current": true,
+    "registrationNumber": "2964",
+    "logo": "banks/c041da5d55ccfc8b.webp"
+  },
+  {
+    "id": "57271698933644ef",
+    "name": "Уралсиб",
+    "aliases": ["БАНК УРАЛСИБ", "ПАО \"БАНК УРАЛСИБ\"", "Уралсиб", "Uralsib"],
+    "current": true,
+    "registrationNumber": "2275",
+    "logo": "banks/57271698933644ef.webp"
+  },
+  {
+    "id": "a92e9735268ca85c",
+    "name": "Уралфинанс",
+    "aliases": ["ООО КБ \"Уралфинанс\"", "Уралфинанс"],
+    "current": true,
+    "registrationNumber": "1370",
+    "logo": "banks/a92e9735268ca85c.webp"
+  },
+  {
+    "id": "501902558767de41",
+    "name": "Ури",
+    "aliases": ["АО \"Ури Банк\"", "Ури"],
+    "current": true,
+    "registrationNumber": "3479",
+    "logo": "banks/501902558767de41.webp"
+  },
+  {
+    "id": "7098f8435f80cae9",
+    "name": "ФИНСТАР БАНК",
+    "aliases": ["ПАО ФИНСТАР БАНК", "ФИНСТАР БАНК"],
+    "current": true,
+    "registrationNumber": "3245",
+    "logo": "banks/7098f8435f80cae9.webp"
+  },
+  {
+    "id": "ce9e80d3f8bfc15b",
+    "name": "ФФИН Банк",
+    "aliases": ["ФФИН Банк"],
+    "current": false,
+    "logo": "banks/ce9e80d3f8bfc15b.webp"
+  },
+  {
+    "id": "c0b7aa3eb2426ae3",
+    "name": "Хайс Банк",
+    "aliases": ["Хайс", "Хайс Банк"],
+    "current": false,
+    "logo": "banks/c0b7aa3eb2426ae3.webp"
+  },
+  {
+    "id": "7677fb8107b9aa78",
+    "name": "Хакасский муниципальный банк",
+    "aliases": ["ООО \"Хакасский муниципальный банк\"", "Хакасский муниципальный банк"],
+    "current": true,
+    "registrationNumber": "1049",
+    "logo": "banks/7677fb8107b9aa78.webp"
+  },
+  {
+    "id": "c91a129f5990482a",
+    "name": "Химик",
+    "aliases": ["Комбанк Химик", "ПАО Комбанк \"Химик\"", "Химик"],
+    "current": true,
+    "registrationNumber": "1114",
+    "logo": "banks/c91a129f5990482a.webp"
+  },
+  {
+    "id": "143767cba32f7744",
+    "name": "ХКФ Банк",
+    "aliases": ["ХКФ Банк"],
+    "current": false,
+    "logo": "banks/143767cba32f7744.webp"
+  },
+  {
+    "id": "089a5dbee38ad9da",
+    "name": "Холмск",
+    "aliases": ["Холмск"],
+    "current": false,
+    "logo": "banks/089a5dbee38ad9da.webp"
+  },
+  {
+    "id": "99881de42a241068",
+    "name": "ЦентроКредит",
+    "aliases": ["АО АКБ \"ЦентроКредит\"", "ЦентроКредит"],
+    "current": true,
+    "registrationNumber": "121",
+    "logo": "banks/99881de42a241068.webp"
+  },
+  {
+    "id": "da20738bcf1544be",
+    "name": "Цифра Банк",
+    "aliases": [
+      "ООО \"Цифра банк\"",
+      "Фридом Финанс",
+      "Цифра",
+      "Цифра банк",
+      "Цифра Банк",
+      "Freedom Finance"
+    ],
+    "current": true,
+    "registrationNumber": "1143",
+    "logo": "banks/da20738bcf1544be.webp"
+  },
+  {
+    "id": "217926ac2a7f9436",
+    "name": "ЦМРБанк",
+    "aliases": ["ЦМРБанк", "ЦМРБанк (ООО)"],
+    "current": true,
+    "registrationNumber": "3531",
+    "logo": "banks/217926ac2a7f9436.webp"
+  },
+  {
+    "id": "11156362895d42da",
+    "name": "Чайна Констракшн Банк",
+    "aliases": ["ООО \"Чайна Констракшн Банк\""],
+    "current": true,
+    "registrationNumber": "3515"
+  },
+  {
+    "id": "05ba755d5e6c260a",
+    "name": "Чайнасельхозбанк",
+    "aliases": ["ООО \"Чайнасельхозбанк\"", "Чайнасельхозбанк"],
+    "current": true,
+    "registrationNumber": "3529",
+    "logo": "banks/05ba755d5e6c260a.webp"
+  },
+  {
+    "id": "91043aff9398229d",
+    "name": "ЧЕЛИНДБАНК",
+    "aliases": ["ПАО \"ЧЕЛИНДБАНК\"", "Челиндбанк", "ЧЕЛИНДБАНК"],
+    "current": true,
+    "registrationNumber": "485",
+    "logo": "banks/91043aff9398229d.webp"
+  },
+  {
+    "id": "9981b2348fec0514",
+    "name": "ЧЕЛЯБИНВЕСТБАНК",
+    "aliases": ["ПАО \"ЧЕЛЯБИНВЕСТБАНК\"", "Челябинвестбанк", "ЧЕЛЯБИНВЕСТБАНК"],
+    "current": true,
+    "registrationNumber": "493",
+    "logo": "banks/9981b2348fec0514.webp"
+  },
+  {
+    "id": "e09dfda82c598d6a",
+    "name": "Эйч-эс-би-си",
+    "aliases": ["Эйч-эс-би-си"],
+    "current": false,
+    "logo": "banks/e09dfda82c598d6a.webp"
+  },
+  {
+    "id": "891dacd33a2fee82",
+    "name": "ЭКО-ИНВЕСТ",
+    "aliases": ["ООО КБ \"ЭКО-ИНВЕСТ\""],
+    "current": true,
+    "registrationNumber": "3116",
+    "logo": "banks/891dacd33a2fee82.webp"
+  },
+  {
+    "id": "d3ee48c2ecb3311a",
+    "name": "Экономбанк",
+    "aliases": ["АО \"Экономбанк\"", "Экономбанк"],
+    "current": true,
+    "registrationNumber": "1319",
+    "logo": "banks/d3ee48c2ecb3311a.webp"
+  },
+  {
+    "id": "d5b66853342708a0",
+    "name": "Экси-банк",
+    "aliases": ["Экси-банк", "ЭКСИ-Банк (АО)"],
+    "current": true,
+    "registrationNumber": "2530",
+    "logo": "banks/d5b66853342708a0.webp"
+  },
+  {
+    "id": "35bfc0d46709bf11",
+    "name": "Экспобанк",
+    "aliases": ["АО \"Экспобанк\"", "Экспобанк"],
+    "current": true,
+    "registrationNumber": "2998",
+    "logo": "banks/35bfc0d46709bf11.webp"
+  },
+  {
+    "id": "8bfcedd0ef687d8b",
+    "name": "Элексир",
+    "aliases": ["Элексир"],
+    "current": false,
+    "logo": "banks/8bfcedd0ef687d8b.webp"
+  },
+  {
+    "id": "825bf569fe736d66",
+    "name": "Элекснет",
+    "aliases": ["Элекснет"],
+    "current": false,
+    "logo": "banks/825bf569fe736d66.webp"
+  },
+  {
+    "id": "0e2a24faf0a99ffd",
+    "name": "ЭЛПЛАТ",
+    "aliases": ["ПНКО ЭЛПЛАТ", "ЭЛПЛАТ"],
+    "current": false,
+    "logo": "banks/0e2a24faf0a99ffd.webp"
+  },
+  {
+    "id": "8de1dc86fa142587",
+    "name": "Эм-Ю-Эф-Джи",
+    "aliases": ["АО \"Эм-Ю-Эф-Джи Банк (Евразия)\"", "Эм-Ю-Эф-Джи", "Эм-Ю-Эф-Джи Банк (Евразия)"],
+    "current": true,
+    "registrationNumber": "3465",
+    "logo": "banks/8de1dc86fa142587.webp"
+  },
+  {
+    "id": "4088d3cb5cf881fe",
+    "name": "Энергомашбанк",
+    "aliases": ["Энергомашбанк"],
+    "current": false,
+    "logo": "banks/4088d3cb5cf881fe.webp"
+  },
+  {
+    "id": "9a31e88ebfccb85e",
+    "name": "Эс-Би-Ай Банк",
+    "aliases": ["Эс-Би-Ай", "Эс-Би-Ай Банк", "Эс-Би-Ай Банк ООО"],
+    "current": true,
+    "registrationNumber": "3185",
+    "logo": "banks/9a31e88ebfccb85e.webp"
+  },
+  {
+    "id": "ea055e357cb9e37c",
+    "name": "Ю Би Эс",
+    "aliases": ["ООО \"Ю Би Эс Банк\"", "Ю Би Эс"],
+    "current": true,
+    "registrationNumber": "3463",
+    "logo": "banks/ea055e357cb9e37c.webp"
+  },
+  {
+    "id": "bcc927946dff13db",
+    "name": "ЮГ-Инвестбанк",
+    "aliases": ["ЮГ-Инвестбанк", "ЮГ-Инвестбанк (ПАО)"],
+    "current": true,
+    "registrationNumber": "2772",
+    "logo": "banks/bcc927946dff13db.webp"
+  },
+  {
+    "id": "565ad7f3e6759bfe",
+    "name": "ЮМани",
+    "aliases": ["НКО ЮМани", "ЮМани"],
+    "current": false,
+    "logo": "banks/565ad7f3e6759bfe.webp"
+  },
+  {
+    "id": "857a1543bcb97deb",
+    "name": "ЮниКредит Банк",
+    "aliases": [
+      "АО ЮниКредит Банк",
+      "Юникредит",
+      "ЮниКредит",
+      "ЮниКредит Банк",
+      "UniCredit",
+      "UniCredit Bank"
+    ],
+    "current": true,
+    "registrationNumber": "1",
+    "logo": "banks/857a1543bcb97deb.webp"
+  },
+  {
+    "id": "28c056ccef520c33",
+    "name": "ЮСиЭс",
+    "aliases": ["ЮСиЭс"],
+    "current": false,
+    "logo": "banks/28c056ccef520c33.webp"
+  },
+  {
+    "id": "4004cf5948d3add3",
+    "name": "Яндекс Банк",
+    "aliases": [
+      "АО \"Яндекс Банк\"",
+      "Яндекс",
+      "Яндекс Банк",
+      "Яндекс Пэй",
+      "Yandex",
+      "Yandex Bank",
+      "Yandex Pay"
+    ],
+    "current": true,
+    "registrationNumber": "3027",
+    "logo": "banks/4004cf5948d3add3.webp"
+  },
+  {
+    "id": "c29a895617e47ad2",
+    "name": "NUUM",
+    "aliases": ["NUUM"],
+    "current": false,
+    "logo": "banks/c29a895617e47ad2.webp"
+  },
+  {
+    "id": "781d2352970fd875",
+    "name": "Ozon Банк",
+    "aliases": [
+      "Озон",
+      "Озон Банк",
+      "ОЗОН Банк",
+      "Озон Банк (Ozon)",
+      "ООО \"ОЗОН Банк\"",
+      "Ozon",
+      "Ozon Банк",
+      "Ozon Bank"
+    ],
+    "current": true,
+    "registrationNumber": "3542",
+    "logo": "banks/781d2352970fd875.webp"
+  },
+  {
+    "id": "9a84a81eaec39144",
+    "name": "Ozon.Card",
+    "aliases": ["Ozon.Card"],
+    "current": false,
+    "logo": "banks/9a84a81eaec39144.webp"
+  },
+  {
+    "id": "386341b39f482ef2",
+    "name": "Qplus (ЕВРОАЛЬЯНС Банк)",
+    "aliases": ["Qplus (ЕВРОАЛЬЯНС Банк)"],
+    "current": false,
+    "logo": "banks/386341b39f482ef2.webp"
+  },
+  {
+    "id": "437078e90a405042",
+    "name": "TalkBank",
+    "aliases": ["TalkBank"],
+    "current": false,
+    "logo": "banks/437078e90a405042.webp"
+  },
+  {
+    "id": "0d478d0b0d5249c3",
+    "name": "VK Pay",
+    "aliases": ["VK Pay"],
+    "current": false,
+    "logo": "banks/0d478d0b0d5249c3.webp"
+  },
+  {
+    "id": "3b45022ab36728cd",
+    "name": "WB Банк",
+    "aliases": [
+      "Вайлдберриз",
+      "Вайлдберриз Банк",
+      "ВБ Банк",
+      "ВБ Банк (Вайлдберриз банк)",
+      "ООО \"ВБ Банк\"",
+      "WB",
+      "WB Банк",
+      "Wildberries"
+    ],
+    "current": true,
+    "registrationNumber": "841",
+    "logo": "banks/3b45022ab36728cd.webp"
+  },
+  {
+    "id": "b83e2c40451c79bc",
+    "name": "WebMoney",
+    "aliases": ["WebMoney"],
+    "current": false,
+    "logo": "banks/b83e2c40451c79bc.webp"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "name": "aubenia",
+  "version": "1.0.0",
+  "description": "Aubenia — категории кэшбека всех ваших банков в одном приложении",
+  "type": "module",
+  "scripts": {
+    "assets:prepare": "node scripts/vendor/prepare.mjs && node scripts/ocr/prepare.mjs && node scripts/legal/prepare.mjs",
+    "postinstall": "npm run assets:prepare",
+    "predev": "npm run assets:prepare",
+    "dev": "vite --host 0.0.0.0",
+    "build": "npm run assets:prepare && tsc --noEmit && vite build && node scripts/legal/check.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:fixtures": "node scripts/ocr/generate-fixtures.mjs",
+    "pretest:ocr": "npm run assets:prepare",
+    "test:ocr": "node scripts/ocr/check.mjs",
+    "format": "prettier --write src scripts tests public/legal/*.html public/legal/style.css vite.config.ts index.html package.json tsconfig.json README.md AGENTS.md",
+    "banks:sync": "node scripts/banks/sync-catalog.mjs",
+    "banks:apps:sync": "node scripts/banks/sync-apps.mjs",
+    "format:check": "prettier --check src scripts tests public/legal/*.html public/legal/style.css vite.config.ts index.html package.json tsconfig.json README.md AGENTS.md",
+    "typecheck": "tsc --noEmit",
+    "legal:prepare": "node scripts/legal/prepare.mjs",
+    "vendor:prepare": "node scripts/vendor/prepare.mjs",
+    "test:licenses": "node scripts/legal/check.mjs",
+    "seo:render": "node scripts/seo/render-social-card.mjs"
+  },
+  "dependencies": {
+    "heic-to": "1.6.6",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^5.0.4",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.9.10",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^5.0.5",
+    "@tesseract.js-data/eng": "1.0.0",
+    "@tesseract.js-data/rus": "1.0.0"
+  },
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "private": true
+}

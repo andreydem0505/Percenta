@@ -1,0 +1,7 @@
+@import '../shared/styles/base.css';
+@import '../shared/styles/controls.css';
+@import '../features/offers/components/offers.css';
+@import '../features/banks/components/banks.css';
+@import '../features/recognition/components/recognition.css';
+@import '../features/backup/components/backup.css';
+@import './shell.css';

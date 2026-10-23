@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="robots" content="noindex,follow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Aubenia — компоненты и лицензии</title>
+    <link rel="stylesheet" href="/legal/style.css" />
+  </head>
+  <body>
+    <main>
+      <a href="/">← Aubenia</a>
+      <h1>Компоненты и лицензии</h1>
+      <p>
+        Aubenia использует открытые библиотеки. Их условия не ограничиваются лицензией приложения и
+        не распространяются на банковские знаки.
+      </p>
+      <ul>
+        <li><a href="/legal/third-party.txt">Полные тексты лицензий и уведомления авторов</a></li>
+        <li>
+          <a href="/legal/vendor-manifest.json"
+            >Версии, источники, контрольные суммы и состав поставки</a
+          >
+        </li>
+      </ul>
+      <h2>Шрифт</h2>
+      <p>
+        Onest — Copyright 2021 The Onest Project Authors. Шрифт размещён локально и используется по
+        <a href="/legal/licenses/onest-OFL.txt">SIL Open Font License 1.1</a>.
+      </p>
+      <h2>Распознавание текста</h2>
+      <p>
+        Tesseract.js и Tesseract.js-core используются по Apache-2.0. Сохранены уведомления
+        встроенного браузерного worker и библиотек Leptonica, libjpeg, giflib, libpng, libtiff,
+        libwebp, zlib, OpenLibm и других компонентов. Версии исходников нативных библиотек
+        определены по сборочной конфигурации tesseract.js-core 6.1.2.
+      </p>
+      <p>
+        Русская и английская модели совпадают с файлами проекта naptha/tessdata на зафиксированной
+        версии: при сборке проверяются SHA-256 и Git blob SHA-1. На поставляемые модели
+        распространяется
+        <a href="/legal/licenses/tessdata-Apache-2.0.txt">Apache-2.0 исходного набора</a>.
+        npm-обёртки языковых данных используются только при подготовке сборки.
+      </p>
+      <h2>HEIC и LGPL</h2>
+      <p>
+        Конвертер heic-to 1.6.6 (Hopper Gee) использует libheif 1.23.6 и libde265 1.0.16 (Dirk
+        Farin, struktur AG и участники проектов). Применяются оригинальные условия LGPL-3.0 или
+        более поздней версии, если это указано правообладателем. Компоненты предоставляются без
+        гарантии в пределах этих лицензий.
+      </p>
+      <p>
+        HEIC-модуль поставляется отдельным файлом и загружается только при открытии HEIC. Он
+        заменяется совместимой изменённой версией без пересборки основного приложения. В браузере
+        нет проверки подписи или хеша, запрещающей такую замену. Разрешены модификация и обратная
+        разработка для отладки таких изменений.
+      </p>
+      <ul>
+        <li>
+          <a href="/legal/heic-replacement.txt"
+            >Исходники, инструкция замены и разрешение для интеграции</a
+          >
+        </li>
+        <li>
+          <a href="/legal/licenses/libheif-LGPL-3.0.txt">LGPL-3.0 и GPL-3.0 (libheif)</a>;
+          <a href="/legal/licenses/libde265-LGPL-3.0.txt">лицензия libde265</a>
+        </li>
+        <li><a href="/legal/sources/heic-to-1.6.6.tar.gz">Исходники heic-to 1.6.6</a></li>
+        <li><a href="/legal/sources/libheif-1.23.6.tar.gz">Исходники libheif 1.23.6</a></li>
+        <li><a href="/legal/sources/libde265-1.0.16.tar.gz">Исходники libde265 1.0.16</a></li>
+      </ul>
+      <h2>Банковские названия и изображения</h2>
+      <p>
+        Названия и логотипы служат для идентификации банков в личных записях. Они принадлежат
+        соответствующим владельцам. Aubenia не представляет банки и не заявляет партнёрства с ними.
+      </p>
+      <p>
+        Библиотечные лицензии MIT/Apache/LGPL не дают разрешения на банковские логотипы. Публичный
+        URL картинки и лицензия сторонней коллекции также не подтверждают права владельца знака для
+        этого сценария. Логотипы сохранены по решению владельца проекта; разрешения на весь набор не
+        подтверждены.
+      </p>
+      <p>
+        <a href="/legal/bank-image-rights.json"
+          >Источники всех изображений и результаты проверки разрешений</a
+        >. Для Т-Банка
+        <a href="https://www.tbank.ru/about/brand/" rel="noreferrer">официальная страница бренда</a>
+        предлагает обращаться за разрешением на media@tbank.ru; другая коллекция это требование не
+        отменяет.
+      </p>
+      <p><a href="/legal/privacy.html">Данные и приватность</a></p>
+    </main>
+  </body>
+</html>

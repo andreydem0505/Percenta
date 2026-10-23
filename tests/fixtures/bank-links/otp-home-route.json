@@ -1,0 +1,31 @@
+{
+  "retrievedAt": "2026-10-23",
+  "associationUrl": "https://app-site-association.cdn-apple.com/a/v1/online.otpbank.ru",
+  "bundleUrl": "https://online.otpbank.ru/static/js/main.c26ac852.js",
+  "nativeBaseOnly": "otp://ru.otpbank.mobile",
+  "entryPath": "/mobile-bank",
+  "withoutTokenDestination": "/dashboard",
+  "routingExcerpt": "Ga=({location:t})=>{const r=(0,Gt.P3)(t.search,\"token\");return(0,e.jsx)(se.rd,{to:r?`/profile/personal?phoneToken=${r}`:\"/dashboard\"})}",
+  "verification": "Historical Apple association and web routing did not produce native launch on the user iPhone. Use the native base scheme known to launch that installed app, with /toMain from the official Android route registry. iOS path support and actual successful launch are not yet confirmed.",
+  "universalLinkDeviceResult": "User reports /mobile-bank opens the bank website instead of the installed iPhone app. Do not use as the app-launch button.",
+  "nativeRouteEvidence": {
+    "catalogUrl": "https://www.rustore.ru/catalog/app/ru.otpbank.mobile",
+    "downloadMetadataEndpoint": "https://backapi.rustore.ru/applicationData/download-link",
+    "appId": 2063522214,
+    "versionName": "2.19.1-gms",
+    "versionCode": 202610071,
+    "archiveUrl": "https://static.rustore.ru/2026/10/7/23/d2ec8d5f-5d55-4bce-98b8-2ea5862c12cb.zip",
+    "apkEntry": "9665540a-c251-4449-8cac-f93aac0bb1c1.apk",
+    "apkSha256": "c448da9128b7b85292538951e15fd1f13df2a4e0e8ae73eaf1daaabed2680599",
+    "dexEntry": "classes5.dex",
+    "dexSha256": "98d22380505b52e3136a302e40bd1466f79b8eb897ae05da43b433c1ecfa90d0",
+    "registryClass": "Lhi7;",
+    "registryMethod": "<clinit>",
+    "codeItemOffsetHex": "0x1cf158",
+    "route": "/toMain",
+    "processorName": "MainDeeplinkProcessor",
+    "nativeBaseConstant": "otp://ru.otpbank.mobile/",
+    "nativeBaseDexEntry": "classes4.dex",
+    "verification": "Static inspection of the bank-published Android APK, downloaded from RuStore. ZIP entries CRC checked by extraction; app was never installed or executed. Native iOS scheme opening is confirmed by user, but support of /toMain on iOS is inferred from the bank Android route catalog and remains unverified on a physical iPhone."
+  }
+}

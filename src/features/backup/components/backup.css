@@ -1,0 +1,67 @@
+.backup-content,
+.backup-section {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-width: 0;
+}
+.backup-content {
+  gap: 22px;
+}
+.backup-section + .backup-section {
+  border-top: 1px solid var(--border);
+  padding-top: 20px;
+}
+.backup-section h3 {
+  font-size: 15px;
+}
+.backup-section p {
+  font-size: 12px;
+  line-height: 1.65;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.backup-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.backup-filename {
+  font-weight: 600;
+}
+.backup-offers {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  max-height: 200px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.backup-offers li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  font-size: 12px;
+}
+.backup-offers li + li {
+  border-top: 1px solid var(--border);
+}
+.backup-offers li > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.backup-offers span {
+  color: var(--muted);
+}
+.backup-offers b {
+  flex-shrink: 0;
+  color: var(--ink);
+}

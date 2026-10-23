@@ -1,0 +1,22 @@
+{
+  "appclips": {
+    "apps": [
+      "64N8QBY7WN.ru.ozon.OzonStore.Clip",
+      "64N8QBY7WN.ru.ozon.OzonOnlineStoreDev.Clip",
+      "64N8QBY7WN.ru.ozon.OzonOnlineStoreBeta.Clip",
+      "29PJ6W9657.ru.ozon.fintech.finance.Clip"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      { "appID": "64N8QBY7WN.ru.ozon.OzonStore", "paths": ["/kh30/*"] },
+      { "appID": "64N8QBY7WN.ru.ozon.OzonOnlineStoreDev", "paths": ["/kh30/*"] },
+      { "appID": "64N8QBY7WN.ru.ozon.OzonOnlineStoreBeta", "paths": ["/kh30/*"] },
+      {
+        "appID": "29PJ6W9657.ru.ozon.fintech.finance",
+        "paths": ["/JbZg/*", "/3UyE/*", "/7LIK/*", "/KOYn/*", "/RDJP/*", "/aeYz/*"]
+      }
+    ]
+  }
+}

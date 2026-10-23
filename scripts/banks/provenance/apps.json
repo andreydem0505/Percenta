@@ -1,0 +1,133 @@
+{
+  "updatedAt": "2026-10-23T09:00:50.522Z",
+  "sources": {
+    "applications": "https://qr.nspk.ru/proxyapp/c2bmembers.json",
+    "websites": "https://www.cbr.ru/banking_sector/credit/cowebsites/"
+  },
+  "scope": "30 selected popular retail banks; not an asset ranking",
+  "verification": "Registered schemes/packages and official website domains checked; bare-root app handling requires physical-device testing.",
+  "iosOverrides": "src/features/banks/data/bank-apps-ios.json",
+  "iosVerification": "scripts/banks/provenance/ios-apps.json",
+  "members": [
+    {
+      "registrationNumber": "1481",
+      "sourceBankName": "Сбербанк"
+    },
+    {
+      "registrationNumber": "1000",
+      "sourceBankName": "Банк ВТБ"
+    },
+    {
+      "registrationNumber": "2673",
+      "sourceBankName": "Т-Банк"
+    },
+    {
+      "registrationNumber": "1326",
+      "sourceBankName": "АЛЬФА-БАНК"
+    },
+    {
+      "registrationNumber": "354",
+      "sourceBankName": "Газпромбанк"
+    },
+    {
+      "registrationNumber": "3251",
+      "sourceBankName": "Банк ПСБ"
+    },
+    {
+      "registrationNumber": "3349",
+      "sourceBankName": "РСХБ"
+    },
+    {
+      "registrationNumber": "963",
+      "sourceBankName": "Совкомбанк"
+    },
+    {
+      "registrationNumber": "1978",
+      "sourceBankName": "МОСКОВСКИЙ КРЕДИТНЫЙ БАНК"
+    },
+    {
+      "registrationNumber": "3292",
+      "sourceBankName": "Райффайзен Банк"
+    },
+    {
+      "registrationNumber": "2312",
+      "sourceBankName": "Банк ДОМ.РФ"
+    },
+    {
+      "registrationNumber": "3542",
+      "sourceBankName": "Озон Банк (Ozon)"
+    },
+    {
+      "registrationNumber": "3027",
+      "sourceBankName": "Яндекс"
+    },
+    {
+      "registrationNumber": "841",
+      "sourceBankName": "ВБ Банк (Вайлдберриз банк)"
+    },
+    {
+      "registrationNumber": "2268",
+      "sourceBankName": "МТС-Банк"
+    },
+    {
+      "registrationNumber": "2275",
+      "sourceBankName": "БАНК УРАЛСИБ"
+    },
+    {
+      "registrationNumber": "2590",
+      "sourceBankName": "АК БАРС БАНК"
+    },
+    {
+      "registrationNumber": "436",
+      "sourceBankName": "Банк Санкт-Петербург (БСПБ)"
+    },
+    {
+      "registrationNumber": "2766",
+      "sourceBankName": "ОТП Банк (OTP Bank)"
+    },
+    {
+      "registrationNumber": "429",
+      "sourceBankName": "КБ УБРиР"
+    },
+    {
+      "registrationNumber": "3354",
+      "sourceBankName": "Ренессанс Банк (Ренессанс Кредит)"
+    },
+    {
+      "registrationNumber": "2289",
+      "sourceBankName": "Банк Русский Стандарт"
+    },
+    {
+      "registrationNumber": "1",
+      "sourceBankName": "ЮниКредит Банк"
+    },
+    {
+      "registrationNumber": "3255",
+      "sourceBankName": "Банк ЗЕНИТ"
+    },
+    {
+      "registrationNumber": "2546",
+      "sourceBankName": "Банк НОВИКОМ (НОВИКОМБАНК)"
+    },
+    {
+      "registrationNumber": "705",
+      "sourceBankName": "Банк Синара"
+    },
+    {
+      "registrationNumber": "2306",
+      "sourceBankName": "АКБ Абсолют Банк"
+    },
+    {
+      "registrationNumber": "101",
+      "sourceBankName": "БКС Банк"
+    },
+    {
+      "registrationNumber": "1810",
+      "sourceBankName": "Азиатско-Тихоокеанский Банк"
+    },
+    {
+      "registrationNumber": "2307",
+      "sourceBankName": "Инго Банк"
+    }
+  ]
+}

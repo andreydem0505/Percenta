@@ -1,0 +1,317 @@
+.upload-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: -7px;
+  margin-bottom: 1px;
+}
+.upload-steps > span:not(.step-line) {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.upload-steps i {
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: var(--surface-muted);
+  font-size: 9px;
+  font-style: normal;
+}
+.upload-steps .current,
+.upload-steps .complete {
+  color: var(--accent-dark);
+}
+.upload-steps .current i,
+.upload-steps .complete i {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
+}
+.step-line {
+  height: 1px;
+  width: 42px;
+  background: var(--border);
+}
+.file-drop {
+  min-height: 202px;
+  border: 1.5px dashed var(--border-strong);
+  border-radius: var(--radius);
+  background: var(--paper);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  padding: 20px;
+  color: var(--muted);
+  transition: background 0.2s;
+}
+.file-drop:hover,
+.file-drop.dragging {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+}
+.file-drop strong {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.file-drop > span:not(.upload-icon) {
+  font-size: 11px;
+}
+.file-drop small {
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 5px;
+}
+.upload-icon {
+  width: 49px;
+  height: 49px;
+  display: grid;
+  place-items: center;
+  background: var(--surface-muted);
+  border-radius: var(--radius);
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+.privacy-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  line-height: 1.6;
+}
+.image-preview {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--paper);
+  text-align: center;
+}
+.image-preview > img {
+  max-width: 100%;
+  max-height: 280px;
+  display: block;
+  margin: auto;
+  object-fit: contain;
+}
+.preview-filename {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 10px;
+  color: var(--muted);
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 0 12px;
+  min-height: 44px;
+  text-align: left;
+}
+.preview-filename > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.preview-filename > .icon-button {
+  margin-left: auto;
+  margin-right: -8px;
+}
+.review-preview > img {
+  max-height: 150px;
+}
+.recognition-progress {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 5px;
+  text-align: center;
+  color: var(--ink);
+}
+.recognition-progress strong {
+  font-size: 13px;
+  margin-top: 13px;
+}
+.recognition-progress p {
+  font-size: 10px;
+  color: var(--muted);
+  line-height: 1.6;
+  margin-top: 9px;
+}
+.recognition-progress progress {
+  width: 100%;
+  height: 7px;
+  border: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 20px;
+  appearance: none;
+  background: var(--surface-muted);
+}
+.recognition-progress progress::-webkit-progress-bar {
+  background: var(--surface-muted);
+}
+.recognition-progress progress::-webkit-progress-value {
+  background: var(--accent);
+  border-radius: 5px;
+  transition: width 0.2s;
+}
+.recognition-progress progress::-moz-progress-bar {
+  background: var(--accent);
+  border-radius: 5px;
+}
+.recognition-progress .button {
+  margin-top: 20px;
+  font-size: 11px;
+}
+.spin {
+  animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.review-intro {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  border-radius: var(--radius);
+  background: var(--paper);
+  padding: 13px;
+  color: var(--ink);
+}
+.review-intro > svg {
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+.review-intro strong {
+  font-size: 12px;
+}
+.review-intro p {
+  font-size: 10px;
+  line-height: 1.7;
+  margin-top: 5px;
+  color: var(--muted);
+}
+.draft-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 100px 44px;
+  gap: 10px;
+  align-items: end;
+}
+.draft-row .delete-draft {
+  min-width: 44px;
+  min-height: 46px;
+}
+.draft-row .field > span {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.check-label {
+  font-size: 8px;
+  font-weight: 400;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  padding: 3px 5px;
+  border-radius: 4px;
+}
+.uncertain .field > input,
+.uncertain .percent-input {
+  border-color: var(--accent);
+}
+.add-row {
+  align-self: flex-start;
+  font-size: 10px;
+  min-height: 44px;
+}
+@media (max-width: 560px) {
+  .file-drop {
+    min-height: 190px;
+  }
+  .upload-actions {
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
+  .upload-actions > .button {
+    flex: 1;
+    padding: 12px 10px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .upload-actions > .button > svg {
+    width: 15px;
+  }
+  .privacy-note {
+    font-size: 8px;
+  }
+  .draft-row {
+    gap: 7px;
+  }
+  .draft-row .field {
+    font-size: 10px;
+  }
+  .draft-row .percent-input {
+    padding-right: 8px;
+  }
+  .draft-row .percent-input input {
+    padding: 10px 8px;
+  }
+  .check-label {
+    font-size: 7px;
+  }
+  .image-preview > img {
+    max-height: 240px;
+  }
+  .review-preview > img {
+    max-height: 130px;
+  }
+}
+@media (max-width: 360px) {
+  .upload-actions {
+    flex-direction: column-reverse;
+  }
+  .upload-actions > .button {
+    width: 100%;
+    font-size: 11px;
+  }
+  .draft-row {
+    gap: 8px;
+  }
+  .draft-row .delete-draft {
+    grid-column: 2;
+    justify-self: end;
+    min-width: 44px;
+    min-height: 44px;
+    margin-top: -4px;
+  }
+  .draft-row {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 5px;
+  }
+}
+@media (max-width: 560px) {
+  .draft-row {
+    grid-template-columns: minmax(0, 1fr) 77px 44px;
+  }
+  .draft-row .delete-draft {
+    min-width: 44px;
+  }
+}
+@media (max-width: 360px) {
+  .draft-row {
+    grid-template-columns: minmax(0, 1fr) 77px;
+  }
+}
+.privacy-note {
+  font-size: 11px;
+  color: var(--muted);
+}

@@ -1,0 +1,28 @@
+{
+  "extractedAt": "2026-10-23",
+  "catalogUrl": "https://appbank.pw/data/vtb.json",
+  "archiveUrl": "https://cdn.appbank.pw/ipa/28082026/1805.ipa",
+  "entry": "Payload/Sirius.app/Info.plist",
+  "zipEntryCrc32Verified": true,
+  "infoPlistSha256": "d84a595f9a868cb335fc3dc2b14f165abd1e18b1e9204c5569d7c883b63f1524",
+  "CFBundleDisplayName": "Сириус",
+  "CFBundleIdentifier": "com.sm.FlowTime",
+  "CFBundleShortVersionString": "2.0.1",
+  "CFBundleVersion": "110",
+  "CFBundleURLTypes": [
+    {
+      "CFBundleURLSchemes": ["sirius", "bank110000000005"]
+    }
+  ],
+  "verification": "Static metadata and embedded URL extracted from a public third-party archive; no app installed or executed. ZIP-entry CRC checked; bank/Apple signature and actual iPhone launch not verified. Registered sirius:// root was reported by the user to hang; it is not a supported launch result.",
+  "routeEvidence": {
+    "entry": "Payload/Sirius.app/Sirius",
+    "binarySha256": "4094071ee4544c5e7c909de15276cb992dc751b37d03f0572e21ae532a791413",
+    "urlString": {
+      "value": "sirius://siriusapp.com/i/welcomes",
+      "fileOffsetHex": "0xda2530"
+    },
+    "adjacentDecoderConstants": ["sirius", "/i", "bank110000000005", "siriusapp.com"],
+    "adjacentScreenId": "welcomes"
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-23",
+  "heic": {
+    "version": "1.6.6",
+    "libheif": "1.23.6",
+    "libde265": "1.0.16",
+    "module": "heic-to/dist/next/heic-to.js",
+    "moduleSha256": "aeac67d2c576f7758b889da7c59bb85507d3aed4d7bfad9bc24f83f67ad7fb93",
+    "upstreamDistributionMatchesNpm": true,
+    "recipeEvidence": "src/lib/libheif.js in heic-to-1.6.6.tar.gz names libheif 1.23.6 and LIBDE265_VERSION=1.0.16"
+  },
+  "sources": [
+    {
+      "name": "heic-to",
+      "version": "1.6.6",
+      "file": "sources/heic-to-1.6.6.tar.gz",
+      "url": "https://codeload.github.com/hoppergee/heic-to/tar.gz/refs/tags/v1.6.6",
+      "sha256": "dde825e195f61bb36e506581e222e1468e47a5633c08102fd7802e7f04b6380b"
+    },
+    {
+      "name": "libheif",
+      "version": "1.23.6",
+      "file": "sources/libheif-1.23.6.tar.gz",
+      "url": "https://codeload.github.com/strukturag/libheif/tar.gz/refs/tags/v1.23.6",
+      "sha256": "c9a00b0452f5c16d72ef71e5e40c0e90fbe2ad37148d27a1b2f9bb21546f5f03"
+    },
+    {
+      "name": "libde265",
+      "version": "1.0.16",
+      "file": "sources/libde265-1.0.16.tar.gz",
+      "url": "https://codeload.github.com/strukturag/libde265/tar.gz/refs/tags/v1.0.16",
+      "sha256": "ed12c931759c1575848832f70db5071a001ac813db4e4f568ee08aef6e234d4e"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "leptonica",
+      "file": "licenses/leptonica.txt",
+      "url": "https://raw.githubusercontent.com/DanBloomberg/leptonica/4af068b56a9674da915debea4ed7e1b9885b17e8/leptonica-license.txt",
+      "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806"
+    },
+    {
+      "name": "libjpeg",
+      "file": "licenses/libjpeg.txt",
+      "url": "https://raw.githubusercontent.com/LuaDist/libjpeg/6c0fcb8ddee365e7abc4d332662b06900612e923/README",
+      "sha256": "c791da525733040e622ed257c7b096b8f5191b332604ead0c6bc2b54cbd8e0d1"
+    },
+    {
+      "name": "giflib",
+      "file": "licenses/giflib.txt",
+      "url": "https://raw.githubusercontent.com/mirrorer/giflib/fa37672085ce4b3d62c51627ab3c8cf2dda8009a/COPYING",
+      "sha256": "0c9b7990ecdca88b676db232c226548ac408b279f550d424d996f0d83591dd8e"
+    },
+    {
+      "name": "libpng",
+      "file": "licenses/libpng.txt",
+      "url": "https://raw.githubusercontent.com/glennrp/libpng/a37d4836519517bdce6cb9d956092321eca3e73b/LICENSE",
+      "sha256": "33ba4e187d8b0c8d7ab2bc2e522bb095219e03089e9aa0122b4fb9eb2b7de82b"
+    },
+    {
+      "name": "libtiff",
+      "file": "licenses/libtiff.txt",
+      "url": "https://raw.githubusercontent.com/libsdl-org/libtiff/b51bb157123264e26d34c09cc673d213aea61fc7/COPYRIGHT",
+      "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+    },
+    {
+      "name": "libwebp",
+      "file": "licenses/libwebp.txt",
+      "url": "https://raw.githubusercontent.com/webmproject/libwebp/20ef03ee351d4ff03fc5ff3ec4804a879d1b9d5c/COPYING",
+      "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+    },
+    {
+      "name": "libwebp-PATENTS",
+      "file": "licenses/libwebp-PATENTS.txt",
+      "url": "https://raw.githubusercontent.com/webmproject/libwebp/20ef03ee351d4ff03fc5ff3ec4804a879d1b9d5c/PATENTS",
+      "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c"
+    },
+    {
+      "name": "openlibm",
+      "file": "licenses/openlibm.txt",
+      "url": "https://raw.githubusercontent.com/JuliaMath/openlibm/ae2d91698508701c83cab83714d42a1146dccf85/LICENSE.md",
+      "sha256": "b1843fbf5b03f519a5f0a44fce751bdd1022ae7148614923f9d6293e17a18b17"
+    },
+    {
+      "name": "zlib",
+      "file": "licenses/zlib.txt",
+      "url": "https://raw.githubusercontent.com/madler/zlib/21767c654d31d2dccdde4330529775c6c5fd5389/README",
+      "sha256": "fc2c3368901700f0acdeb1d8afeaca5923296768ec6824ecdf627aac396001fd"
+    },
+    {
+      "name": "tesseract-native",
+      "file": "licenses/tesseract-native.txt",
+      "url": "https://raw.githubusercontent.com/Balearica/tesseract/5a21eebeacd77dd181eec17317de7e3a20b7b9fb/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "name": "buffer",
+      "file": "licenses/buffer.txt",
+      "url": "https://raw.githubusercontent.com/feross/buffer/v6.0.3/LICENSE",
+      "sha256": "06bafa45fdad2579ba0e43b0c9b2c6290287c99c4203c300254a462b38a307f6"
+    },
+    {
+      "name": "ieee754",
+      "file": "licenses/ieee754.txt",
+      "url": "https://raw.githubusercontent.com/feross/ieee754/v1.2.1/LICENSE",
+      "sha256": "18d45466ba3253deae04667e267a91ea8de8548f18c1125264d1c9db28194cc1"
+    },
+    {
+      "name": "tr46-MIT",
+      "file": "licenses/tr46-MIT.txt",
+      "url": "https://raw.githubusercontent.com/jsdom/tr46/main/LICENSE.md",
+      "sha256": "499d6d466d064e0460427967a344e2a32fcb86ea8c6cd1a285ec4f1fa03fba67"
+    },
+    {
+      "name": "is-url",
+      "file": "licenses/is-url-MIT.txt",
+      "url": "https://raw.githubusercontent.com/segmentio/is-url/master/LICENSE-MIT",
+      "sha256": "80957b522b0ea4ce24290953d74d818220c804d1f42cad02b8d7da1c12ce1fc1"
+    },
+    {
+      "name": "tessdata",
+      "file": "licenses/tessdata-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/naptha/tessdata/806cd9adc8c6e8abc11c782db1818c990576bebc/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "name": "libheif",
+      "file": "licenses/libheif-LGPL-3.0.txt",
+      "url": "https://raw.githubusercontent.com/strukturag/libheif/v1.23.6/COPYING",
+      "sha256": "fa81ce652315b013359d6e8e4744335f31a50c7c192907176d3632f78a3b4596"
+    },
+    {
+      "name": "libde265",
+      "file": "licenses/libde265-LGPL-3.0.txt",
+      "url": "https://raw.githubusercontent.com/strukturag/libde265/v1.0.16/COPYING",
+      "sha256": "02cc1585a20677992e0ba578fa692635dc193735f2691dc81de924b51c4e8020"
+    },
+    {
+      "name": "Emscripten runtime",
+      "file": "licenses/emscripten.txt",
+      "url": "https://raw.githubusercontent.com/emscripten-core/emscripten/main/LICENSE",
+      "sha256": "620a78084fc7ca97c0b5dea9abf891f3ffcadfdbf305276f099c9c4e12fc1d86"
+    },
+    {
+      "name": "Onest (SIL Open Font License 1.1)",
+      "file": "licenses/onest-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/OFL.txt",
+      "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc"
+    }
+  ],
+  "models": [
+    {
+      "language": "eng",
+      "package": "@tesseract.js-data/eng",
+      "packageVersion": "1.0.0",
+      "file": "4.0.0_best_int/eng.traineddata.gz",
+      "sha256": "45b4cb346724ac1774f1c36f42f182b887bcdb28ebe63e6fff90ac41f3fcff91",
+      "source": "https://github.com/naptha/tessdata/blob/806cd9adc8c6e8abc11c782db1818c990576bebc/4.0.0_best_int/eng.traineddata.gz",
+      "license": "Apache-2.0",
+      "gitBlobSha1": "730a6a59010b9440e38dd85f9fe6b6bf0637e6eb"
+    },
+    {
+      "language": "rus",
+      "package": "@tesseract.js-data/rus",
+      "packageVersion": "1.0.0",
+      "file": "4.0.0_best_int/rus.traineddata.gz",
+      "sha256": "f51f5edc992249ff9b70a227b22f242dfa47b2b1bbc7ae0ea74908640c101f6a",
+      "source": "https://github.com/naptha/tessdata/blob/806cd9adc8c6e8abc11c782db1818c990576bebc/4.0.0_best_int/rus.traineddata.gz",
+      "license": "Apache-2.0",
+      "gitBlobSha1": "4d59d01e7731f97a1de1605ec1a212b67a9c9ce4"
+    }
+  ],
+  "ocr": {
+    "coreVersion": "6.1.2",
+    "coreCommit": "3d12e9b2d4e0e9e64bd0793e2c55b2d8f6404884",
+    "submodules": [
+      {
+        "path": "third_party/giflib",
+        "commit": "fa37672085ce4b3d62c51627ab3c8cf2dda8009a"
+      },
+      {
+        "path": "third_party/leptonica",
+        "commit": "4af068b56a9674da915debea4ed7e1b9885b17e8"
+      },
+      {
+        "path": "third_party/libjpeg",
+        "commit": "6c0fcb8ddee365e7abc4d332662b06900612e923"
+      },
+      {
+        "path": "third_party/libpng",
+        "commit": "a37d4836519517bdce6cb9d956092321eca3e73b"
+      },
+      {
+        "path": "third_party/libtiff",
+        "commit": "b51bb157123264e26d34c09cc673d213aea61fc7"
+      },
+      {
+        "path": "third_party/libwebp",
+        "commit": "20ef03ee351d4ff03fc5ff3ec4804a879d1b9d5c"
+      },
+      {
+        "path": "third_party/openlibm",
+        "commit": "ae2d91698508701c83cab83714d42a1146dccf85"
+      },
+      {
+        "path": "third_party/tesseract",
+        "commit": "5a21eebeacd77dd181eec17317de7e3a20b7b9fb"
+      },
+      {
+        "path": "third_party/zlib",
+        "commit": "21767c654d31d2dccdde4330529775c6c5fd5389"
+      }
+    ],
+    "workerLicenseSidecar": "tesseract.js/dist/worker.min.js.LICENSE.txt"
+  },
+  "fonts": [
+    {
+      "name": "Onest",
+      "file": "fonts/onest-variable.ttf",
+      "license": "OFL-1.1",
+      "licenseFile": "licenses/onest-OFL.txt",
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/Onest%5Bwght%5D.ttf",
+      "downloadedAt": "2026-10-24",
+      "sha256": "966c5c29b4755da84b6854d5c21dd4eaa2420225d0e9874de602de176d4a9f31"
+    }
+  ]
+}

@@ -1,0 +1,1852 @@
+{
+  "updatedAt": "2026-10-21T22:02:30.971Z",
+  "sources": {
+    "cbr": "https://www.cbr.ru/banking_sector/credit/fullcolist/",
+    "sbp": "https://qr.nspk.ru/proxyapp/c2bmembers.json",
+    "rblp": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/README.md",
+    "websites": "https://www.cbr.ru/banking_sector/credit/cowebsites/"
+  },
+  "revision": "83405f6c4e9a10c3f9c3bcba3eea25653210cb16",
+  "registeredBanks": 300,
+  "names": 393,
+  "logos": 360,
+  "currentWithLogo": 267,
+  "withoutLogo": [
+    "Арзамас",
+    "Байкалкредобанк",
+    "БАНК АГОРА",
+    "Банк Вятич",
+    "БАНК КУРГАН",
+    "Банк Нальчик",
+    "Банк ТКПБ",
+    "Банк Торжок",
+    "Банк Элемент",
+    "БМВ Банк",
+    "БСТ-БАНК",
+    "Вологжанин",
+    "Донкомбанк",
+    "ЕАТПБанк",
+    "ЗЕМКОМБАНК",
+    "ИТ Банк",
+    "Калуга",
+    "Камкомбанк",
+    "Капитал",
+    "Кетовский",
+    "МОСНАРБАНК",
+    "Мурманский расчетный Банк",
+    "НИБ",
+    "Ориджин Банк",
+    "Почтобанк",
+    "Примтеркомбанк",
+    "Республиканский Кредитный Альянс",
+    "РОССИТА-БАНК",
+    "РУСБС",
+    "РусьРегионБанк",
+    "Санкт-Петербургский банк инвестиций",
+    "Столичный Кредит",
+    "Чайна Констракшн Банк"
+  ],
+  "failures": [],
+  "images": [
+    {
+      "id": "c0b6877f02cf45c3",
+      "name": "Абсолют Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000047.png"
+    },
+    {
+      "id": "11f3a49ee9802ad0",
+      "name": "Авангард",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000028.png"
+    },
+    {
+      "id": "04bcaa43f357a5e5",
+      "name": "Аверс",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000154.png"
+    },
+    {
+      "id": "8c2d5ce2e6dc0dbf",
+      "name": "Авито Кошелек (Банк Пэйджин)",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank110000000288.png"
+    },
+    {
+      "id": "fc0b1d80018c4a0c",
+      "name": "Авто Финанс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/autofinancebank.png"
+    },
+    {
+      "id": "f4bfa8443fe8cf38",
+      "name": "Автоградбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/avtogradbank.png"
+    },
+    {
+      "id": "d6df6ec962ed5703",
+      "name": "АвтоКредитБанк",
+      "source": "https://www.autokreditbank.ru/bitrix/templates/akb/favicon.ico"
+    },
+    {
+      "id": "bf19e75ded974f30",
+      "name": "Автоторгбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000181.png"
+    },
+    {
+      "id": "f681515d96f8958e",
+      "name": "Агросоюз",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/asbank.png"
+    },
+    {
+      "id": "396a66659f5abcf9",
+      "name": "Азия-Инвест",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ai-bank.png"
+    },
+    {
+      "id": "1d89c5fb261cbba1",
+      "name": "АЗИЯПЭЙ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/asiapay.png"
+    },
+    {
+      "id": "5f7e4224945b0ead",
+      "name": "АИКБ Енисейский объединенный банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000258.png"
+    },
+    {
+      "id": "a0245f5e10fb53be",
+      "name": "АйСиБиСи",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/icbc.png"
+    },
+    {
+      "id": "aaf5f942ad2a5ec9",
+      "name": "Ак Барс",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000006.png"
+    },
+    {
+      "id": "39420888b04b839d",
+      "name": "АКБ Алеф-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000113.png"
+    },
+    {
+      "id": "cf42b7dfe448377f",
+      "name": "АКБ Алмазэргиэнбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000080.png"
+    },
+    {
+      "id": "25f6a2b58b553a9e",
+      "name": "АКБ Держава",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000235.png"
+    },
+    {
+      "id": "92f088e7297f1e32",
+      "name": "АКБ Ланта-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000245.png"
+    },
+    {
+      "id": "eac4e60cbede25b5",
+      "name": "АКБ МЕЖДУНАРОДНЫЙ ФИНАНСОВЫЙ КЛУБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000203.png"
+    },
+    {
+      "id": "c6f62b85f932c2dc",
+      "name": "АКБ НРБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000184.png"
+    },
+    {
+      "id": "12c3dd545e5765b5",
+      "name": "АКБ Приморье",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000226.png"
+    },
+    {
+      "id": "5ecd9946c7a0a24c",
+      "name": "АКБ СЛАВИЯ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000200.png"
+    },
+    {
+      "id": "117ea653d409c8a1",
+      "name": "АКБ Солид",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000230.png"
+    },
+    {
+      "id": "3cf9d316b1184e78",
+      "name": "АКБ ТЕНДЕР-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000175.png"
+    },
+    {
+      "id": "8008d7c80e33c8b4",
+      "name": "АКБ Трансстройбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000197.png"
+    },
+    {
+      "id": "8e647bc2fe28067b",
+      "name": "АКБ ФОРА-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000217.png"
+    },
+    {
+      "id": "c46496573c523ef3",
+      "name": "АКБ Форштадт",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000081.png"
+    },
+    {
+      "id": "bdb764f7667cb985",
+      "name": "АКБ Энергобанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000159.png"
+    },
+    {
+      "id": "be2fb1a58f3c437b",
+      "name": "АКИБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000107.png"
+    },
+    {
+      "id": "5124eb014d207c31",
+      "name": "Алтайкапиталбанк",
+      "source": "https://capitalbank.ru/wp-content/uploads/2019/06/fav-capitalbank-n.png"
+    },
+    {
+      "id": "f31a1ce644c1f2ec",
+      "name": "Алтынбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/altynbank.png"
+    },
+    {
+      "id": "fe7d03c91452904a",
+      "name": "Альфа-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000008.png"
+    },
+    {
+      "id": "9279346c78095700",
+      "name": "АТБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000108.png"
+    },
+    {
+      "id": "f9d3ac051e5865ca",
+      "name": "БАЛАКОВО-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000306.png"
+    },
+    {
+      "id": "18a79d71c56395e1",
+      "name": "БалтИнвестБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/baltinvestbank.png"
+    },
+    {
+      "id": "eeca91fd439b6d5e",
+      "name": "Банк 131",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000143.png"
+    },
+    {
+      "id": "ebdaccd130f73dbd",
+      "name": "Банк Агророс",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000102.png"
+    },
+    {
+      "id": "2f5e7c543a9b6564",
+      "name": "Банк Акцепт",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000135.png"
+    },
+    {
+      "id": "bfcf00d59f8382a9",
+      "name": "Банк АЛЕКСАНДРОВСКИЙ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000211.png"
+    },
+    {
+      "id": "1d91514fc22b0365",
+      "name": "БАНК БЕРЕЙТ",
+      "source": "https://bereit.ru/favicon.ico"
+    },
+    {
+      "id": "ebf172b142c8d98d",
+      "name": "Банк ВБРР",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000049.png"
+    },
+    {
+      "id": "1bac546b024b2059",
+      "name": "Банк Венец",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000153.png"
+    },
+    {
+      "id": "718f388cbf25871f",
+      "name": "Банк Глобус",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000307.png"
+    },
+    {
+      "id": "348c75208107cee9",
+      "name": "Банк ДАЛЕНА",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000051.png"
+    },
+    {
+      "id": "bf9b27f0156eea52",
+      "name": "Банк ДОМ.РФ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000082.png"
+    },
+    {
+      "id": "e6db8e5e7277a77d",
+      "name": "БАНК Ермак",
+      "source": "https://bankermak.ru/favicon.svg"
+    },
+    {
+      "id": "64a9a9e62f3b2914",
+      "name": "Банк Заречье",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000205.png"
+    },
+    {
+      "id": "246d9737b836bdd8",
+      "name": "Банк Инго",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000078.png"
+    },
+    {
+      "id": "2e2c82236eb60b43",
+      "name": "Банк Интеза",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000170.png"
+    },
+    {
+      "id": "bfc0ac373183612a",
+      "name": "Банк ИПБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000236.png"
+    },
+    {
+      "id": "e008e068e62748b5",
+      "name": "Банк ИТУРУП",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000158.png"
+    },
+    {
+      "id": "80731f2136f1fb08",
+      "name": "Банк Йошкар-Ола",
+      "source": "https://lk.olabank.ru/images/favicon.ico"
+    },
+    {
+      "id": "6a7418070d6f8e1e",
+      "name": "Банк Казани",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000191.png"
+    },
+    {
+      "id": "1787ae0071a36696",
+      "name": "Банк Кремлевский",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000201.png"
+    },
+    {
+      "id": "6a2d16bfb80704c9",
+      "name": "Банк Кузнецкий",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000254.png"
+    },
+    {
+      "id": "299962670cdcb557",
+      "name": "Банк Левобережный",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000052.png"
+    },
+    {
+      "id": "81bb47ca9839b5bc",
+      "name": "Банк МБА-МОСКВА",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000192.png"
+    },
+    {
+      "id": "16e33d232c78ebb5",
+      "name": "БАНК МОСКВА-СИТИ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000234.png"
+    },
+    {
+      "id": "6f6898145dbcedf6",
+      "name": "БАНК МСКБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000314.png"
+    },
+    {
+      "id": "085f3e9acbfb35ec",
+      "name": "Банк Национальный стандарт",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000243.png"
+    },
+    {
+      "id": "1b1fe025a4b128c9",
+      "name": "Банк Объединенный капитал",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000182.png"
+    },
+    {
+      "id": "926a4c564e8e6d51",
+      "name": "БАНК ОРЕНБУРГ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000124.png"
+    },
+    {
+      "id": "fd95c7bc40ef5740",
+      "name": "Банк ПСКБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000087.png"
+    },
+    {
+      "id": "c2af9be0cf4084cd",
+      "name": "Банк Развитие-Столица",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000172.png"
+    },
+    {
+      "id": "48bc434066bfb145",
+      "name": "банк Раунд",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000247.png"
+    },
+    {
+      "id": "6748091277b58a49",
+      "name": "Банк РЕСО Кредит",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000187.png"
+    },
+    {
+      "id": "b406859d18f52d16",
+      "name": "Банк РСИ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000298.png"
+    },
+    {
+      "id": "827d29684d6dc03b",
+      "name": "Банк Санкт-Петербург",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000029.png"
+    },
+    {
+      "id": "54808533ac018385",
+      "name": "Банк Саратов",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000126.png"
+    },
+    {
+      "id": "bd860622f6de893f",
+      "name": "Банк СЕРВИС РЕЗЕРВ",
+      "source": "https://srbank.ru/assets/templates/red-grey/images/favicon.ico"
+    },
+    {
+      "id": "1eace039651a9e80",
+      "name": "Банк Синара",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000003.png"
+    },
+    {
+      "id": "110da9d83059b702",
+      "name": "Банк Ставр",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000267.png"
+    },
+    {
+      "id": "ee35a1055cdfd52f",
+      "name": "Банк ФИНАМ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000040.png"
+    },
+    {
+      "id": "ed125ce216dfe7ad",
+      "name": "Банк Финсервис",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000216.png"
+    },
+    {
+      "id": "1d7069bddad04781",
+      "name": "Банк ЧБРР",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000269.png"
+    },
+    {
+      "id": "e992fdad69a20e84",
+      "name": "банк Элита",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000266.png"
+    },
+    {
+      "id": "acd63ae67f1e9332",
+      "name": "ББР Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000133.png"
+    },
+    {
+      "id": "41579e371a3220e7",
+      "name": "Бест Эффортс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/besteffortsbank.png"
+    },
+    {
+      "id": "3112ba76089031dc",
+      "name": "БЖФ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000260.png"
+    },
+    {
+      "id": "b2bf83d7e191be30",
+      "name": "БКС Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000041.png"
+    },
+    {
+      "id": "7d9ca18c6be87786",
+      "name": "БКФ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/cfb.png"
+    },
+    {
+      "id": "e9d9f2e8d1b3b533",
+      "name": "Бланк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000053.png"
+    },
+    {
+      "id": "ce4db6c405bfedab",
+      "name": "БМ-Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bm-bank.png"
+    },
+    {
+      "id": "db7bdfe394749c4f",
+      "name": "БНП Париба",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bnpparibasbank.png"
+    },
+    {
+      "id": "9216b3117613ed8d",
+      "name": "Братский АНКБ",
+      "source": "https://ankb.ru/static/ankb/favicon256x256.png"
+    },
+    {
+      "id": "dcd85bada23a9985",
+      "name": "БыстроБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000092.png"
+    },
+    {
+      "id": "670443fb01041507",
+      "name": "Бэнк Оф Чайна",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/boc.png"
+    },
+    {
+      "id": "717a1bbb9a99876c",
+      "name": "ВАКОБАНК",
+      "source": "https://vakobank.com/favicon.ico"
+    },
+    {
+      "id": "1fc8c396dc4fc8c8",
+      "name": "Великие Луки банк",
+      "source": "https://vlb100.ru/upload/CAllcorp3/dd6/ya8vprh53511jdolyfy6zoi2t9pxmw3u/apple_touch_icon.png"
+    },
+    {
+      "id": "b3076eb3ddaa3123",
+      "name": "Веста",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ibv.png"
+    },
+    {
+      "id": "7111af2a26420f52",
+      "name": "Вестерн Юнион",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/wumte.png"
+    },
+    {
+      "id": "a4dbab06c7e3f754",
+      "name": "Викинг",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/vikingbank.png"
+    },
+    {
+      "id": "ee8ad33c73c47219",
+      "name": "ВЛАДБИЗНЕСБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000058.png"
+    },
+    {
+      "id": "e2569fbd3ab4c6f1",
+      "name": "Возрождение",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/vbank.png"
+    },
+    {
+      "id": "8c77bce0ecdfd118",
+      "name": "ВТБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000005.png"
+    },
+    {
+      "id": "c3c71e382de209ab",
+      "name": "ВУЗ-банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/vuzbank.png"
+    },
+    {
+      "id": "0a897858d113a9bb",
+      "name": "Вэйбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/waybank.png"
+    },
+    {
+      "id": "be77035d0a609bbe",
+      "name": "Газпромбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000001.png"
+    },
+    {
+      "id": "cb3397a9aee3bde0",
+      "name": "Газэнергобанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000043.png"
+    },
+    {
+      "id": "feaf9098ee4d8c3c",
+      "name": "Гарант-Инвест",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/gibank.png"
+    },
+    {
+      "id": "aa11c46e26990539",
+      "name": "ГЕНБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000037.png"
+    },
+    {
+      "id": "d7af6f31bb8b2ccb",
+      "name": "Голдман Сакс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/goldmansachs.png"
+    },
+    {
+      "id": "66ebdd84e156b70a",
+      "name": "Горбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/gorbank.png"
+    },
+    {
+      "id": "4bc739ceb8d6fca9",
+      "name": "ГТ банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000183.png"
+    },
+    {
+      "id": "3139e45e878ffc73",
+      "name": "ГУТА-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000149.png"
+    },
+    {
+      "id": "a6fbfa6ff76fec9a",
+      "name": "Дальневосточный банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/dvbank.png"
+    },
+    {
+      "id": "3defd333ce60c8ea",
+      "name": "Датабанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000070.png"
+    },
+    {
+      "id": "c9ba3451a65c1614",
+      "name": "ДелоБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/delo.png"
+    },
+    {
+      "id": "ea5a3726bdc0f90a",
+      "name": "Денизбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/denizbank.png"
+    },
+    {
+      "id": "bcb04ab3e94aec98",
+      "name": "Деньги.Мэйл.Ру",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/money-mail.png"
+    },
+    {
+      "id": "928171b540e86e9e",
+      "name": "Дж.П. Морган",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/jpmorgan.png"
+    },
+    {
+      "id": "888cdd7816d1b660",
+      "name": "Джей Энд Ти",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/jtbank.png"
+    },
+    {
+      "id": "eedfc8328ab334ce",
+      "name": "Дойче Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/db.png"
+    },
+    {
+      "id": "5999be92386825ac",
+      "name": "Драйв Клик",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/driveclickbank.png"
+    },
+    {
+      "id": "43cb7b94b18baa17",
+      "name": "Дружба",
+      "source": "https://bankd.ru/local/templates/new_bank/images/layouts/logo.png"
+    },
+    {
+      "id": "859b0a3901e054cf",
+      "name": "ЕАБР",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/eabr.png"
+    },
+    {
+      "id": "a5aba3f0445e611d",
+      "name": "Евроальянс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/euroalliance.png"
+    },
+    {
+      "id": "9bfd909e53ed21f4",
+      "name": "Еврофинанс МосНарБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000167.png"
+    },
+    {
+      "id": "1b2bb41950b8de4b",
+      "name": "Единая касса",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/walletone.png"
+    },
+    {
+      "id": "22e2ffd41939f6c7",
+      "name": "Еком",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ecombank.png"
+    },
+    {
+      "id": "c92f24cc77caa6f5",
+      "name": "ЖИВАГО БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000295.png"
+    },
+    {
+      "id": "dbdfc8bfe363db9b",
+      "name": "Запсибкомбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/zapsibkombank.png"
+    },
+    {
+      "id": "38871e922c0c97c6",
+      "name": "Заубер",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sauberbank.png"
+    },
+    {
+      "id": "89f8bc2ed9c5269e",
+      "name": "Земский Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/zemsky.png"
+    },
+    {
+      "id": "a8cf741fb2980e01",
+      "name": "Зенит",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000045.png"
+    },
+    {
+      "id": "bcee61d85fcf3107",
+      "name": "Зираат",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ziraatbank.png"
+    },
+    {
+      "id": "634f61f2daa3356e",
+      "name": "Золотая корона",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/koronapay.png"
+    },
+    {
+      "id": "4217f94e9f2ea2ac",
+      "name": "ИК Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000122.png"
+    },
+    {
+      "id": "29ccf97bc600cd5b",
+      "name": "ИКБР ЯРИНТЕРБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000293.png"
+    },
+    {
+      "id": "137192d4e2bd6283",
+      "name": "Инбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000196.png"
+    },
+    {
+      "id": "d6671462f3ff6b3f",
+      "name": "ИнвестТоргБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/itb.png"
+    },
+    {
+      "id": "1a470fb1625ce960",
+      "name": "ИНГ Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ing.png"
+    },
+    {
+      "id": "f8cc2080390921c4",
+      "name": "ИНКАХРАН",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/inkakhran.png"
+    },
+    {
+      "id": "358c9dc06aa40c2b",
+      "name": "Интерпромбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ipbank.png"
+    },
+    {
+      "id": "f9d97a2a52607ea7",
+      "name": "ИС Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/isbank.png"
+    },
+    {
+      "id": "658e7522cd411866",
+      "name": "ИШБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000199.png"
+    },
+    {
+      "id": "9c5c5013dce1f9ad",
+      "name": "КБ АГРОПРОМКРЕДИТ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000118.png"
+    },
+    {
+      "id": "a58f57336a57237e",
+      "name": "КБ АРЕСБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000129.png"
+    },
+    {
+      "id": "b65e6030c89fd968",
+      "name": "КБ ВНЕШФИНБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000248.png"
+    },
+    {
+      "id": "d86a33be2e9f8f08",
+      "name": "КБ Долинск",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000270.png"
+    },
+    {
+      "id": "b6d4725dfd7f5318",
+      "name": "КБ Крокус-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000212.png"
+    },
+    {
+      "id": "63a3ffeb3b552ed8",
+      "name": "КБ Кубань Кредит",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000050.png"
+    },
+    {
+      "id": "2469c84c3d686dd5",
+      "name": "КБ ЛОКО-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000161.png"
+    },
+    {
+      "id": "eb1bb884dff036a2",
+      "name": "КБ Модульбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000099.png"
+    },
+    {
+      "id": "5e4fc11919c94f78",
+      "name": "КБ Москоммерцбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000110.png"
+    },
+    {
+      "id": "9251206bbc2cfe72",
+      "name": "КБ Новый век",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000067.png"
+    },
+    {
+      "id": "0457067b73ea1a43",
+      "name": "КБ Пойдём!",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000103.png"
+    },
+    {
+      "id": "b4d74f3f566ffd84",
+      "name": "КБ РостФинанс",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000098.png"
+    },
+    {
+      "id": "cee5be632819b187",
+      "name": "КБ РУСНАРБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000194.png"
+    },
+    {
+      "id": "357e49b0fc34db64",
+      "name": "КБ СИНКО-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000148.png"
+    },
+    {
+      "id": "07204ff917c8d569",
+      "name": "КБ Солидарность",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000121.png"
+    },
+    {
+      "id": "f59baa613cab0b44",
+      "name": "КБ СТРОЙЛЕСБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000193.png"
+    },
+    {
+      "id": "d34360c2f502e77c",
+      "name": "КБ Хлынов",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000056.png"
+    },
+    {
+      "id": "c17a3adc27bcdea8",
+      "name": "КБ Центр-инвест",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000059.png"
+    },
+    {
+      "id": "92afd4cf514ab6a0",
+      "name": "КБ ЭНЕРГОТРАНСБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000139.png"
+    },
+    {
+      "id": "2523596343f4ec01",
+      "name": "КБ ЮНИСТРИМ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000042.png"
+    },
+    {
+      "id": "460e8e1ab120491f",
+      "name": "Квант Мобайл",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/km-bank.png"
+    },
+    {
+      "id": "09099282aac695d5",
+      "name": "Киви",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/qiwibank.png"
+    },
+    {
+      "id": "52290c1575185ea8",
+      "name": "Классик Эконом Банк",
+      "source": "https://akbkeb.ru/storage/2022/09/cropped-logo-32x32.png"
+    },
+    {
+      "id": "68cd236e4ce689b7",
+      "name": "Клюква",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/klookva.png"
+    },
+    {
+      "id": "5db9d2aee76a0b79",
+      "name": "Кольцо Урала",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/kubank.png"
+    },
+    {
+      "id": "de63e9d2d64505be",
+      "name": "КоммерцБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/commerzbank.png"
+    },
+    {
+      "id": "a5cabdae167f0978",
+      "name": "Коммерческий Индо Банк",
+      "source": "https://cibl.ru/templates/theme3599/favicon.ico"
+    },
+    {
+      "id": "c44e85323c19ba44",
+      "name": "Континенталь",
+      "source": "https://www.bankkontinental.ru/images/favicon.png"
+    },
+    {
+      "id": "093e41721b6c1201",
+      "name": "Контур.Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000090.png"
+    },
+    {
+      "id": "485a6184aec08534",
+      "name": "Космос",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bcosm.png"
+    },
+    {
+      "id": "73b9e729fd69ad95",
+      "name": "Костромаселькомбанк",
+      "source": "https://www.selkombank.ru/favicon.ico"
+    },
+    {
+      "id": "202884f17e9d42d8",
+      "name": "КОШЕЛЕВ-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000146.png"
+    },
+    {
+      "id": "0f4d91a4ed6812ab",
+      "name": "Креди Агриколь КИБ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/credit-agricole.png"
+    },
+    {
+      "id": "56fefc2506375c27",
+      "name": "Кредит Европа Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000027.png"
+    },
+    {
+      "id": "b7a88c4d56c6ac2f",
+      "name": "Кредит Свисс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/credit-suisse.png"
+    },
+    {
+      "id": "473146cc7078cb06",
+      "name": "Крона-Банк",
+      "source": "https://www.krona-bank.ru/img/favicon.png"
+    },
+    {
+      "id": "bdd3ec539af1e0ea",
+      "name": "КУБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000064.png"
+    },
+    {
+      "id": "ed8835aecb80b37e",
+      "name": "Кубаньторгбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000180.png"
+    },
+    {
+      "id": "8d070284f882cc5a",
+      "name": "Кузбассхимбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/kuzbasshimbank.png"
+    },
+    {
+      "id": "a44d5b78c2fd6f77",
+      "name": "Кузнецкбизнесбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000195.png"
+    },
+    {
+      "id": "64952598e52faa0b",
+      "name": "Кэб ЭйчЭнБи",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/kebrus.png"
+    },
+    {
+      "id": "c9cb2aea0f64f336",
+      "name": "Максима",
+      "source": "https://bankmaxima.ru/favicon.ico"
+    },
+    {
+      "id": "13fabd49d6f1264b",
+      "name": "МБ Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000140.png"
+    },
+    {
+      "id": "8cf1efa1dc0fcc30",
+      "name": "МБ РУС Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000299.png"
+    },
+    {
+      "id": "e9593d87c131c857",
+      "name": "МБА",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ibam.png"
+    },
+    {
+      "id": "fae30f7300e0a35f",
+      "name": "МВС Банк",
+      "source": "https://www.mvs-bank.ru/favicon.ico"
+    },
+    {
+      "id": "c202c22536fafa28",
+      "name": "Металлинвестбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000046.png"
+    },
+    {
+      "id": "3370e0aa188794b9",
+      "name": "Меткомбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000136.png"
+    },
+    {
+      "id": "8f2f07b8aeb0c479",
+      "name": "Мидзухо",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mizuho.png"
+    },
+    {
+      "id": "62dcfe2d4dee3196",
+      "name": "МИнБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/minbank.png"
+    },
+    {
+      "id": "fd8648d1409dafe5",
+      "name": "Мир Привилегий",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mp-bank.png"
+    },
+    {
+      "id": "d2af60966f16054f",
+      "name": "МКБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000025.png"
+    },
+    {
+      "id": "662912aff86ae461",
+      "name": "МКБ Дон-Тексбанк",
+      "source": "https://donteksbank.ru/netcat_template/template/dtb/img/favicons/apple-touch-icon.png"
+    },
+    {
+      "id": "0037a89368798a1e",
+      "name": "Мобильная Карта",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000271.png"
+    },
+    {
+      "id": "ec2f763fe6e323c8",
+      "name": "Монета",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/moneta.png"
+    },
+    {
+      "id": "b05e80e7b67c7bb7",
+      "name": "МОРСКОЙ БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000171.png"
+    },
+    {
+      "id": "046924b81bc8c601",
+      "name": "МОСКОМБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000176.png"
+    },
+    {
+      "id": "491427f5bc720fdc",
+      "name": "МосОблБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mosoblbank.png"
+    },
+    {
+      "id": "c1f32099f727fe13",
+      "name": "МП Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000169.png"
+    },
+    {
+      "id": "0415443dc159ad48",
+      "name": "МС Банк Рус",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000229.png"
+    },
+    {
+      "id": "11d17e0f7f525f65",
+      "name": "МСП",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mspbank.png"
+    },
+    {
+      "id": "23544714edf60904",
+      "name": "МТИ Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mti-bank.png"
+    },
+    {
+      "id": "ada350235840fbe9",
+      "name": "МТС Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000017.png"
+    },
+    {
+      "id": "4f99019a44ce28d0",
+      "name": "МТС Деньги (ЭКСИ Банк)",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000289.png"
+    },
+    {
+      "id": "b9138f50010660c0",
+      "name": "Муниципальный Камчатпрофитбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/profitbank.png"
+    },
+    {
+      "id": "e0b1a0fe969f6984",
+      "name": "Мурманский Расчетный Центр",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mtcfinance.png"
+    },
+    {
+      "id": "983569955c79475a",
+      "name": "МФК",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mfk-bank.png"
+    },
+    {
+      "id": "15d6c3d1c66ed69a",
+      "name": "Натиксис",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/natixis.png"
+    },
+    {
+      "id": "28ccd39d24d94d3a",
+      "name": "Нацинвестпромбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000185.png"
+    },
+    {
+      "id": "4e2065161a7b065e",
+      "name": "НБД-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000134.png"
+    },
+    {
+      "id": "93e2c37395f6d833",
+      "name": "НБС",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/nbsrf.png"
+    },
+    {
+      "id": "c2fae5fa988a7d4a",
+      "name": "НДБанк",
+      "source": "https://ndb24.ru/pics/logo/ico-ndb.png"
+    },
+    {
+      "id": "4085874a32e4acf3",
+      "name": "НИКО-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000115.png"
+    },
+    {
+      "id": "fd77c71fdc2d703b",
+      "name": "НК Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000233.png"
+    },
+    {
+      "id": "ea63bc363ecb1f5f",
+      "name": "Новиком",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000177.png"
+    },
+    {
+      "id": "9b2a9d1447632662",
+      "name": "Новокиб",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/novokib.png"
+    },
+    {
+      "id": "633e5e829337bf63",
+      "name": "НОДА",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/nodabank.png"
+    },
+    {
+      "id": "46d043c5ec551026",
+      "name": "НОКССБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000062.png"
+    },
+    {
+      "id": "1201ad971fe1e76a",
+      "name": "НООСФЕРА",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000313.png"
+    },
+    {
+      "id": "9055ba0c0232d761",
+      "name": "Норвик Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000202.png"
+    },
+    {
+      "id": "5023c4f9ebff90b5",
+      "name": "Нордеа",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/nordea.png"
+    },
+    {
+      "id": "a07f989903a6ce4c",
+      "name": "НРД",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/nsd.png"
+    },
+    {
+      "id": "ca3fcc29a3e07f62",
+      "name": "НС Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000071.png"
+    },
+    {
+      "id": "0d278d6064c6c27f",
+      "name": "Оней",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/oney.png"
+    },
+    {
+      "id": "d2af4465e2353034",
+      "name": "Оранжевый",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/orange.png"
+    },
+    {
+      "id": "9063590395ed3066",
+      "name": "Открытие",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/open.png"
+    },
+    {
+      "id": "1ae9fcfcd18a8d75",
+      "name": "ОТП Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000018.png"
+    },
+    {
+      "id": "c1146bd81d8b0e68",
+      "name": "ПЕРВОУРАЛЬСКБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000294.png"
+    },
+    {
+      "id": "8bf1932a71956d19",
+      "name": "Первый Дортрансбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000137.png"
+    },
+    {
+      "id": "087194cbc3a8a9ae",
+      "name": "Первый Инвестиционный Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000174.png"
+    },
+    {
+      "id": "09384772ed0cce35",
+      "name": "Первый Клиентский Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/1cb.png"
+    },
+    {
+      "id": "3101ae1aaf9c5b05",
+      "name": "Пересвет",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/peresvet.png"
+    },
+    {
+      "id": "0329d6eb7970bf2d",
+      "name": "Пермь",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bankperm.png"
+    },
+    {
+      "id": "88aa79e87716eb22",
+      "name": "Перспектива",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/vp.png"
+    },
+    {
+      "id": "2c5e30334a7e3dd3",
+      "name": "Пихта Банк",
+      "source": "https://pikhtabank.ru/favicon.png"
+    },
+    {
+      "id": "44f8d1e0571026a3",
+      "name": "Плайт",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000296.png"
+    },
+    {
+      "id": "968f60915a3d00d9",
+      "name": "Платежный конструктор",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/paymentkit.png"
+    },
+    {
+      "id": "67f034d5ea5632a5",
+      "name": "Платежный Центр",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/platezhnyj-centr.png"
+    },
+    {
+      "id": "beff42c3c10b0c00",
+      "name": "Почта Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/pochtabank.png"
+    },
+    {
+      "id": "c6fac70fbbd123d6",
+      "name": "Примсоцбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000088.png"
+    },
+    {
+      "id": "ff42ffb12d345e08",
+      "name": "Прио-Внешторгбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000228.png"
+    },
+    {
+      "id": "6d1e3bcaad9ecd40",
+      "name": "Приобье",
+      "source": "https://www.priobye.ru/favicon.ico"
+    },
+    {
+      "id": "b626b337acfa3990",
+      "name": "ПроБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000117.png"
+    },
+    {
+      "id": "1d07a996ea8c5636",
+      "name": "ПроКоммерцБанк",
+      "source": "https://www.procombank.ru/images/logo.png"
+    },
+    {
+      "id": "1d2a48baf2283863",
+      "name": "Промсельхозбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000285.png"
+    },
+    {
+      "id": "bb1b60a76ae82c42",
+      "name": "ПростоБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/prosto.png"
+    },
+    {
+      "id": "23cc2ce9c885aa2d",
+      "name": "Профильный Банк",
+      "source": "https://www.profilbank.ru/img/icon.png"
+    },
+    {
+      "id": "e81c79a46b62e806",
+      "name": "ПСБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000010.png"
+    },
+    {
+      "id": "b29232d992e9cfb0",
+      "name": "ПТБ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/promtransbank.png"
+    },
+    {
+      "id": "508892c7c18c5f1d",
+      "name": "Пэйджин",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000288.png"
+    },
+    {
+      "id": "167161a19ab3a29c",
+      "name": "ПэйПал РУ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/paypal.png"
+    },
+    {
+      "id": "0ecd9bb36b93ee0e",
+      "name": "Р-ИНКАС",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rinkas.png"
+    },
+    {
+      "id": "3cf7b96e8fe7e4a3",
+      "name": "Райффайзенбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000007.png"
+    },
+    {
+      "id": "429d06dbba8b55e8",
+      "name": "Расчетные Решения",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ao-rr.png"
+    },
+    {
+      "id": "0f5a0660f5936c85",
+      "name": "РБА",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rbabank.png"
+    },
+    {
+      "id": "2ba8a4af19a0800d",
+      "name": "РГС",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rgsbank.png"
+    },
+    {
+      "id": "f500a36dae78147c",
+      "name": "РДК",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sdco.png"
+    },
+    {
+      "id": "484031b4ff2b0db8",
+      "name": "РЕАЛИСТ БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000232.png"
+    },
+    {
+      "id": "44e6f819eda0e335",
+      "name": "РЕЗОРТ БАНК",
+      "source": "https://static.tildacdn.com/tild3131-6462-4463-a431-613832353936/photo.svg"
+    },
+    {
+      "id": "e1d6476c723e1335",
+      "name": "Ренессанс Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000032.png"
+    },
+    {
+      "id": "c291fbf46c14c6d0",
+      "name": "РенКап Банк",
+      "source": "https://www.rencapbank.ru/favicon.ico?favicon.37_rjie4ew1p0.ico"
+    },
+    {
+      "id": "d27def535e283ff3",
+      "name": "РН Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rn-bank.png"
+    },
+    {
+      "id": "58766adb6acf22e1",
+      "name": "РНКБ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rncb.png"
+    },
+    {
+      "id": "be9464f7026f0ffa",
+      "name": "РОКЕТБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000301.png"
+    },
+    {
+      "id": "7c3237ea231b7bf1",
+      "name": "РосБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rosbank.png"
+    },
+    {
+      "id": "095222c1972d6080",
+      "name": "РосДорБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000084.png"
+    },
+    {
+      "id": "2c18237555dcd038",
+      "name": "Россельхозбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000020.png"
+    },
+    {
+      "id": "d393d418daab5951",
+      "name": "Россия",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000095.png"
+    },
+    {
+      "id": "98516b3a027a045f",
+      "name": "РосЭксимБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/eximbank.png"
+    },
+    {
+      "id": "a060fa809963c64a",
+      "name": "Роял Кредит Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000263.png"
+    },
+    {
+      "id": "25ed339059017af4",
+      "name": "Русский Стандарт",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000014.png"
+    },
+    {
+      "id": "f5d6944e80c81eac",
+      "name": "Русфинанс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rusfinancebank.png"
+    },
+    {
+      "id": "098a46cbea8ab28e",
+      "name": "Русьуниверсалбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000165.png"
+    },
+    {
+      "id": "fb80272bf5327038",
+      "name": "РФК-банк",
+      "source": "https://www.rusfincorp.ru/favicon.ico"
+    },
+    {
+      "id": "3b72a403d83b7b02",
+      "name": "САММИТ БАНК",
+      "source": "https://www.kbsammit.ru/favicon.png"
+    },
+    {
+      "id": "321ffaec63dfd25d",
+      "name": "СаровБизнесБанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sbbank.png"
+    },
+    {
+      "id": "ae4f1401aac759f6",
+      "name": "Сбербанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000111.png"
+    },
+    {
+      "id": "4f1f930b7b78c4f1",
+      "name": "СБП",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sbp.png"
+    },
+    {
+      "id": "c94e89e511af2d32",
+      "name": "Свой Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/svoi.png"
+    },
+    {
+      "id": "cd7abb4d52ccebff",
+      "name": "СГБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000219.png"
+    },
+    {
+      "id": "bd83a6ad3da56d08",
+      "name": "СДМ-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000069.png"
+    },
+    {
+      "id": "fab2181e7c27d533",
+      "name": "Северный Народный Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000208.png"
+    },
+    {
+      "id": "4a2e7f8550424fdd",
+      "name": "СеверСтройБанк",
+      "source": "https://ssb35.ru/wp-content/uploads/2023/10/cropped-favicon-32x32.png"
+    },
+    {
+      "id": "e79f0a5e0dc1fb03",
+      "name": "Сельмашбанк",
+      "source": "https://selmashbank.ru/favicon.ico"
+    },
+    {
+      "id": "5b9e33638c05a651",
+      "name": "Сетелем",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/cetelem.png"
+    },
+    {
+      "id": "e83edf7e84e1d7e1",
+      "name": "СИБСОЦБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000166.png"
+    },
+    {
+      "id": "799a54e958b5552e",
+      "name": "Сити Инвест Банк",
+      "source": "https://cibank.ru/favicon.ico"
+    },
+    {
+      "id": "0144d9b700a471ff",
+      "name": "Ситибанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/citibank.png"
+    },
+    {
+      "id": "e6fc18bf802c1438",
+      "name": "СКС",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sksbank.png"
+    },
+    {
+      "id": "ed3455894d20dcea",
+      "name": "СЛАВЯНБАНК",
+      "source": "https://slavbank.ru/wp-content/themes/slav-bank/assets/img/icon192.png"
+    },
+    {
+      "id": "6fe3b276d320a226",
+      "name": "СМБСР Банк",
+      "source": "https://smbcr-bank.ru/img/smbc_logo.jpg"
+    },
+    {
+      "id": "d18e37d2a4127fc1",
+      "name": "СМЛТ Банк",
+      "source": "https://samoletbank.ru/favicon.ico"
+    },
+    {
+      "id": "141b60bbb776310d",
+      "name": "СМП",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/smpbank.png"
+    },
+    {
+      "id": "b4198d9636106d1c",
+      "name": "СНГБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000091.png"
+    },
+    {
+      "id": "56edb7347ed0f335",
+      "name": "Снежинский",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000163.png"
+    },
+    {
+      "id": "5193f97a96d24153",
+      "name": "Совкомбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000013.png"
+    },
+    {
+      "id": "77e34bfc2031dee9",
+      "name": "Соколовский",
+      "source": "https://sbnk.ru/favicon.ico"
+    },
+    {
+      "id": "e862843a7db8bff7",
+      "name": "СОЦИУМ-БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000223.png"
+    },
+    {
+      "id": "d88b6540cd627376",
+      "name": "СПБ Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/spbbank.png"
+    },
+    {
+      "id": "e66db38d33026fb0",
+      "name": "СПЕЦСТРОЙБАНК",
+      "source": "https://www.ssb.msk.ru/images/favicon.ico"
+    },
+    {
+      "id": "ccd88a9e8d0cbb92",
+      "name": "Сфера",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sfera.png"
+    },
+    {
+      "id": "4af4e2122324b08c",
+      "name": "СЭБ",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/sebbank.png"
+    },
+    {
+      "id": "0940401102b8a3fe",
+      "name": "Т-Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000004.png"
+    },
+    {
+      "id": "3a90666d89aa1ca0",
+      "name": "Т2 card (Банк Пэйджин)",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank120000000288.png"
+    },
+    {
+      "id": "6323352ea6e02aa5",
+      "name": "Таврический",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/tavrich.png"
+    },
+    {
+      "id": "74d995f112b7ef50",
+      "name": "Таганрогбанк",
+      "source": "https://tagbank.ru/Images/favicon.ico"
+    },
+    {
+      "id": "7f891bc3703172fb",
+      "name": "ТАТСОЦБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000189.png"
+    },
+    {
+      "id": "06fb5b50fc967b9d",
+      "name": "Твои Платежи",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ypmnru.png"
+    },
+    {
+      "id": "3642848a418c029f",
+      "name": "ТелеПорт Банк",
+      "source": "https://teleportbank.ru/local/templates/.default/assets/images/logo_m.svg"
+    },
+    {
+      "id": "a9979c698f7b81fe",
+      "name": "Тимер Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000144.png"
+    },
+    {
+      "id": "f9ff13ca7fc1641b",
+      "name": "ТКБ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000034.png"
+    },
+    {
+      "id": "8260b692bcf1a7ca",
+      "name": "Тойота Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000138.png"
+    },
+    {
+      "id": "9e9afb2363917768",
+      "name": "Тольяттихимбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000152.png"
+    },
+    {
+      "id": "85a92d7e7adc4b9f",
+      "name": "Томскпромстройбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000206.png"
+    },
+    {
+      "id": "e967fdb1eb115395",
+      "name": "Точка",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000284.png"
+    },
+    {
+      "id": "53da8cecdf6b3f8b",
+      "name": "Траст",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/trust.png"
+    },
+    {
+      "id": "b5a2cb1885e2eee1",
+      "name": "УБРиР",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000031.png"
+    },
+    {
+      "id": "850a04abaf0b587d",
+      "name": "Углеметбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000093.png"
+    },
+    {
+      "id": "3dff36fb0ce36e17",
+      "name": "УКБ Белгородсоцбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000225.png"
+    },
+    {
+      "id": "603940b11cb2bfea",
+      "name": "УКБ Новобанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000222.png"
+    },
+    {
+      "id": "38cd0fff24d1f824",
+      "name": "Унифондбанк",
+      "source": "https://www.ufb.ru/favicon.ico"
+    },
+    {
+      "id": "df7ee15504533f91",
+      "name": "Урал ФД",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000151.png"
+    },
+    {
+      "id": "c041da5d55ccfc8b",
+      "name": "УРАЛПРОМБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000142.png"
+    },
+    {
+      "id": "57271698933644ef",
+      "name": "Уралсиб",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000026.png"
+    },
+    {
+      "id": "a92e9735268ca85c",
+      "name": "Уралфинанс",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000096.png"
+    },
+    {
+      "id": "501902558767de41",
+      "name": "Ури",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/woori.png"
+    },
+    {
+      "id": "7098f8435f80cae9",
+      "name": "ФИНСТАР БАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000278.png"
+    },
+    {
+      "id": "ce9e80d3f8bfc15b",
+      "name": "ФФИН Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ffin.png"
+    },
+    {
+      "id": "c0b7aa3eb2426ae3",
+      "name": "Хайс Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000272.png"
+    },
+    {
+      "id": "7677fb8107b9aa78",
+      "name": "Хакасский муниципальный банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000127.png"
+    },
+    {
+      "id": "c91a129f5990482a",
+      "name": "Химик",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bankhimik.png"
+    },
+    {
+      "id": "143767cba32f7744",
+      "name": "ХКФ Банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/homecredit.png"
+    },
+    {
+      "id": "089a5dbee38ad9da",
+      "name": "Холмск",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/rnko-kholmsk.png"
+    },
+    {
+      "id": "99881de42a241068",
+      "name": "ЦентроКредит",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000231.png"
+    },
+    {
+      "id": "da20738bcf1544be",
+      "name": "Цифра Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000265.png"
+    },
+    {
+      "id": "217926ac2a7f9436",
+      "name": "ЦМРБанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000282.png"
+    },
+    {
+      "id": "05ba755d5e6c260a",
+      "name": "Чайнасельхозбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/bchinaru.png"
+    },
+    {
+      "id": "91043aff9398229d",
+      "name": "ЧЕЛИНДБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000106.png"
+    },
+    {
+      "id": "9981b2348fec0514",
+      "name": "ЧЕЛЯБИНВЕСТБАНК",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000094.png"
+    },
+    {
+      "id": "e09dfda82c598d6a",
+      "name": "Эйч-эс-би-си",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/hsbc.png"
+    },
+    {
+      "id": "891dacd33a2fee82",
+      "name": "ЭКО-ИНВЕСТ",
+      "source": "https://www.eco-invest.ru/img/logo.gif"
+    },
+    {
+      "id": "d3ee48c2ecb3311a",
+      "name": "Экономбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000198.png"
+    },
+    {
+      "id": "d5b66853342708a0",
+      "name": "Экси-банк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/exibank.png"
+    },
+    {
+      "id": "35bfc0d46709bf11",
+      "name": "Экспобанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000044.png"
+    },
+    {
+      "id": "8bfcedd0ef687d8b",
+      "name": "Элексир",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/eleksir.png"
+    },
+    {
+      "id": "825bf569fe736d66",
+      "name": "Элекснет",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/elecsnet.png"
+    },
+    {
+      "id": "0e2a24faf0a99ffd",
+      "name": "ЭЛПЛАТ",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000086.png"
+    },
+    {
+      "id": "8de1dc86fa142587",
+      "name": "Эм-Ю-Эф-Джи",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/mufg.png"
+    },
+    {
+      "id": "4088d3cb5cf881fe",
+      "name": "Энергомашбанк",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/energomashbank.png"
+    },
+    {
+      "id": "9a31e88ebfccb85e",
+      "name": "Эс-Би-Ай Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000105.png"
+    },
+    {
+      "id": "ea055e357cb9e37c",
+      "name": "Ю Би Эс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ubsru.png"
+    },
+    {
+      "id": "bcc927946dff13db",
+      "name": "ЮГ-Инвестбанк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000160.png"
+    },
+    {
+      "id": "565ad7f3e6759bfe",
+      "name": "ЮМани",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000022.png"
+    },
+    {
+      "id": "857a1543bcb97deb",
+      "name": "ЮниКредит Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000030.png"
+    },
+    {
+      "id": "28c056ccef520c33",
+      "name": "ЮСиЭс",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ucscards.png"
+    },
+    {
+      "id": "4004cf5948d3add3",
+      "name": "Яндекс Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000150.png"
+    },
+    {
+      "id": "c29a895617e47ad2",
+      "name": "NUUM",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/nuum.png"
+    },
+    {
+      "id": "781d2352970fd875",
+      "name": "Ozon Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000273.png"
+    },
+    {
+      "id": "9a84a81eaec39144",
+      "name": "Ozon.Card",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/ozoncard.png"
+    },
+    {
+      "id": "386341b39f482ef2",
+      "name": "Qplus (ЕВРОАЛЬЯНС Банк)",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000315.png"
+    },
+    {
+      "id": "437078e90a405042",
+      "name": "TalkBank",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/talkbank.png"
+    },
+    {
+      "id": "0d478d0b0d5249c3",
+      "name": "VK Pay",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/vkpay.png"
+    },
+    {
+      "id": "3b45022ab36728cd",
+      "name": "WB Банк",
+      "source": "https://qr.nspk.ru/proxyapp/logo/bank100000000259.png"
+    },
+    {
+      "id": "b83e2c40451c79bc",
+      "name": "WebMoney",
+      "source": "https://raw.githubusercontent.com/melpnz/rblp/83405f6c4e9a10c3f9c3bcba3eea25653210cb16/dark/png/icon%20+%20colored%20background/webmoney.png"
+    }
+  ]
+}
