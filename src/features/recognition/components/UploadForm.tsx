@@ -1,5 +1,5 @@
 import { BankInput } from '../../banks/components/BankInput';
-import { useRef, type FormEvent } from 'react';
+import { useId, useRef, type FormEvent } from 'react';
 import {
   AlertCircle,
   ArrowRight,
@@ -18,6 +18,7 @@ import { ACCEPT_IMAGES } from '../services/images';
 import { useScreenshotImport } from '../hooks/useScreenshotImport';
 import { parsePercent, type OfferInput } from '../../offers/model/offers';
 import { createId } from '../../../shared/lib/id';
+import { ClearableInput } from '../../../shared/ui/ClearableInput';
 
 export function UploadForm({
   banks,
@@ -56,6 +57,7 @@ export function UploadForm({
     update,
   } = model;
   const fileInput = useRef<HTMLInputElement>(null);
+  const categoryPrefix = useId();
   function save(event: FormEvent) {
     event.preventDefault();
     const values = drafts.map((draft) => ({
@@ -193,20 +195,22 @@ export function UploadForm({
           </div>
           {drafts.map((draft, index) => (
             <div className={`draft-row ${draft.uncertain ? 'uncertain' : ''}`} key={draft.id}>
-              <label className="field">
-                <span>
+              <div className="field">
+                <label className="draft-label" htmlFor={`${categoryPrefix}-${draft.id}`}>
                   Категория {index + 1}
                   {draft.uncertain && <span className="check-label">Проверьте</span>}
-                </span>
-                <input
+                </label>
+                <ClearableInput
+                  id={`${categoryPrefix}-${draft.id}`}
                   required
                   maxLength={120}
                   aria-label={`Категория ${index + 1}`}
                   value={draft.category}
                   placeholder="Название категории"
-                  onChange={(event) => update(draft.id, { category: event.target.value })}
+                  onValueChange={(category) => update(draft.id, { category })}
+                  clearLabel={`Очистить категорию ${index + 1}`}
                 />
-              </label>
+              </div>
               <label className="field">
                 Кэшбек
                 <div className="percent-input">

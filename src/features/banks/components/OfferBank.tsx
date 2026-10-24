@@ -2,6 +2,8 @@ import { bankAppTarget } from '../services/app-links';
 import { ArrowUpRight, Globe2 } from 'lucide-react';
 import { BankLogo } from './BankLogo';
 import { getBankApp, mobilePlatform, type BankApp } from '../model/bank-apps';
+import { bankColors } from '../model/bank-colors';
+import type { CSSProperties } from 'react';
 
 export function OfferBank({
   bank,
@@ -12,6 +14,11 @@ export function OfferBank({
   mobile: boolean;
   onLaunch: (app: BankApp) => void;
 }) {
+  const colors = bankColors(bank);
+  const labelStyle = {
+    '--bank-label-ink': colors.foreground,
+    '--bank-label-surface': colors.background,
+  } as CSSProperties;
   const app = mobile ? getBankApp(bank) : undefined;
   const target = app
     ? bankAppTarget(
@@ -30,7 +37,7 @@ export function OfferBank({
   const label = (
     <>
       <BankLogo bank={bank} />
-      <span className="bank-label" title={bank}>
+      <span className="bank-label" title={bank} style={labelStyle}>
         {bank}
       </span>
     </>

@@ -209,7 +209,7 @@
   min-width: 44px;
   min-height: 46px;
 }
-.draft-row .field > span {
+.draft-row .field > .draft-label {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -224,7 +224,7 @@
   padding: 3px 5px;
   border-radius: 4px;
 }
-.uncertain .field > input,
+.uncertain .clearable-input,
 .uncertain .percent-input {
   border-color: var(--accent);
 }

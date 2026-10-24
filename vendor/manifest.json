@@ -147,6 +147,12 @@
       "file": "licenses/onest-OFL.txt",
       "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/onest/OFL.txt",
       "sha256": "071195d8806e226faeee60259c28ca67b458227af5195a73f5cfcab06e3003bc"
+    },
+    {
+      "name": "Firebase JavaScript SDK",
+      "file": "licenses/firebase-Apache-2.0.txt",
+      "url": "https://raw.githubusercontent.com/firebase/firebase-js-sdk/firebase%4012.19.0/LICENSE",
+      "sha256": "065e45b5674f9bf76670496e5472611b3fbd87fbeaf99336725430a9909cb687"
     }
   ],
   "models": [

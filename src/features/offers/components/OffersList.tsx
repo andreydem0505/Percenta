@@ -53,7 +53,10 @@ export function OffersList({
           <div className="empty-state">
             <BrandMark className="empty-state-mark" />
             <h3>Пока нет категорий</h3>
-            <p>Загрузите скриншот банка или добавьте категорию вручную.</p>
+            <p>
+              Загрузите скриншот из приложения банка с категориями кэшбека и процентами или добавьте
+              их вручную.
+            </p>
           </div>
         ) : !visible.length ? (
           <div className="no-results">

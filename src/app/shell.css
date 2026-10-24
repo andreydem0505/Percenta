@@ -133,9 +133,26 @@
   margin-top: 7px;
   color: var(--muted);
 }
-.help-legal a {
+.help-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 16px;
+}
+.help-links > a,
+.help-links > button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
   text-decoration: underline;
   text-underline-offset: 3px;
+}
+.help-links > a:hover,
+.help-links > button:hover {
+  color: var(--accent-dark);
 }
 @media (max-width: 760px) {
   .header-inner {

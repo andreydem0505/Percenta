@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto';
 import { gunzipSync } from 'node:zlib';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { BANK_LOGOS_ENABLED } from '../../src/features/banks/model/logo-visibility.ts';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const read = (file) => readFile(path.join(root, file));
@@ -93,8 +94,16 @@ for (const file of [
 ])
   assert((await read(`dist/legal/${file}`)).length > 0);
 const images = JSON.parse(await read('dist/legal/bank-image-rights.json'));
-for (const image of images.images)
+for (const image of images.images) {
   assert.equal(sha(await read(`public/${image.file}`)), image.sha256, image.name);
+  if (BANK_LOGOS_ENABLED)
+    assert.equal(sha(await read(`dist/${image.file}`)), image.sha256, image.name);
+}
+if (!BANK_LOGOS_ENABLED)
+  assert(
+    !(await readdir(path.join(root, 'dist'))).includes('banks'),
+    'Disabled bank images must not be included in the production build',
+  );
 const notice = (await read('dist/legal/third-party.txt')).toString();
 for (const item of ['Leptonica', 'libwebp', 'Emscripten', 'ieee754', 'buffer', 'libde265', 'tr46'])
   assert(notice.toLowerCase().includes(item.toLowerCase()), `Missing ${item} attribution`);
@@ -102,5 +111,5 @@ console.log(
   'OK: library sources, notices, model provenance and independently replaceable HEIC module are delivered.',
 );
 console.log(
-  `Bank images are preserved: ${images.summary.notEstablished} owner grants remain unconfirmed; this check does not certify legal clearance.`,
+  `Bank images are preserved locally, public display is ${BANK_LOGOS_ENABLED ? 'enabled' : 'disabled'}: ${images.summary.notEstablished} owner grants remain unconfirmed; this check does not certify legal clearance.`,
 );

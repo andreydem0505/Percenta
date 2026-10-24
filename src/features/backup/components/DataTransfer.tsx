@@ -23,6 +23,7 @@ export function DataTransfer({
         <p>Все ваши предложения в одном JSON-файле — для резервной копии или другого устройства.</p>
         <button
           className="button secondary full-width"
+          disabled={offers.length === 0}
           onClick={() => {
             setError('');
             try {

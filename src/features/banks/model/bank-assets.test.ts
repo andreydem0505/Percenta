@@ -4,7 +4,7 @@ import { expect, it } from 'vitest';
 import catalog from '../data/banks.json';
 import report from '../../../../scripts/banks/provenance/catalog.json';
 
-it('поставляет все заявленные логотипы локально в исправном формате', async () => {
+it('сохраняет все исходные логотипы локально в исправном формате', async () => {
   const withLogo = catalog.filter((bank) => 'logo' in bank);
   expect(withLogo).toHaveLength(report.logos);
   expect(new Set(catalog.map((bank) => bank.id)).size).toBe(catalog.length);

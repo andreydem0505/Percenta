@@ -12,7 +12,7 @@ const incoming: Offer[] = [
   { id: 'c', category: 'Кафе', bank: 'Т-Банк', percent: 10 },
 ];
 const file = (text = serializeOffersBackup(incoming)) =>
-  new File([text], 'aubenia.json', { type: 'application/json' });
+  new File([text], 'percenta.json', { type: 'application/json' });
 
 async function open() {
   const user = userEvent.setup();
@@ -22,6 +22,21 @@ async function open() {
 }
 
 describe('импорт и экспорт в интерфейсе', () => {
+  it('не скачивает пустой набор и включает экспорт только после сохранения предложений', async () => {
+    const create = vi.spyOn(URL, 'createObjectURL');
+    const { user } = await open();
+    const download = screen.getByRole('button', { name: 'Скачать JSON' });
+    expect(download).toBeDisabled();
+    expect(screen.getByRole('button', { name: 'Выбрать JSON-файл' })).toBeEnabled();
+    await user.click(download);
+    expect(create).not.toHaveBeenCalled();
+    await user.upload(screen.getByLabelText('JSON-файл с кэшбеком'), file());
+    await screen.findByText('Предложений в файле: 2');
+    expect(download).toBeDisabled();
+    await user.click(screen.getByRole('button', { name: 'Импортировать' }));
+    await user.click(screen.getByRole('button', { name: 'Импорт и экспорт данных' }));
+    expect(screen.getByRole('button', { name: 'Скачать JSON' })).toBeEnabled();
+  });
   it('показывает файл до подтверждения, объединяет и сохраняет после перезагрузки', async () => {
     saveOffers([existing]);
     const { user, unmount } = await open();

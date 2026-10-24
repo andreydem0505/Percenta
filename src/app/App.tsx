@@ -13,17 +13,30 @@ import { BankAppNotice } from '../features/banks/components/BankAppNotice';
 import { bankSuggestions } from '../features/banks/model/banks';
 import type { BankApp } from '../features/banks/model/bank-apps';
 import { useMobileVersion } from '../shared/hooks/use-mobile-version';
+import { useAnalyticsConsent } from '../features/analytics/hooks/useAnalyticsConsent';
+import { AnalyticsConsent } from '../features/analytics/components/AnalyticsConsent';
+import {
+  browserAnalytics,
+  type AnalyticsController,
+} from '../features/analytics/services/firebase-analytics';
 
 const browserRepository = createLocalOfferRepository();
 
 /** Composition root: browser services are injected into the application model here. */
-export default function App({ repository = browserRepository }: { repository?: OfferRepository }) {
+export default function App({
+  repository = browserRepository,
+  analyticsController = browserAnalytics,
+}: {
+  repository?: OfferRepository;
+  analyticsController?: AnalyticsController;
+}) {
   const toast = useToast();
   const model = useOffers(repository, toast.notify);
   const filters = useOfferFilters(model.offers);
   const [dialog, setDialog] = useState<AppDialog>(null);
   const [bankToOpen, setBankToOpen] = useState<BankApp | null>(null);
   const mobile = useMobileVersion();
+  const analytics = useAnalyticsConsent(analyticsController);
   const banks = useMemo(
     () => bankSuggestions(model.offers.map((offer) => offer.bank)),
     [model.offers],
@@ -55,6 +68,7 @@ export default function App({ repository = browserRepository }: { repository?: O
           }}
         />
       </main>
+      <AnalyticsConsent consent={analytics} />
       {toast.message && <Toast message={toast.message} onClose={toast.dismiss} />}
       {mobile && bankToOpen && (
         <BankAppNotice app={bankToOpen} onClose={() => setBankToOpen(null)} />
@@ -73,6 +87,15 @@ export default function App({ repository = browserRepository }: { repository?: O
         }}
         onClose={() => setDialog(null)}
         onManual={() => setDialog({ type: 'manual' })}
+        onAnalytics={
+          analytics.available
+            ? () => {
+                setDialog(null);
+                analytics.open();
+                requestAnimationFrame(() => document.getElementById('analytics-consent')?.focus());
+              }
+            : undefined
+        }
       />
     </>
   );

@@ -20,10 +20,10 @@ export function AppHeader({
             event.preventDefault();
             onHome();
           }}
-          aria-label="Aubenia — на главную"
+          aria-label="Percenta — на главную"
         >
           <BrandMark className="brand-icon" />
-          <span>Aubenia</span>
+          <span>Percenta</span>
         </a>
 
         <div className="header-right">

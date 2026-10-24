@@ -6,6 +6,7 @@ import sharp from 'sharp';
 import { normalizeBankName } from '../../src/features/banks/model/bank-names.ts';
 import { decodeBankIcon } from './decode-icon.mjs';
 import { approvedImagePermission, refreshImageRights } from './image-rights.mjs';
+import { generateBankColors } from './generate-colors.mjs';
 
 const updateImages = process.argv.includes('--images');
 const { permissions } = JSON.parse(
@@ -309,6 +310,7 @@ await writeFile(
 );
 await writeFile('scripts/banks/provenance/catalog.json', JSON.stringify(report, null, 2) + '\n');
 await refreshImageRights(report.images, permissions);
+await generateBankColors();
 const used = new Set(records.filter((bank) => bank.logo).map((bank) => `${bank.id}.webp`));
 for (const filename of await readdir('public/banks')) {
   if (/^[a-f0-9]{16}\.webp$/.test(filename) && !used.has(filename))

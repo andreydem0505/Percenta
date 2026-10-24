@@ -1,4 +1,4 @@
-/** Aubenia's locally drawn stack of cards. */
+/** Percenta's locally drawn stack of cards. */
 export function BrandMark({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 36 36" fill="none" aria-hidden="true">

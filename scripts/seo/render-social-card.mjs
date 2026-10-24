@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
-const temporary = await mkdtemp(path.join(tmpdir(), 'aubenia-fonts-'));
+const temporary = await mkdtemp(path.join(tmpdir(), 'percenta-fonts-'));
 const escapeXml = (value) => value.replaceAll('&', '&amp;').replaceAll('<', '&lt;');
 const previousConfig = process.env.FONTCONFIG_FILE;
 try {
@@ -19,7 +19,7 @@ try {
   await sharp(path.join(root, 'scripts/seo/social-card.svg'))
     .png()
     .toFile(path.join(root, 'public/social-card.png'));
-  console.log('Социальное превью Aubenia обновлено с локальным шрифтом Onest.');
+  console.log('Социальное превью Percenta обновлено с локальным шрифтом Onest.');
 } finally {
   if (previousConfig === undefined) delete process.env.FONTCONFIG_FILE;
   else process.env.FONTCONFIG_FILE = previousConfig;

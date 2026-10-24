@@ -1,8 +1,20 @@
 import { useState } from 'react';
 import { Landmark } from 'lucide-react';
 import { findBank } from '../model/banks';
+import { BANK_LOGOS_ENABLED } from '../model/logo-visibility';
 
-export function BankLogo({ bank }: { bank: string }) {
+export function BankLogo({
+  bank,
+  enabled = BANK_LOGOS_ENABLED,
+}: {
+  bank: string;
+  enabled?: boolean;
+}) {
+  if (!enabled) return null;
+  return <BankLogoImage bank={bank} />;
+}
+
+function BankLogoImage({ bank }: { bank: string }) {
   const logo = findBank(bank)?.logo;
   const [failed, setFailed] = useState<string>();
   return (

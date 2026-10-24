@@ -1,4 +1,4 @@
-import { Check, Trash2 } from 'lucide-react';
+import { Check } from 'lucide-react';
 import { Modal } from '../../shared/ui/Modal';
 import { OfferForm } from '../../features/offers/components/OfferForm';
 import { UploadForm } from '../../features/recognition/components/UploadForm';
@@ -22,9 +22,18 @@ interface AppDialogsProps {
   actions: DialogActions;
   onClose: () => void;
   onManual: () => void;
+  onAnalytics?: () => void;
 }
 
-export function AppDialogs({ dialog, offers, banks, actions, onClose, onManual }: AppDialogsProps) {
+export function AppDialogs({
+  dialog,
+  offers,
+  banks,
+  actions,
+  onClose,
+  onManual,
+  onAnalytics,
+}: AppDialogsProps) {
   if (!dialog) return null;
   switch (dialog.type) {
     case 'manual':
@@ -39,27 +48,16 @@ export function AppDialogs({ dialog, offers, banks, actions, onClose, onManual }
             offer={dialog.offer}
             banks={banks}
             onSave={(value, id) => actions.save([value], id)}
+            onRemove={actions.remove}
             onClose={onClose}
           />
-          {dialog.offer && (
-            <button
-              className="text-button delete-offer"
-              aria-label={`Удалить ${dialog.offer.category}, ${dialog.offer.bank}`}
-              onClick={() => {
-                if (actions.remove(dialog.offer!.id)) onClose();
-              }}
-            >
-              <Trash2 size={16} />
-              Удалить предложение
-            </button>
-          )}
         </Modal>
       );
     case 'upload':
       return (
         <Modal
           title="Добавить из скриншота"
-          subtitle="Категории вашего банка — без лишнего ввода."
+          subtitle="Загрузите скриншот из приложения банка, где видны ваши категории кэшбека и проценты."
           wide
           onClose={onClose}
         >
@@ -100,14 +98,10 @@ export function AppDialogs({ dialog, offers, banks, actions, onClose, onManual }
       );
     case 'help':
       return (
-        <Modal
-          title="Всё о вашем кэшбеке"
-          subtitle="Небольшой помощник для повседневных покупок."
-          onClose={onClose}
-        >
-          <HelpContent />
+        <Modal title="Как это работает" onClose={onClose}>
+          <HelpContent onAnalytics={onAnalytics} />
           <button className="button primary full-width" onClick={onClose}>
-            Всё понятно <Check size={17} />
+            Понятно <Check size={17} />
           </button>
         </Modal>
       );

@@ -39,7 +39,7 @@ export function searchAssets(origin: string) {
 export function seoPlugin(value?: string): Plugin {
   const origin = siteOrigin(value || DEFAULT_SITE_URL);
   return {
-    name: 'aubenia-seo',
+    name: 'percenta-seo',
     transformIndexHtml() {
       return [
         { tag: 'link', attrs: { rel: 'canonical', href: `${origin}/` }, injectTo: 'head' },

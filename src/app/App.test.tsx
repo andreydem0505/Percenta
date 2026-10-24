@@ -5,6 +5,36 @@ import App from './App';
 import { loadOffers, STORAGE_KEY } from '../features/offers/data/local-offer-repository';
 
 describe('основные пользовательские сценарии', () => {
+  it('очищает категорию и банк в черновике, сохраняя запись при отмене', async () => {
+    const offer = { id: 'clear-demo', category: 'Кафе', bank: 'Сбер', percent: 5 };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, offers: [offer] }));
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole('button', { name: 'Редактировать Кафе, Сбер' }));
+    await user.click(screen.getByRole('button', { name: 'Очистить категорию' }));
+    expect(screen.getByLabelText('Категория')).toHaveValue('');
+    expect(screen.getByLabelText('Категория')).toHaveFocus();
+    expect(screen.getByLabelText('Банк')).toHaveValue('Сбер');
+    await user.click(screen.getByRole('button', { name: 'Очистить банк' }));
+    expect(screen.getByLabelText('Банк')).toHaveValue('');
+    expect(screen.getByLabelText('Банк')).toHaveFocus();
+    await user.click(screen.getByRole('button', { name: 'Отмена' }));
+    expect(loadOffers()).toEqual([offer]);
+    expect(screen.getByRole('heading', { name: 'Кафе' })).toBeInTheDocument();
+  });
+  it('повторно открывает выбор cookie из справки без изменения записей', async () => {
+    const controller = { available: true, setEnabled: vi.fn(async () => {}) };
+    const user = userEvent.setup();
+    render(<App analyticsController={controller} />);
+    await user.click(screen.getByRole('button', { name: 'Не разрешать' }));
+    expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
+    await user.click(screen.getByRole('button', { name: 'Как это работает' }));
+    await user.click(screen.getByRole('button', { name: 'Настройки cookie' }));
+    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
+    expect(screen.getByRole('complementary', { name: 'Cookie для статистики' })).toBeVisible();
+    expect(controller.setEnabled).not.toHaveBeenCalledWith(true);
+    expect(loadOffers()).toEqual([]);
+  });
   it('начинается с честного пустого состояния', () => {
     render(<App />);
     expect(screen.getByText('Пока нет категорий')).toBeInTheDocument();

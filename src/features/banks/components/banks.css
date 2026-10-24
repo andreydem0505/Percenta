@@ -33,6 +33,14 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.bank-label {
+  max-width: 100%;
+  padding: 1px 5px;
+  border-radius: 4px;
+  line-height: 16px;
+  color: var(--bank-label-ink, var(--muted));
+  background: var(--bank-label-surface, var(--surface-muted));
+}
 .bank-name .bank-badge {
   width: 18px;
   height: 18px;
@@ -51,39 +59,56 @@
   object-fit: contain;
 }
 .bank-input {
-  display: flex;
-  align-items: center;
-  gap: 9px;
-  min-width: 0;
-  min-height: 46px;
-  padding-left: 12px;
-  border: 1px solid var(--border-strong);
-  border-radius: var(--radius);
-  background: var(--surface);
+  --input-font-size: 16px;
 }
 .bank-input .bank-badge {
   width: 24px;
   height: 24px;
+  margin-left: 12px;
 }
-.bank-input input {
-  width: 100%;
-  min-width: 0;
-  min-height: 44px;
-  padding: 11px 12px 11px 0;
-  border: 0;
+.bank-input .bank-badge + input {
+  padding-left: 9px;
+}
+.bank-input input::-webkit-calendar-picker-indicator {
+  display: none !important;
+}
+.bank-input input::-webkit-list-button {
+  display: none !important;
+}
+.bank-picker {
+  position: relative;
+  display: grid;
+  place-items: center;
+  flex: 0 0 44px;
+  width: 44px;
+  height: 44px;
+  color: var(--muted);
   border-radius: var(--radius);
-  background: transparent;
-  color: var(--ink);
+}
+.bank-picker > select {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
   font-size: 16px;
-  font-weight: 400;
-  outline: 0;
+  opacity: 0;
+  cursor: pointer;
 }
-.bank-input:focus-within {
-  border-color: var(--accent);
-  box-shadow: 0 0 0 1px var(--accent);
+.bank-picker:hover {
+  background: var(--accent-soft);
+  color: var(--accent-dark);
 }
-.bank-input:has(input:disabled) {
-  background: var(--surface-muted);
+.bank-picker:has(select:focus-visible) {
+  outline: 2px solid var(--accent);
+  outline-offset: -3px;
+}
+.bank-picker:has(select:disabled) {
+  opacity: 0.5;
+  background: transparent;
+}
+.bank-picker > select:disabled {
+  cursor: not-allowed;
 }
 .bank-name:has(.bank-app-link) {
   height: 18px;

@@ -45,11 +45,26 @@ for (const generated of ['licenses/packages', 'sources', 'integration']) {
   await mkdir(path.join(target, generated), { recursive: true });
 }
 const sections = [
-  'Aubenia — сторонние компоненты\n\nОригинальные лицензии и уведомления сохранены ниже. Производственный npm-граф включает также Node.js-зависимости, которые могут не попасть в браузер. Языковые npm-обёртки нужны только при сборке; поставляемые бинарные модели отдельно проверены по upstream Git blob SHA-1 и SHA-256 и лицензируются по Apache-2.0. Банковские изображения не входят в эти свободные лицензии.\n',
+  'Percenta — сторонние компоненты\n\nОригинальные лицензии и уведомления сохранены ниже. Производственный npm-граф включает также Node.js-зависимости, которые могут не попасть в браузер. Языковые npm-обёртки нужны только при сборке; поставляемые бинарные модели отдельно проверены по upstream Git blob SHA-1 и SHA-256 и лицензируются по Apache-2.0. Банковские изображения не входят в эти свободные лицензии.\n',
   await readFile(path.join(root, 'NOTICE'), 'utf8'),
 ];
-const supplemental = { 'tr46@0.0.3': 'licenses/tr46-MIT.txt' };
-const allowed = new Set(['MIT', 'ISC', 'Apache-2.0', 'LGPL-3.0', 'BSD-2-Clause']);
+// These exact releases belong to firebase-js-sdk, whose npm subpackages omit
+// the repository-level LICENSE. Preserve the reviewed upstream text verbatim.
+const supplemental = {
+  'tr46@0.0.3': 'licenses/tr46-MIT.txt',
+  ...Object.fromEntries(
+    [
+      '@firebase/app@0.16.2',
+      '@firebase/analytics@0.10.25',
+      '@firebase/component@0.7.5',
+      '@firebase/installations@0.6.24',
+      '@firebase/logger@0.5.2',
+      '@firebase/util@1.15.3',
+    ].map((name) => [name, 'licenses/firebase-Apache-2.0.txt']),
+  ),
+};
+// tslib 2.8.1 ships the reviewed Microsoft 0BSD notice in LICENSE.txt.
+const allowed = new Set(['MIT', 'ISC', 'Apache-2.0', 'LGPL-3.0', 'BSD-2-Clause', '0BSD']);
 const inventory = [];
 for (const [location, entry] of Object.entries(lock.packages)) {
   if (!location || entry.dev || entry.link) continue;
@@ -81,7 +96,7 @@ for (const [location, entry] of Object.entries(lock.packages)) {
     if (!license) throw new Error(`Missing supplemental provenance for ${key}`);
     const content = await readFile(path.join(root, 'vendor', file), 'utf8');
     text.push(
-      `\nSupplemental upstream notice (npm metadata declares MIT): ${license.url}\n${content}`,
+      `\nSupplemental upstream notice (npm metadata declares ${pkg.license}): ${license.url}\n${content}`,
     );
     notices.push(file);
   }

@@ -1,4 +1,4 @@
-Aubenia — АВТОРСТВО И СТОРОННИЕ КОМПОНЕНТЫ
+Percenta — АВТОРСТВО И СТОРОННИЕ КОМПОНЕНТЫ
 
 Шрифт Onest
 Copyright 2021 The Onest Project Authors (https://github.com/googlefonts/onest).
@@ -43,7 +43,7 @@ https://github.com/strukturag/libde265/tree/v1.0.16
 
 Имена банков сопоставляются со справочником Банка России; схемы приложений — с НСПК,
 официальными страницами и перечисленными в scripts/banks/provenance/ источниками.
-Названия и изображения служат идентификации банка в личных записях. Aubenia не
+Названия служат идентификации банка в личных записях. Percenta не
 представляет банки, не заявляет партнёрства, не проводит платежи и не обещает доход.
 Проценты в демонстрационных скриншотах не являются действующими предложениями.
 
@@ -54,7 +54,8 @@ https://github.com/strukturag/libde265/tree/v1.0.16
 Названия и знаки принадлежат соответствующим владельцам; библиотечные лицензии
 MIT/Apache/LGPL на них не распространяются.
 
-По явному запросу владельца проекта изображения сохранены. Право повторного
+По явному запросу владельца проекта изображения сохранены в исходниках, но их
+отображение отключено и копии не включаются в производственную сборку. Право повторного
 использования всего набора не подтверждено. Перенос в сторонний MIT-репозиторий
 сам по себе не снимает права банка. Т-Банк на официальной странице бренда просит
 обращаться за разрешением: https://www.tbank.ru/about/brand/ (media@tbank.ru).
@@ -65,5 +66,10 @@ MIT/Apache/LGPL на них не распространяются.
 (в сборке /legal/bank-image-rights.json). Новые скачивания требуют внесённого
 подтверждения в scripts/banks/config/logo-permissions.json; обычный banks:sync
 сохраняет текущие изображения и не скачивает новые. Исключительные права, условия
-использования банковских знаков, бренд «Aubenia» и фактическая обработка данных
+использования банковских знаков, бренд «Percenta» и фактическая обработка данных
 хостингом требуют отдельной оценки владельца проекта. Сводка ограничений: AGENTS.md.
+
+Firebase JavaScript SDK (@firebase/app, @firebase/analytics and supporting modules)
+Copyright Google LLC. Licensed under Apache-2.0.
+The upstream repository-level LICENSE, including bundled third-party notices, is preserved in vendor/licenses/firebase-Apache-2.0.txt and the distributed legal notices.
+Source: https://github.com/firebase/firebase-js-sdk/tree/firebase%4012.19.0

@@ -48,7 +48,7 @@ export function downloadOffersBackup(offers: readonly Offer[]): void {
       String(now.getDate()).padStart(2, '0'),
     ].join('-');
     link.href = url;
-    link.download = `aubenia-${date}.json`;
+    link.download = `percenta-${date}.json`;
     document.body.append(link);
     link.click();
   } finally {

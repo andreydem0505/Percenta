@@ -1,23 +1,27 @@
 import { BankInput } from '../../banks/components/BankInput';
-import { useState, type FormEvent } from 'react';
-import { ArrowRight, Info } from 'lucide-react';
+import { useId, useState, type FormEvent } from 'react';
+import { ArrowRight, Info, Trash2 } from 'lucide-react';
 import { parsePercent, type Offer, type OfferInput } from '../model/offers';
+import { ClearableInput } from '../../../shared/ui/ClearableInput';
 
 export function OfferForm({
   offer,
   banks,
   onSave,
+  onRemove,
   onClose,
 }: {
   offer?: Offer;
   banks: string[];
   onSave: (input: OfferInput, id?: string) => boolean;
+  onRemove?: (id: string) => boolean;
   onClose: () => void;
 }) {
   const [category, setCategory] = useState(offer?.category ?? '');
   const [bank, setBank] = useState(offer?.bank ?? '');
   const [percent, setPercent] = useState(offer ? String(offer.percent).replace('.', ',') : '');
   const [error, setError] = useState('');
+  const categoryId = useId();
   function submit(event: FormEvent) {
     event.preventDefault();
     const value = parsePercent(percent);
@@ -30,17 +34,19 @@ export function OfferForm({
   }
   return (
     <form onSubmit={submit} className="form-stack">
-      <label className="field">
-        Категория
-        <input
+      <div className="field">
+        <label htmlFor={categoryId}>Категория</label>
+        <ClearableInput
+          id={categoryId}
           autoFocus
           required
           maxLength={120}
           value={category}
-          onChange={(event) => setCategory(event.target.value)}
+          onValueChange={setCategory}
+          clearLabel="Очистить категорию"
           placeholder="Например, Супермаркеты"
         />
-      </label>
+      </div>
       <div className="form-columns">
         <BankInput label="Банк" value={bank} onChange={setBank} banks={banks} />
         <label className="field">
@@ -67,7 +73,21 @@ export function OfferForm({
           {error}
         </p>
       )}
-      <footer className="modal-actions">
+      <footer className={`modal-actions${offer && onRemove ? ' offer-edit-actions' : ''}`}>
+        {offer && onRemove && (
+          <button
+            type="button"
+            className="text-button delete-offer"
+            aria-label={`Удалить ${offer.category}, ${offer.bank}`}
+            title="Удалить предложение"
+            onClick={() => {
+              if (onRemove(offer.id)) onClose();
+            }}
+          >
+            <Trash2 size={16} />
+            <span className="delete-offer-label">Удалить предложение</span>
+          </button>
+        )}
         <button type="button" className="button secondary" onClick={onClose}>
           Отмена
         </button>

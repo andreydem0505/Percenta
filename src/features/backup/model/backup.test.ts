@@ -110,7 +110,7 @@ describe('резервная копия кэшбека', () => {
     const click = vi.spyOn(HTMLAnchorElement.prototype, 'click').mockImplementation(function (
       this: HTMLAnchorElement,
     ) {
-      expect(this.download).toMatch(/^aubenia-\d{4}-\d{2}-\d{2}\.json$/);
+      expect(this.download).toMatch(/^percenta-\d{4}-\d{2}-\d{2}\.json$/);
       expect(this.href).toBe('blob:backup');
       expect(document.body.contains(this)).toBe(true);
     });

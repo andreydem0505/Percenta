@@ -34,10 +34,14 @@ describe('проверка распознанных категорий', () => {
     await user.click(screen.getByRole('button', { name: 'Распознать' }));
     await screen.findByText('Проверьте результат');
     expect(onSave).not.toHaveBeenCalled();
+    await user.click(screen.getByRole('button', { name: 'Очистить категорию 1' }));
+    expect(screen.getByLabelText('Категория 1')).toHaveValue('');
+    expect(screen.getByLabelText('Категория 1')).toHaveFocus();
+    await user.type(screen.getByLabelText('Категория 1'), 'Здоровье');
     await user.clear(screen.getByLabelText('Процент 1'));
     await user.type(screen.getByLabelText('Процент 1'), '7,5');
     await user.click(screen.getByRole('button', { name: 'Сохранить категории' }));
-    expect(onSave).toHaveBeenCalledWith([{ category: 'Аптеки', bank: 'Т-Банк', percent: 7.5 }]);
+    expect(onSave).toHaveBeenCalledWith([{ category: 'Здоровье', bank: 'Т-Банк', percent: 7.5 }]);
     expect(onClose).toHaveBeenCalledOnce();
   });
   it('пустой результат допускает ручное добавление строки', async () => {

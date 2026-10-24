@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
-  <title>Aubenia — кэшбек ваших банков в одном месте</title>
+  <title>Percenta — кэшбек ваших банков в одном месте</title>
   <rect width="1200" height="630" fill="#f2f3f4"/>
   <path d="M0 0h1200v8H0Z" fill="#3c4857"/>
   <g fill="none" stroke="#3c4857" stroke-width="3">
@@ -7,7 +7,7 @@
     <rect x="78" y="80" width="51" height="37" rx="8" fill="#f2f3f4"/>
     <path d="M87 94h33M87 104h33" stroke-width="2.5"/>
   </g>
-  <text x="148" y="108" font-family="Onest, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="-2" fill="#272b30">Aubenia</text>
+  <text x="148" y="108" font-family="Onest, Arial, sans-serif" font-size="48" font-weight="600" letter-spacing="-2" fill="#272b30">Percenta</text>
   <path d="M64 157h1072" stroke="#272b30"/>
   <g font-family="Onest, Arial, sans-serif" font-size="68" font-weight="500" fill="#272b30" letter-spacing="-2">
     <text x="61" y="276">Все категории кэшбека.</text>
