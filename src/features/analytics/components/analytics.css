@@ -1,4 +1,4 @@
-.analytics-consent {
+.analytics-notice {
   position: fixed;
   z-index: 30;
   right: max(20px, env(safe-area-inset-right));
@@ -13,22 +13,21 @@
   border-radius: var(--radius);
   box-shadow: var(--shadow);
 }
-.analytics-consent h2 {
+.analytics-notice h2 {
   font-size: 14px;
   margin-bottom: 6px;
 }
-.analytics-consent p {
+.analytics-notice p {
   font-size: 12px;
   line-height: 1.6;
   color: var(--muted);
   overflow-wrap: anywhere;
 }
-.analytics-consent a {
+.analytics-notice a {
   text-decoration: underline;
 }
 .analytics-actions {
   display: flex;
-  flex-wrap: wrap;
   gap: 8px;
   margin-top: 12px;
 }
@@ -36,15 +35,8 @@
   flex: 1;
   min-width: 0;
 }
-.analytics-actions > .text-button {
-  flex-basis: 100%;
-}
-.analytics-consent .analytics-error {
-  color: var(--danger);
-  margin-top: 8px;
-}
 @media (max-width: 560px) {
-  .analytics-consent {
+  .analytics-notice {
     left: max(12px, env(safe-area-inset-left));
     right: max(12px, env(safe-area-inset-right));
     bottom: max(12px, env(safe-area-inset-bottom));

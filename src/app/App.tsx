@@ -13,8 +13,8 @@ import { BankAppNotice } from '../features/banks/components/BankAppNotice';
 import { bankSuggestions } from '../features/banks/model/banks';
 import type { BankApp } from '../features/banks/model/bank-apps';
 import { useMobileVersion } from '../shared/hooks/use-mobile-version';
-import { useAnalyticsConsent } from '../features/analytics/hooks/useAnalyticsConsent';
-import { AnalyticsConsent } from '../features/analytics/components/AnalyticsConsent';
+import { useAnalyticsNotice } from '../features/analytics/hooks/useAnalyticsNotice';
+import { AnalyticsNotice } from '../features/analytics/components/AnalyticsNotice';
 import {
   browserAnalytics,
   type AnalyticsController,
@@ -36,7 +36,7 @@ export default function App({
   const [dialog, setDialog] = useState<AppDialog>(null);
   const [bankToOpen, setBankToOpen] = useState<BankApp | null>(null);
   const mobile = useMobileVersion();
-  const analytics = useAnalyticsConsent(analyticsController);
+  const analytics = useAnalyticsNotice(analyticsController);
   const banks = useMemo(
     () => bankSuggestions(model.offers.map((offer) => offer.bank)),
     [model.offers],
@@ -68,7 +68,7 @@ export default function App({
           }}
         />
       </main>
-      <AnalyticsConsent consent={analytics} />
+      <AnalyticsNotice notice={analytics} />
       {toast.message && <Toast message={toast.message} onClose={toast.dismiss} />}
       {mobile && bankToOpen && (
         <BankAppNotice app={bankToOpen} onClose={() => setBankToOpen(null)} />
@@ -87,15 +87,6 @@ export default function App({
         }}
         onClose={() => setDialog(null)}
         onManual={() => setDialog({ type: 'manual' })}
-        onAnalytics={
-          analytics.available
-            ? () => {
-                setDialog(null);
-                analytics.open();
-                requestAnimationFrame(() => document.getElementById('analytics-consent')?.focus());
-              }
-            : undefined
-        }
       />
     </>
   );

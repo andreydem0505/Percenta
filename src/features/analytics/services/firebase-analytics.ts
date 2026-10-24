@@ -10,7 +10,7 @@ export interface AnalyticsController {
   setEnabled: (enabled: boolean) => Promise<void>;
 }
 
-/** No SDK initialization, identifiers or Google requests before explicit consent. */
+/** Loads the SDK only when enabled by the application; contains no offer data. */
 export function createAnalyticsController(
   config: AnalyticsConfig | null,
   load = loadSdk,

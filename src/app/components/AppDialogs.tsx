@@ -22,18 +22,9 @@ interface AppDialogsProps {
   actions: DialogActions;
   onClose: () => void;
   onManual: () => void;
-  onAnalytics?: () => void;
 }
 
-export function AppDialogs({
-  dialog,
-  offers,
-  banks,
-  actions,
-  onClose,
-  onManual,
-  onAnalytics,
-}: AppDialogsProps) {
+export function AppDialogs({ dialog, offers, banks, actions, onClose, onManual }: AppDialogsProps) {
   if (!dialog) return null;
   switch (dialog.type) {
     case 'manual':
@@ -99,7 +90,7 @@ export function AppDialogs({
     case 'help':
       return (
         <Modal title="Как это работает" onClose={onClose}>
-          <HelpContent onAnalytics={onAnalytics} />
+          <HelpContent />
           <button className="button primary full-width" onClick={onClose}>
             Понятно <Check size={17} />
           </button>

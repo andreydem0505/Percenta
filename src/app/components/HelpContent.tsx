@@ -1,6 +1,6 @@
 import { ArrowRightLeft, ImagePlus, Search } from 'lucide-react';
 
-export function HelpContent({ onAnalytics }: { onAnalytics?: () => void }) {
+export function HelpContent() {
   return (
     <div className="help-content">
       <p>Сравните кэшбек своих банков и выберите карту, которой выгоднее оплатить покупку.</p>
@@ -41,11 +41,6 @@ export function HelpContent({ onAnalytics }: { onAnalytics?: () => void }) {
           <a href="/legal/privacy.html" target="_blank" rel="noreferrer">
             Приватность
           </a>
-          {onAnalytics && (
-            <button type="button" onClick={onAnalytics}>
-              Настройки cookie
-            </button>
-          )}
         </span>
       </p>
     </div>

@@ -1,6 +1,6 @@
 import type { Plugin } from 'vite';
 
-export const DEFAULT_SITE_URL = 'https://cashback-44e5c.web.app';
+export const DEFAULT_SITE_URL = 'https://percenta.ru';
 
 /** A single public origin prevents duplicate Firebase/custom-domain search results. */
 export function siteOrigin(value = DEFAULT_SITE_URL): string {

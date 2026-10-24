@@ -30,8 +30,8 @@ function setup() {
   return { sdk, load, controller, browser, instance };
 }
 
-describe('Firebase Analytics consent boundary', () => {
-  it('never loads the SDK before consent, including refusal', async () => {
+describe('Firebase Analytics controller boundary', () => {
+  it('never loads the SDK until explicitly enabled by the controller', async () => {
     const { load, controller } = setup();
     await controller.setEnabled(false);
     expect(load).not.toHaveBeenCalled();
@@ -69,14 +69,14 @@ describe('Firebase Analytics consent boundary', () => {
       ad_personalization: 'denied',
     });
   });
-  it('cancels initialization if consent is revoked while loading', async () => {
+  it('cancels initialization if collection is disabled while loading', async () => {
     const { sdk, controller } = setup();
     const starting = controller.setEnabled(true);
     await controller.setEnabled(false);
     await starting;
     expect(sdk.analytics.initializeAnalytics).not.toHaveBeenCalled();
   });
-  it('cancels initialization if consent is revoked during support detection', async () => {
+  it('cancels initialization if collection is disabled during support detection', async () => {
     const { sdk, controller } = setup();
     let resolveSupport!: (value: boolean) => void;
     sdk.analytics.isSupported.mockReturnValue(

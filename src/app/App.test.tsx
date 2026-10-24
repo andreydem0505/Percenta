@@ -22,17 +22,19 @@ describe('основные пользовательские сценарии', (
     expect(loadOffers()).toEqual([offer]);
     expect(screen.getByRole('heading', { name: 'Кафе' })).toBeInTheDocument();
   });
-  it('повторно открывает выбор cookie из справки без изменения записей', async () => {
+  it('закрывает уведомление cookie и показывает справку без настроек аналитики', async () => {
+    localStorage.setItem('percenta.analytics-consent.v1', 'denied');
     const controller = { available: true, setEnabled: vi.fn(async () => {}) };
     const user = userEvent.setup();
     render(<App analyticsController={controller} />);
-    await user.click(screen.getByRole('button', { name: 'Не разрешать' }));
+    await user.click(screen.getByRole('button', { name: 'Понятно' }));
     expect(screen.queryByRole('complementary')).not.toBeInTheDocument();
     await user.click(screen.getByRole('button', { name: 'Как это работает' }));
-    await user.click(screen.getByRole('button', { name: 'Настройки cookie' }));
-    expect(screen.queryByRole('dialog')).not.toBeInTheDocument();
-    expect(screen.getByRole('complementary', { name: 'Cookie для статистики' })).toBeVisible();
-    expect(controller.setEnabled).not.toHaveBeenCalledWith(true);
+    expect(screen.getByRole('dialog', { name: 'Как это работает' })).toBeVisible();
+    expect(screen.queryByRole('button', { name: 'Настройки cookie' })).not.toBeInTheDocument();
+    expect(screen.getByRole('link', { name: 'Приватность' })).toBeVisible();
+    expect(controller.setEnabled).toHaveBeenCalledWith(true);
+    expect(controller.setEnabled).not.toHaveBeenCalledWith(false);
     expect(loadOffers()).toEqual([]);
   });
   it('начинается с честного пустого состояния', () => {
