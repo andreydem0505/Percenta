@@ -7,7 +7,10 @@ import type { Offer, OfferInput } from '../../features/offers/model/offers';
 import { HelpContent } from './HelpContent';
 
 export type AppDialog =
-  { type: 'manual'; offer?: Offer } | { type: 'upload' | 'help' | 'clear' | 'data' } | null;
+  | { type: 'manual'; offer?: Offer }
+  | { type: 'upload'; file?: File }
+  | { type: 'help' | 'clear' | 'data' }
+  | null;
 
 interface DialogActions {
   save: (inputs: OfferInput[], id?: string) => boolean;
@@ -52,7 +55,13 @@ export function AppDialogs({ dialog, offers, banks, actions, onClose, onManual }
           wide
           onClose={onClose}
         >
-          <UploadForm banks={banks} onSave={actions.save} onClose={onClose} onManual={onManual} />
+          <UploadForm
+            banks={banks}
+            initialFile={dialog.file}
+            onSave={actions.save}
+            onClose={onClose}
+            onManual={onManual}
+          />
         </Modal>
       );
     case 'data':

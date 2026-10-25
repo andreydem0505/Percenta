@@ -4,6 +4,30 @@ import { isAllPurchases } from './categories';
 const words = (...stems: string[]) =>
   new RegExp(`(?:^| )(?:${stems.join('|')})[а-яa-z]*(?= |$)`, 'u');
 
+// Bare fare names occur on bank screenshots without the word "taxi".
+// Match the entire label so "Экономика" or "Бизнес-услуги" stay unrelated.
+const taxiFare = new RegExp(
+  `^(?:(?:тариф|класс) )?(?:${[
+    'эконом(?: ?плюс)?',
+    'econom(?:y)?(?: ?plus)?',
+    'комфорт(?: ?плюс)?',
+    'comfort(?: ?plus)?',
+    'бизнес',
+    'business',
+    'премьер',
+    'premier',
+    'элит',
+    'elite',
+    'ультима',
+    'ultima',
+    'круиз',
+    'cruise',
+    'минивэн',
+    'minivan',
+  ].join('|')})$`,
+  'u',
+);
+
 // Specific categories precede broader ones: pet food is not groceries,
 // sportswear is clothing, and a food delivery service is not a parcel delivery.
 const rules = [
@@ -96,6 +120,7 @@ const rules = [
       'uber',
     ),
   },
+  { icon: 'taxi', pattern: taxiFare },
   {
     icon: 'flights',
     pattern: words(

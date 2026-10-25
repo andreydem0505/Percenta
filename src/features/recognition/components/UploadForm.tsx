@@ -22,16 +22,18 @@ import { ClearableInput } from '../../../shared/ui/ClearableInput';
 
 export function UploadForm({
   banks,
+  initialFile,
   onSave,
   onClose,
   onManual,
 }: {
   banks: string[];
+  initialFile?: File;
   onSave: (values: OfferInput[]) => boolean;
   onClose: () => void;
   onManual: () => void;
 }) {
-  const model = useScreenshotImport();
+  const model = useScreenshotImport(undefined, initialFile);
   const {
     bank,
     setBank,

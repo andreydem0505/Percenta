@@ -61,6 +61,7 @@ export default function App({
           offers={model.offers}
           {...filters}
           mobile={mobile}
+          onScreenshotDrop={(file) => setDialog({ type: 'upload', file })}
           onEdit={(offer) => setDialog({ type: 'manual', offer })}
           onOpenBank={(app) => {
             toast.dismiss();

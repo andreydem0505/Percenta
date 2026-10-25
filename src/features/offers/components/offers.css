@@ -253,6 +253,13 @@
   margin-bottom: 14px;
   transform: rotate(-8deg);
 }
+.empty-state--dragging {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+.empty-state > .empty-state-error {
+  color: var(--danger);
+}
 .empty-state h3,
 .no-results h3 {
   font-family: var(--heading-font);

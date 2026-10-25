@@ -1,7 +1,7 @@
 import { Edit3, Search, X } from 'lucide-react';
 import { CategoryIcon } from './CategoryIcon';
 import { OfferBank } from '../../banks/components/OfferBank';
-import { BrandMark } from '../../../shared/ui/BrandMark';
+import { EmptyOffers } from './EmptyOffers';
 import type { BankApp } from '../../banks/model/bank-apps';
 import { isAllPurchases } from '../model/categories';
 import { formatPercent, type Offer } from '../model/offers';
@@ -14,6 +14,7 @@ interface OffersListProps {
   mobile: boolean;
   onEdit: (offer: Offer) => void;
   onOpenBank: (app: BankApp) => void;
+  onScreenshotDrop: (file: File) => void;
 }
 export function OffersList({
   offers,
@@ -23,6 +24,7 @@ export function OffersList({
   mobile,
   onEdit,
   onOpenBank,
+  onScreenshotDrop,
 }: OffersListProps) {
   return (
     <div className="content-layout">
@@ -50,14 +52,7 @@ export function OffersList({
           </div>
         )}
         {!offers.length ? (
-          <div className="empty-state">
-            <BrandMark className="empty-state-mark" />
-            <h3>Пока нет категорий</h3>
-            <p>
-              Загрузите скриншот из приложения банка с категориями кэшбека и процентами или добавьте
-              их вручную.
-            </p>
-          </div>
+          <EmptyOffers onScreenshotDrop={onScreenshotDrop} />
         ) : !visible.length ? (
           <div className="no-results">
             <Search size={27} />

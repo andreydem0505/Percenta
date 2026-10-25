@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { prepareImage, loadImage } from '../services/images';
 import type { OcrDraft } from '../model/parse-ocr';
 import { createId } from '../../../shared/lib/id';
@@ -22,7 +22,10 @@ const browserServices: ScreenshotServices = {
   recognize: async (...args) => (await import('../services/ocr')).recognizeCategories(...args),
 };
 
-export function useScreenshotImport(services: ScreenshotServices = browserServices) {
+export function useScreenshotImport(
+  services: ScreenshotServices = browserServices,
+  initialFile?: File,
+) {
   const [bank, setBank] = useState('');
   const [image, setImage] = useState<Blob | null>(null);
   const [filename, setFilename] = useState('');
@@ -57,42 +60,48 @@ export function useScreenshotImport(services: ScreenshotServices = browserServic
     setProgress(0);
     setNotice('Обработка отменена. Можно выбрать другой файл или ввести категории вручную.');
   }
-  async function selectFile(file?: File) {
-    if (!file) return;
-    operation.current?.abort();
-    const controller = new AbortController();
-    operation.current = controller;
-    const timeout = window.setTimeout(() => controller.abort('timeout'), 60_000);
-    setError('');
-    setNotice('');
-    setDrafts([]);
-    setImage(null);
-    setFilename('');
-    setPhase('choose');
-    try {
-      const blob = await services.prepare(file, controller.signal, () => {
-        if (!controller.signal.aborted) setPhase('converting');
-      });
-      await services.verify(blob, controller.signal);
-      if (controller.signal.aborted) return;
-      setImage(blob);
-      setFilename(file.name);
+  const selectFile = useCallback(
+    async (file?: File) => {
+      if (!file) return;
+      operation.current?.abort();
+      const controller = new AbortController();
+      operation.current = controller;
+      const timeout = window.setTimeout(() => controller.abort('timeout'), 60_000);
+      setError('');
+      setNotice('');
+      setDrafts([]);
+      setImage(null);
+      setFilename('');
       setPhase('choose');
-    } catch (error) {
-      if (operation.current !== controller) return;
-      if (controller.signal.aborted) {
-        if (controller.signal.reason === 'timeout') {
-          setError('Преобразование заняло слишком много времени. Попробуйте PNG или JPEG.');
-          setPhase('choose');
+      try {
+        const blob = await services.prepare(file, controller.signal, () => {
+          if (!controller.signal.aborted) setPhase('converting');
+        });
+        await services.verify(blob, controller.signal);
+        if (controller.signal.aborted) return;
+        setImage(blob);
+        setFilename(file.name);
+        setPhase('choose');
+      } catch (error) {
+        if (operation.current !== controller) return;
+        if (controller.signal.aborted) {
+          if (controller.signal.reason === 'timeout') {
+            setError('Преобразование заняло слишком много времени. Попробуйте PNG или JPEG.');
+            setPhase('choose');
+          }
+          return;
         }
-        return;
+        setError(error instanceof Error ? error.message : 'Не удалось открыть файл.');
+        setPhase('choose');
+      } finally {
+        window.clearTimeout(timeout);
       }
-      setError(error instanceof Error ? error.message : 'Не удалось открыть файл.');
-      setPhase('choose');
-    } finally {
-      window.clearTimeout(timeout);
-    }
-  }
+    },
+    [services],
+  );
+  useEffect(() => {
+    if (initialFile) void selectFile(initialFile);
+  }, [initialFile, selectFile]);
   async function recognize() {
     if (!bank.trim()) {
       setError('Сначала укажите название банка.');
