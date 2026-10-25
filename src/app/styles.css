@@ -6,3 +6,4 @@
 @import '../features/backup/components/backup.css';
 @import '../features/analytics/components/analytics.css';
 @import './shell.css';
+@import './site-info.css';

@@ -9,10 +9,11 @@
     "predeploy": [
       "npm run build"
     ],
-    "rewrites": [
+    "redirects": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/index.html",
+        "destination": "/",
+        "type": 301
       }
     ],
     "headers": [
