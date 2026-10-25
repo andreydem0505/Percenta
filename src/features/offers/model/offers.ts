@@ -1,5 +1,5 @@
 import { createId } from '../../../shared/lib/id';
-import { isAllPurchases } from './categories';
+import { isAllPurchases, isTaxiFareCategory } from './categories';
 
 export interface Offer {
   id: string;
@@ -14,6 +14,17 @@ export const normalize = (value: string) =>
 export const clean = (value: string) => value.trim().replace(/\s+/g, ' ');
 export const formatPercent = (value: number) =>
   new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 2 }).format(value);
+
+export function matchesOfferSearch(
+  offer: Pick<Offer, 'category' | 'bank'>,
+  search: string,
+): boolean {
+  const query = normalize(search);
+  return (
+    normalize(`${offer.category} ${offer.bank}`).includes(query) ||
+    ((query === 'такси' || query === 'taxi') && isTaxiFareCategory(offer.category))
+  );
+}
 
 export function parsePercent(value: string): number | null {
   if (!/^\d{1,3}(?:[.,]\d{1,2})?$/.test(value.trim())) return null;

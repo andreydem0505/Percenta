@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest';
-import { sortOffers, normalize, parsePercent, upsertOffers, type Offer } from './offers';
+import {
+  matchesOfferSearch,
+  sortOffers,
+  normalize,
+  parsePercent,
+  upsertOffers,
+  type Offer,
+} from './offers';
 import { loadOffers, saveOffers, STORAGE_KEY } from '../data/local-offer-repository';
 
 const offer = (id: string, category: string, bank: string, percent: number): Offer => ({
@@ -8,6 +15,58 @@ const offer = (id: string, category: string, bank: string, percent: number): Off
   bank,
   percent,
 });
+describe('поиск предложений', () => {
+  it.each([
+    'Эконом',
+    'Комфорт',
+    'Комфорт+',
+    'Комфорт плюс',
+    'Ultima',
+    'Ультима',
+    'Бизнес',
+    'Премьер',
+    'Элит',
+    'Круиз',
+    'Минивэн',
+    'Economy',
+    'Comfort Plus',
+    'Business',
+    'Premier',
+    'Elite',
+    'Cruise',
+    'Minivan',
+    'Тариф «Комфорт+»',
+    'Класс Business',
+  ])('находит тариф «%s» по запросу такси', (category) => {
+    const value = offer('fare', category, 'Т-Банк', 5);
+    expect(matchesOfferSearch(value, 'такси')).toBe(true);
+    expect(matchesOfferSearch(value, '  ТАКСИ  ')).toBe(true);
+    expect(matchesOfferSearch(value, 'Taxi')).toBe(true);
+  });
+
+  it.each([
+    'Экономика',
+    'Экономия',
+    'Бизнес-услуги',
+    'Комфортный отдых',
+    'Отели Комфорт',
+    'Авиабилеты эконом-класса',
+    'Не Комфорт',
+    'Кроме Ultima',
+  ])('не находит постороннюю категорию «%s» по запросу такси', (category) => {
+    expect(matchesOfferSearch(offer('other', category, 'Сбер', 5), 'такси')).toBe(false);
+  });
+
+  it('сохраняет поиск по части названия категории и банка и пустой запрос', () => {
+    const value = offer('fare', 'Комфорт+', 'Альфа-Банк', 5);
+    expect(matchesOfferSearch(value, 'комф')).toBe(true);
+    expect(matchesOfferSearch(value, 'альфа')).toBe(true);
+    expect(matchesOfferSearch(value, '   ')).toBe(true);
+    expect(matchesOfferSearch(value, 'аптеки')).toBe(false);
+    expect(matchesOfferSearch(offer('taxi', 'Яндекс Такси', 'Сбер', 5), 'такси')).toBe(true);
+  });
+});
+
 describe('выбор и обновление предложений', () => {
   it('показывает все предложения, включая одинаковые категории разных банков', () => {
     const values = [

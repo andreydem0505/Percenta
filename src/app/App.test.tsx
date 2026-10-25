@@ -117,6 +117,31 @@ describe('основные пользовательские сценарии', (
     expect(within(cards()[0]).getByRole('heading')).toHaveTextContent('На любые покупки');
     expect(within(cards()[1]).getByRole('heading')).toHaveTextContent('АЗС');
   });
+  it('по запросу такси показывает тарифы всех банков без изменения сохранённых названий', async () => {
+    const offers = [
+      { id: 'a', category: 'Эконом', bank: 'Сбер', percent: 3 },
+      { id: 'b', category: 'Комфорт+', bank: 'Т-Банк', percent: 7 },
+      { id: 'c', category: 'Ultima', bank: 'Альфа-Банк', percent: 5 },
+      { id: 'd', category: 'Комфорт+', bank: 'Сбер', percent: 2 },
+      { id: 'e', category: 'Отели Комфорт', bank: 'Сбер', percent: 10 },
+    ];
+    localStorage.setItem(STORAGE_KEY, JSON.stringify({ version: 1, offers }));
+    const user = userEvent.setup();
+    render(<App />);
+    const search = screen.getByRole('textbox', { name: 'Поиск по категории или банку' });
+    await user.type(search, 'такси');
+    expect(screen.getAllByRole('article')).toHaveLength(4);
+    expect(
+      screen.getAllByRole('article').map((card) => within(card).getByRole('heading').textContent),
+    ).toEqual(['Комфорт+', 'Ultima', 'Эконом', 'Комфорт+']);
+    expect(loadOffers()).toEqual(offers);
+    await user.clear(search);
+    await user.type(search, 'альфа');
+    expect(screen.getAllByRole('article')).toHaveLength(1);
+    expect(screen.getByRole('heading', { name: 'Ultima' })).toBeInTheDocument();
+    await user.clear(search);
+    expect(screen.getAllByRole('article')).toHaveLength(5);
+  });
   it('редактирует запись без появления дубликата', async () => {
     localStorage.setItem(
       STORAGE_KEY,

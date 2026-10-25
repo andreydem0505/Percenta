@@ -1,32 +1,8 @@
-import { isAllPurchases } from './categories';
+import { isAllPurchases, isTaxiFareCategory, normalizeCategoryLabel } from './categories';
 
 // Match whole words or word stems, never a fragment inside an unrelated word.
 const words = (...stems: string[]) =>
   new RegExp(`(?:^| )(?:${stems.join('|')})[а-яa-z]*(?= |$)`, 'u');
-
-// Bare fare names occur on bank screenshots without the word "taxi".
-// Match the entire label so "Экономика" or "Бизнес-услуги" stay unrelated.
-const taxiFare = new RegExp(
-  `^(?:(?:тариф|класс) )?(?:${[
-    'эконом(?: ?плюс)?',
-    'econom(?:y)?(?: ?plus)?',
-    'комфорт(?: ?плюс)?',
-    'comfort(?: ?plus)?',
-    'бизнес',
-    'business',
-    'премьер',
-    'premier',
-    'элит',
-    'elite',
-    'ультима',
-    'ultima',
-    'круиз',
-    'cruise',
-    'минивэн',
-    'minivan',
-  ].join('|')})$`,
-  'u',
-);
 
 // Specific categories precede broader ones: pet food is not groceries,
 // sportswear is clothing, and a food delivery service is not a parcel delivery.
@@ -120,7 +96,6 @@ const rules = [
       'uber',
     ),
   },
-  { icon: 'taxi', pattern: taxiFare },
   {
     icon: 'flights',
     pattern: words(
@@ -469,12 +444,8 @@ export type CategoryIconKind = (typeof rules)[number]['icon'] | 'all-purchases' 
 /** A visual hint only: never rename categories or merge offers based on these rules. */
 export function categoryIconKind(category: string): CategoryIconKind {
   if (isAllPurchases(category)) return 'all-purchases';
-  const text = category
-    .normalize('NFKC')
-    .toLocaleLowerCase('ru')
-    .replace(/ё/g, 'е')
-    .replace(/[^а-яa-z0-9]+/gu, ' ')
-    .trim();
+  if (isTaxiFareCategory(category)) return 'taxi';
+  const text = normalizeCategoryLabel(category);
   if (/(?:^| )(?:не|кроме|исключая|исключением)(?: |$)/.test(text)) return 'other';
   return rules.find(({ pattern }) => pattern.test(text))?.icon ?? 'other';
 }
